@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this benchmark, its data, or its results, please cite it as below."
+title: "OncologySafetyBench: Deciding How to Augment Language Models: Comparing Retrieval Strategies for Safe Oncology Decision Support"
+type: software
+authors:
+  - family-names: "Hooshiyar"
+    given-names: "Rodin Mahvar"
+    email: "rodin2009@gmail.com"
+    affiliation: "Independent Researcher"
+repository-code: "https://github.com/technoIogical/oncology-safety-bench"
+date-released: "2026-11-01"
+version: "1.0.0"
+license: Apache-2.0
+keywords:
+  - oncology
+  - language models
+  - clinical safety
+  - retrieval-augmented generation
+  - agentic tool use
+  - benchmark
+abstract: >-
+  A clinical safety benchmark of 150 composite oncology patients (300 treatment-plan decisions across an initial
+  visit and a follow-up visit) for comparing local open-weight and frontier language models across zero-shot,
+  upfront retrieval-augmented generation (RAG), agentic tool use, and deterministic post-generation plan checks.
+  Code is Apache-2.0; project data are CC BY-NC-SA 4.0; third-party data keep their own licenses (see NOTICE).

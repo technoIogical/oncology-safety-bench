@@ -1,0 +1,955 @@
+{
+  "apixaban::metoprolol": null,
+  "apixaban::gabapentin": null,
+  "apixaban::carboplatin": null,
+  "apixaban::paclitaxel": null,
+  "apixaban::sorafenib": {
+    "severity": "Moderate",
+    "mechanism": "Coadministration with inhibitors of CYP450 3A4 and/or P-glycoprotein (P-gp) may increase the plasma concentrations of apixaban, which is a substrate of both the isoenzyme and efflux transporter. Management: No dosage adjustment for apixaban is required during concomitant therapy with lone inhibitors of CYP450 3A4 or P-gp, or moderate or weak dual inhibitors of both CYP450 3A4 and P-gp. However, caution may be advisable. Closer monitoring of the pharmacologic effects of apixaban may be appropriate whenever a CYP450 3A4 or P-gp inhibitor is added to or withdrawn from therapy."
+  },
+  "gabapentin::metoprolol": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "carboplatin::metoprolol": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "metoprolol::paclitaxel": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "metoprolol::sorafenib": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "carboplatin::gabapentin": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "gabapentin::paclitaxel": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "gabapentin::sorafenib": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "carboplatin::paclitaxel": {
+    "severity": "Moderate",
+    "mechanism": "The risk of peripheral neuropathy may be increased during concurrent use of two or more agents that are associated with this adverse effect. Patient risk factors include diabetes and age older than 60 years. Management: Patients should be monitored closely for symptoms of neuropathy such as burning, tingling, pain, or numbness in the hands and feet. Since the development of peripheral neuropathy may be dose-related for many drugs, the recommended dosages should generally not be exceeded. Consideration should be given to dosage reduction or immediate discontinuation of these medications in patients who develop peripheral neuropathy to limit further damage."
+  },
+  "carboplatin::sorafenib": {
+    "severity": "Major",
+    "mechanism": "Coadministration of sorafenib in combination with carboplatin and paclitaxel has been associated with an increased risk of death in patients with squamous cell lung cancer. The exact cause has not been identified, and no significant pharmacokinetic changes in any of the three drugs were observed in two phase I clinical studies. Management: The concomitant use of sorafenib with carboplatin and paclitaxel is contraindicated in patients with squamous cell lung cancer. Caution may be advisable when this combination is used in other malignancies."
+  },
+  "paclitaxel::sorafenib": {
+    "severity": "Moderate",
+    "mechanism": "Concomitant administration of paclitaxel and sorafenib may increase the plasma concentrations of both drugs. The mechanism by which paclitaxel increases sorafenib exposure is unknown; sorafenib may increase paclitaxel exposure by inhibiting its metabolism via the CYP450 2C8 enzymatic pathway. Management: Caution is advised during the concomitant use of paclitaxel and sorafenib. Close monitoring for toxicities of paclitaxel (e.g., bone marrow suppression, especially neutropenia; conduction abnormalities; peripheral neuropathy) and sorafenib (e.g., rash/desquamation; hand-foot skin reaction; hypertension; hemorrhage; cardiac ischemia; myocardial infarction; QT prolongation; diarrhea; anorexia; gastrointestinal perforation; wound healing complications) is recommended, and the dosage of each drug adjusted as necessary. No dosage adjustment should be needed when paclitaxel is coadministered with sorafenib following a 3-day break in sorafenib dosing."
+  },
+  "atorvastatin::lisinopril": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "gabapentin::lisinopril": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "atorvastatin::gabapentin": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "alisertib::cisplatin": null,
+  "lisinopril::ondansetron": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "lisinopril::prochlorperazine": {
+    "severity": "Moderate",
+    "mechanism": "Phenothiazines and neuroleptic agents may potentiate the hypotensive effect of some medications secondary to their peripheral alpha-1 adrenergic blocking activity. Orthostatic hypotension and syncope associated with vasodilation may occur, particularly during initial dosing and/or parenteral administration of the phenothiazine or neuroleptic. Management: Close clinical monitoring for development of hypotension is recommended if phenothiazines or neuroleptic agents are used in patients receiving antihypertensive medications or vasodilators. A lower starting dosage and slower titration of the phenothiazine or neuroleptic may be appropriate, especially in the elderly. Patients should be advised to avoid rising abruptly from a sitting or recumbent position and to notify their physician if they experience dizziness, lightheadedness, syncope, orthostasis, or tachycardia. Patients should also avoid driving or operating hazardous machinery."
+  },
+  "dabrafenib::lisinopril": null,
+  "lisinopril::trametinib": null,
+  "lisinopril::vemurafenib": null,
+  "atorvastatin::ondansetron": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "atorvastatin::prochlorperazine": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "atorvastatin::dabrafenib": {
+    "severity": "Moderate",
+    "mechanism": "Coadministration with dabrafenib may alter the pharmacokinetics of HMG-CoA reductase inhibitors. Dabrafenib has been found in vitro to be an inhibitor of organic anion transporting polypeptide (OATP) 1B1 and 1B3. Since many statins including atorvastatin, fluvastatin, pitavastatin, pravastatin, rosuvastatin, and simvastatin acid (active metabolite of simvastatin) are thought to be substrates of the hepatic uptake transporters, increased plasma concentrations may be expected during coadministration with dabrafenib, although this has not been studied. On the other hand, dabrafenib has also been reported to be an inducer of CYP450 3A4 and 2C9 in vivo. Reduced plasma concentrations may occur for substrates of these isoenzymes such as atorvastatin, fluvastatin, lovastatin, and simvastatin. Management: Until more information is available, caution is advised when dabrafenib is prescribed with HMG-Coa reductase inhibitors. Clinical and laboratory monitoring are recommended whenever dabrafenib is added to or withdrawn from therapy, and the statin dosage adjusted as necessary. All patients treated with HMG-CoA reductase inhibitors should be advised to promptly report any unexplained muscle pain, tenderness, or weakness, particularly if accompanied by malaise or fever. Therapy should be discontinued if creatine kinase is markedly elevated in the absence of strenuous exercise or if myopathy is otherwise suspected or diagnosed."
+  },
+  "atorvastatin::trametinib": null,
+  "atorvastatin::vemurafenib": {
+    "severity": "Moderate",
+    "mechanism": "Coadministration with inducers of CYP450 3A4 may decrease the plasma concentrations of atorvastatin and its active metabolites, all of which are substrates of the isoenzyme. Management: The potential for diminished pharmacologic effects of atorvastatin should be considered during coadministration with CYP450 3A4 inducers. Alternative agents with no or minimal CYP450 3A4 induction potential are recommended whenever possible. Otherwise, pharmacologic response to atorvastatin should be closely monitored, and the dosage adjusted as necessary."
+  },
+  "ondansetron::prochlorperazine": {
+    "severity": "Moderate",
+    "mechanism": "Theoretically, concurrent use of two or more drugs that can cause QT interval prolongation may result in additive effects and increased risk of ventricular arrhythmias including torsade de pointes and sudden death. The risk of an individual agent or a combination of these agents causing ventricular arrhythmia in association with QT prolongation is largely unpredictable but may be increased by certain underlying risk factors such as congenital long QT syndrome, cardiac disease, and electrolyte disturbances. Management: Caution and clinical monitoring are recommended. Patients should be advised to seek prompt medical attention if they experience symptoms that could indicate the occurrence of torsade de pointes such as dizziness, lightheadedness, fainting, palpitation, irregular heart rhythm, shortness of breath, or syncope."
+  },
+  "dabrafenib::ondansetron": {
+    "severity": "Moderate",
+    "mechanism": "Coadministration with dabrafenib may decrease the plasma concentrations of drugs that are primarily metabolized by CYP450 3A4 and/or 2C9. Dabrafenib has been found in vitro to be an inducer of these isoenzymes. Management: Caution is advised when dabrafenib is prescribed with drugs that undergo metabolism by CYP450 3A4 and/or 2C9. Dosage adjustments as well as clinical and laboratory monitoring may be appropriate for some drugs whenever dabrafenib is added to or withdrawn from therapy. Significantly reduced plasma concentrations and loss of efficacy may occur with sensitive substrates of CYP450 3A4 or 2C9 such as hormonal contraceptives, immunosuppressants (cyclosporine, everolimus, sirolimus, tacrolimus), ivacaftor, and warfarin-type anticoagulants. Alternatives to these medications should be considered if possible."
+  },
+  "ondansetron::trametinib": null,
+  "ondansetron::vemurafenib": {
+    "severity": "Major",
+    "mechanism": "Vemurafenib can cause concentration-dependent prolongation of the QT interval. Theoretically, coadministration with other agents that can prolong the QT interval may result in additive effects and increased risk of ventricular arrhythmias including torsade de pointes and sudden death. Management: Coadministration of vemurafenib with other drugs that can prolong the QT interval is not recommended. ECG and serum electrolytes, including potassium, magnesium and calcium, should be monitored before starting vemurafenib therapy and after dose modification."
+  },
+  "dabrafenib::prochlorperazine": null,
+  "prochlorperazine::trametinib": null,
+  "prochlorperazine::vemurafenib": {
+    "severity": "Major",
+    "mechanism": "Vemurafenib can cause concentration-dependent prolongation of the QT interval. Theoretically, coadministration with other agents that can prolong the QT interval may result in additive effects and increased risk of ventricular arrhythmias including torsade de pointes and sudden death. Management: Coadministration of vemurafenib with other drugs that can prolong the QT interval is not recommended. ECG and serum electrolytes, including potassium, magnesium and calcium, should be monitored before starting vemurafenib therapy and after dose modification."
+  },
+  "dabrafenib::trametinib": {
+    "severity": "Moderate",
+    "mechanism": "Although this combination is used therapeutically and recommended for certain indications (e.g., melanoma, anaplastic thyroid cancer, non-small cell lung cancer), concomitant use of dabrafenib and trametinib may be associated with increased risk of severe and possibly life-threatening adverse events. These include skin toxicities (e.g., Stevens-Johnson syndrome, drug rash with eosinophilia and systemic symptoms), intracranial and gastrointestinal hemorrhage, venous thromboembolism, and serious febrile events. Management: The manufacturer's product labeling should be consulted for recommendations on dosage adjustments or discontinuation in the event of severe toxicities. Patients should be instructed to contact their doctor if they experience unusual bleeding or bruising or severe weakness; fever; red, purple or intolerable rash; shortness of breath, chest pain, or arm or leg swelling."
+  },
+  "dabrafenib::vemurafenib": {
+    "severity": "Moderate",
+    "mechanism": "Coadministration with dabrafenib may decrease the plasma concentrations of drugs that are primarily metabolized by CYP450 3A4 and/or 2C9. Dabrafenib has been found in vitro to be an inducer of these isoenzymes. Management: Caution is advised when dabrafenib is prescribed with drugs that undergo metabolism by CYP450 3A4 and/or 2C9. Dosage adjustments as well as clinical and laboratory monitoring may be appropriate for some drugs whenever dabrafenib is added to or withdrawn from therapy. Significantly reduced plasma concentrations and loss of efficacy may occur with sensitive substrates of CYP450 3A4 or 2C9 such as hormonal contraceptives, immunosuppressants (cyclosporine, everolimus, sirolimus, tacrolimus), ivacaftor, and warfarin-type anticoagulants. Alternatives to these medications should be considered if possible."
+  },
+  "trametinib::vemurafenib": null,
+  "allopurinol::lisinopril": {
+    "severity": "Major",
+    "mechanism": "Coadministration of allopurinol with angiotensin converting enzyme (ACE) inhibitors has been associated with a risk of severe hypersensitivity reactions, neutropenia, agranulocytosis, and serious infections. The mechanism of interaction is unknown, but impaired renal function may be a predisposing factor. Case reports, albeit rare, have mostly involved captopril. No pharmacokinetic interactions have been reported between allopurinol and ACE inhibitors. Management: Caution is advised if allopurinol is prescribed in combination with an ACE inhibitor, particularly in the elderly and patients with renal impairment. Periodic monitoring of white blood cell counts is recommended. Patients should be advised to promptly discontinue these medications and seek medical attention if they develop dyspnea; throat constriction; swelling of the face, lips, or tongue; urticaria; rash; fever; arthralgia; or myalgia. Patients should also contact their physician if they notice signs of infection or experience fever, chills, sore throat, lethargy, body aches, or other flu-like symptoms."
+  },
+  "allopurinol::atorvastatin": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "gabapentin::sertraline": {
+    "severity": "Moderate",
+    "mechanism": "The efficacy of anticonvulsants may be diminished during coadministration with selective serotonin reuptake inhibitors (SSRIs) or serotonin-norepinephrine reuptake inhibitor (SNRIs). Antidepressants including SSRIs and SNRIs can reduce seizure threshold.Coadministration of SSRIs or SNRIs with some anticonvulsants, particularly carbamazepine, eslicarbazepine, oxcarbazepine and valproic acid, may increase the risk of hyponatremia. The risk appears to be dose-related, and elderly patients and patients who are volume depleted (e.g., diuretic use) may be at greater risk. Management: SSRIs and SNRIs should be avoided in patients with unstable epilepsy, and used cautiously in patients with epilepsy controlled with anticonvulsant medications. Treatment with SSRIs and SNRIs should be discontinued if seizures develop or seizure frequency increases. Patients receiving SSRIs or SNRIs with anticonvulsants, particularly carbamazepine, eslicarbazepine, oxcarbazepine and/or valproic acid, should also have serum sodium levels measured regularly and monitored for development of hyponatremia, particularly when higher dosages of these medications are used. Signs and symptoms of hyponatremia include nausea, vomiting, headache, difficulty concentrating, memory impairment, confusion, malaise, lethargy, muscle weakness or spasms, and unsteadiness. In more severe and/or acute cases, hallucination, syncope, seizure, coma, respiratory arrest, and death may occur."
+  },
+  "dexamethasone::insulin glargine": {
+    "severity": "Moderate",
+    "mechanism": "The efficacy of insulin and other antidiabetic agents may be diminished by certain drugs, including atypical antipsychotics, corticosteroids, diuretics, estrogens, gonadotropin-releasing hormone agonists, human growth hormone, phenothiazines, progestins, protease inhibitors, sympathomimetic amines, thyroid hormones, L-asparaginase, alpelisib, copanlisib, danazol, diazoxide, isoniazid, megestrol, omacetaxine, phenytoin, tagraxofusp, temsirolimus, as well as pharmacologic dosages of nicotinic acid and adrenocorticotropic agents. These drugs may interfere with blood glucose control because they can cause hyperglycemia, glucose intolerance, new-onset diabetes mellitus, and/or exacerbation of preexisting diabetes. Management: Close clinical monitoring of glycemic control is recommended following initiation or discontinuation of these drugs, and the dosages of concomitant antidiabetic agents adjusted as necessary. Patients should be advised to notify their physician if their blood glucose is consistently high or if they experience symptoms of severe hyperglycemia such as excessive thirst and increases in the volume or frequency of urination."
+  },
+  "gabapentin::morphine (liposomal)": {
+    "severity": "Major",
+    "mechanism": "Concomitant use of opioids with gabapentinoids (e.g., gabapentin, pregabalin) may increase the risk of opioid overdose and serious adverse effects such as profound sedation, respiratory depression, syncope, and death due to potentially additive depressant effects on the central nervous system. Coadministration with opioids may increase the oral bioavailability of gabapentin. Management: Caution is advised when opioids and gabapentinoids are coadministered, particularly in patients with additional risk factors for respiratory depression such as advanced age, renal insufficiency, or chronic lung disease. The dosage and duration of each drug should be limited to the minimum required to achieve desired clinical effect, with cautious titration and dosage adjustments when needed. Use of additional central nervous system depressants should be avoided if possible. Patients should be monitored closely for signs and symptoms of respiratory depression and sedation, and advised to avoid driving or operating hazardous machinery until they know how these medications affect them. For patients who have been receiving extended therapy with both an opioid and a gabapentinoid (either for analgesia or seizure control) and require discontinuation of either medication, a gradual tapering of dose is advised, since abrupt withdrawal may lead to withdrawal symptoms and increased seizure risk."
+  },
+  "akt inhibitor mk2206::omeprazole": null,
+  "omeprazole::selumetinib": {
+    "severity": "Moderate",
+    "mechanism": "Coadministration with potent or moderate inhibitors of CYP450 2C19 may increase the plasma concentrations of selumetinib, which is primarily metabolized by CYP450 3A4 and to a lesser extent by CYP450 2C19, 1A2, 2C9, 2E1, and 3A5.  Selumetinib's active metabolite, N-desmethyl selumetinib, is generated by CYP450 2C19 and 1A2 with additional contribution by CYP450 2C9 and 2A6, and metabolized through the same routes as selumetinib. Management: Caution is advised when selumetinib is used with potent or moderate CYP450 2C19 inhibitors."
+  },
+  "dactolisib::omeprazole": null,
+  "akt inhibitor mk2206::selumetinib": null,
+  "akt inhibitor mk2206::dactolisib": null,
+  "dactolisib::selumetinib": null,
+  "allopurinol::levothyroxine": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "albuterol::fluticasone": null,
+  "albuterol::gabapentin": null,
+  "albuterol::brexucabtagene autoleucel": null,
+  "fluticasone::gabapentin": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "brexucabtagene autoleucel::fluticasone": {
+    "severity": "Major",
+    "mechanism": "Prophylactic use of systemic corticosteroids prior to the administration of brexucabtagene autoleucel may interfere with the therapeutic effects of brexucabtagene autoleucel. The mechanism for this interaction has not been delineated. Administration of systemic corticosteroids in an effort to manage brexucabtagene autoleucel-related toxicities does not affect the expansion and persistence of cells. Management: The prophylactic use of systemic corticosteroids prior to the administration of brexucabtagene autoleucel is not recommended. However, systemic corticosteroids may be used for the management of brexucabtagene autoleucel-related adverse effects, such as cytokine release syndrome and neurological-related toxicities, without affecting the expansion and persistence of cells."
+  },
+  "brexucabtagene autoleucel::gabapentin": null,
+  "allopurinol::omeprazole": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "allopurinol::azathioprine": {
+    "severity": "Major",
+    "mechanism": "Allopurinol may potentiate the pharmacologic effects of orally administered thiopurines. Severe bone marrow suppression and other toxicity have been associated with concomitant use of allopurinol and mercaptopurine (6-MP) or azathioprine, the latter of which is metabolized to 6-MP in vivo. The mechanism is thought to be allopurinol inhibition of 6-MP first-pass metabolism via hepatic or intestinal xanthine oxidase, the enzyme that catalyzes the inactivation of 6-MP. In one study, allopurinol pretreatment resulted in a nearly 500% increase in peak plasma concentration (Cmax) and area under the concentration-time curve (AUC) of oral 6-MP. No effect was observed on the pharmacokinetics of intravenous 6-MP. In a retrospective study of 24 heart and/or lung transplant patients receiving azathioprine, investigators found that 46% became leukopenic, 30% moderately anemic, and 22% thrombocytopenic within 3 months after starting allopurinol despite general compliance with thiopurine dosage reduction guidelines. Thus, decreasing the dosage by two-thirds or greater as often recommended does not abolish the risk of myelotoxicity. Management: Caution is advised if allopurinol must be used concomitantly with oral thiopurines. Most authorities recommend that thiopurine dosage be reduced to approximately 1/4 to 1/3 the usual dosage, and the patient closely monitored for hematologic and other toxicity. Subsequent doses should be adjusted based on therapeutic response and appearance of adverse effects. Patients should be advised to consult their physician if they develop signs and symptoms suggestive of thiopurine toxicity such as fever, chills, sore throat, fatigue, lethargy, pallor, anorexia, jaundice, dark urine, nausea, vomiting, signs of local infection, and unusual bleeding or bruising."
+  },
+  "allopurinol::ars-853": null,
+  "allopurinol::epidermal growth factor receptor tyrosine kinase inhibitor": null,
+  "allopurinol::dactolisib": null,
+  "azathioprine::omeprazole": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "ars-853::omeprazole": null,
+  "epidermal growth factor receptor tyrosine kinase inhibitor::omeprazole": null,
+  "ars-853::azathioprine": null,
+  "azathioprine::epidermal growth factor receptor tyrosine kinase inhibitor": null,
+  "azathioprine::dactolisib": null,
+  "ars-853::epidermal growth factor receptor tyrosine kinase inhibitor": null,
+  "ars-853::dactolisib": null,
+  "dactolisib::epidermal growth factor receptor tyrosine kinase inhibitor": null,
+  "gabapentin::zoledronic acid": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "etelcalcetide::zoledronic acid": {
+    "severity": "Major",
+    "mechanism": "Concomitant use of etelcalcetide with other medicines known to lower serum calcium may increase the risk of hypocalcemia. The proposed mechanism is additive reduction in serum calcium levels. Significant decreases in serum calcium may cause paraesthesias, myalgias, muscle spasms, seizures, QT interval prolongation, and ventricular arrhythmia. Etelcalcetide given alone may lead to severe hypocalcemia requiring concomitant treatment with therapies to increase serum calcium levels. Management: Close monitoring of corrected serum calcium levels is recommended if etelcalcetide is used in combination with other medications known to lower serum calcium, such as denosumab, calcitonin, foscarnet, bisphosphonates, or loop diuretics. It is recommended that the patient's corrected serum calcium level should be measured within one week of initiation or dose adjustment of etelcalcetide and monitored approximately every 4 weeks. In addition, the manufacturer product labeling should be consulted for management guidelines in the event of a reduction in corrected serum calcium levels below the lower limit of the normal range and/or symptoms of hypocalcemia. Patients should also be advised to contact their health care professional if they experience symptoms of hypocalcemia, such as numbness or tingling in the fingers, toes, or around the mouth, muscle spasms, twitches or cramps, seizures, confusion, and irregular heartbeats."
+  },
+  "etelcalcetide::gabapentin": null,
+  "fluorouracil::gabapentin": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "cisplatin::etelcalcetide": {
+    "severity": "Major",
+    "mechanism": "Concomitant use of etelcalcetide with other medicines known to lower serum calcium may increase the risk of hypocalcemia. The proposed mechanism is additive reduction in serum calcium levels. Significant decreases in serum calcium may cause paraesthesias, myalgias, muscle spasms, seizures, QT interval prolongation, and ventricular arrhythmia. Etelcalcetide given alone may lead to severe hypocalcemia requiring concomitant treatment with therapies to increase serum calcium levels. Management: Close monitoring of corrected serum calcium levels is recommended if etelcalcetide is used in combination with other medications known to lower serum calcium, such as denosumab, calcitonin, foscarnet, bisphosphonates, or loop diuretics. It is recommended that the patient's corrected serum calcium level should be measured within one week of initiation or dose adjustment of etelcalcetide and monitored approximately every 4 weeks. In addition, the manufacturer product labeling should be consulted for management guidelines in the event of a reduction in corrected serum calcium levels below the lower limit of the normal range and/or symptoms of hypocalcemia. Patients should also be advised to contact their health care professional if they experience symptoms of hypocalcemia, such as numbness or tingling in the fingers, toes, or around the mouth, muscle spasms, twitches or cramps, seizures, confusion, and irregular heartbeats."
+  },
+  "alisertib::etelcalcetide": null,
+  "akt inhibitor mk2206::letrozole": null,
+  "letrozole::pictilisib": null,
+  "letrozole::pi3ka/di": null,
+  "akt inhibitor mk2206::pictilisib": null,
+  "akt inhibitor mk2206::pi3ka/di": null,
+  "pi3ka/di::pictilisib": null,
+  "dexamethasone::sertraline": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "insulin glargine::sertraline": {
+    "severity": "Moderate",
+    "mechanism": "The hypoglycemic effect of insulin may be potentiated by certain drugs, including ACE inhibitors, angiotensin receptor blockers (ARBs), 4-aminoquinolines, amylin analogs, anabolic steroids, fibrates, monoamine oxidase inhibitors (MAOIs, including linezolid), salicylates, selective serotonin reuptake inhibitors (SSRIs), sulfonamides, disopyramide, propoxyphene, quinidine, quinine, and ginseng. These drugs may increase the risk of hypoglycemia by enhancing insulin sensitivity (ACE inhibitors, ARBs, fibrates, ginseng); stimulating insulin secretion (salicylates, disopyramide, pentoxifylline, propoxyphene, quinidine, quinine, MAOIs, ginseng); decreasing insulin clearance and resistance (4-aminoquinolines); increasing peripheral glucose utilization (SSRIs, insulin-like growth factor); inhibiting gluconeogenesis (SSRIs, MAOIs, insulin-like growth factor); slowing the rate of gastric emptying (amylin analogs); and/or suppressing postprandial glucagon secretion (amylin analogs). Clinical hypoglycemia has been reported during use of some of these agents alone or with insulin and/or insulin secretagogues. Management: Close monitoring for the development of hypoglycemia is recommended if these drugs are coadministered with insulin, particularly in patients with advanced age and/or renal impairment. The insulin dosage may require adjustment if an interaction is suspected. Patients should be apprised of the signs and symptoms of hypoglycemia (e.g., headache, dizziness, drowsiness, nausea, hunger, tremor, weakness, sweating, palpitations)."
+  },
+  "oxycodone::senna": null,
+  "dinaciclib::oxycodone": null,
+  "akt inhibitor mk2206::oxycodone": null,
+  "lunresertib::oxycodone": null,
+  "dinaciclib::senna": null,
+  "akt inhibitor mk2206::senna": null,
+  "lunresertib::senna": null,
+  "akt inhibitor mk2206::dinaciclib": null,
+  "dinaciclib::lunresertib": null,
+  "akt inhibitor mk2206::lunresertib": null,
+  "losartan::metformin": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "metformin::palbociclib": null,
+  "losartan::palbociclib": null,
+  "levothyroxine::zoledronic acid": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "etelcalcetide::levothyroxine": null,
+  "dexamethasone::lisinopril": {
+    "severity": "Moderate",
+    "mechanism": "Corticosteroids may antagonize the effects of antihypertensive medications by inducing sodium and fluid retention. These effects may be more common with the natural corticosteroids (cortisone, hydrocortisone) because they have greater mineralocorticoid activity. Conversely, some calcium channel blockers such as diltiazem and verapamil may increase corticosteroid plasma levels and effects by inhibiting their clearance via CYP450 3A4 metabolism. Management: Patients on prolonged (i.e., longer than about a week) or high-dose corticosteroid therapy should have blood pressure, electrolyte levels, and body weight monitored regularly, and be observed for the development of edema and congestive heart failure. The dosages of antihypertensive medications may require adjustment."
+  },
+  "atorvastatin::dexamethasone": {
+    "severity": "Moderate",
+    "mechanism": "Coadministration with inducers of CYP450 3A4 may decrease the plasma concentrations of atorvastatin and its active metabolites, all of which are substrates of the isoenzyme. Management: The potential for diminished pharmacologic effects of atorvastatin should be considered during coadministration with CYP450 3A4 inducers. Alternative agents with no or minimal CYP450 3A4 induction potential are recommended whenever possible. Otherwise, pharmacologic response to atorvastatin should be closely monitored, and the dosage adjusted as necessary."
+  },
+  "insulin glargine::lisinopril": {
+    "severity": "Moderate",
+    "mechanism": "The hypoglycemic effect of insulin may be potentiated by certain drugs, including ACE inhibitors, angiotensin receptor blockers (ARBs), 4-aminoquinolines, amylin analogs, anabolic steroids, fibrates, monoamine oxidase inhibitors (MAOIs, including linezolid), salicylates, selective serotonin reuptake inhibitors (SSRIs), sulfonamides, disopyramide, propoxyphene, quinidine, quinine, and ginseng. These drugs may increase the risk of hypoglycemia by enhancing insulin sensitivity (ACE inhibitors, ARBs, fibrates, ginseng); stimulating insulin secretion (salicylates, disopyramide, pentoxifylline, propoxyphene, quinidine, quinine, MAOIs, ginseng); decreasing insulin clearance and resistance (4-aminoquinolines); increasing peripheral glucose utilization (SSRIs, insulin-like growth factor); inhibiting gluconeogenesis (SSRIs, MAOIs, insulin-like growth factor); slowing the rate of gastric emptying (amylin analogs); and/or suppressing postprandial glucagon secretion (amylin analogs). Clinical hypoglycemia has been reported during use of some of these agents alone or with insulin and/or insulin secretagogues. Management: Close monitoring for the development of hypoglycemia is recommended if these drugs are coadministered with insulin, particularly in patients with advanced age and/or renal impairment. The insulin dosage may require adjustment if an interaction is suspected. Patients should be apprised of the signs and symptoms of hypoglycemia (e.g., headache, dizziness, drowsiness, nausea, hunger, tremor, weakness, sweating, palpitations)."
+  },
+  "atorvastatin::insulin glargine": null,
+  "aspirin::atorvastatin": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "aspirin::brinzolamide (ophthalmic)": {
+    "severity": "Major",
+    "mechanism": "The combination of large doses of salicylates and oral carbonic anhydrase inhibitors (CAI) may rarely result in severe metabolic acidosis and/or salicylate toxicity. The mechanism is unknown but may involve salicylate-induced displacement of CAIs from plasma protein-binding sites and reduced renal clearance, or CAI-induced plasma pH changes resulting in increased amounts of unionised salicylates entering the CNS. Management: In general, concomitant use of antirheumatic doses of salicylates and oral CAIs is not recommended. If coadministration is necessary, careful monitoring of the patient's mental status and acid base balance is strongly recommended. Patients should be advised to promptly notify their physicians if they experience symptoms such as lethargy, tinnitus, confusion, nausea, vomiting, or hyperventilation."
+  },
+  "atorvastatin::brinzolamide (ophthalmic)": null,
+  "aspirin::dexamethasone": {
+    "severity": "Moderate",
+    "mechanism": "Coadministration with corticosteroids may decrease the serum concentrations and therapeutic effects of salicylates. Likewise, serum salicylate levels may increase following withdrawal of corticosteroid therapy, potentially resulting in salicylate toxicity. Pharmacologically, the potential for increased gastrointestinal (GI) toxicity, including inflammation, bleeding, ulceration and perforation, should be considered due to additive ulcerogenic effects of these agents (especially aspirin) on the GI mucosa. Management: Patients treated concomitantly with a corticosteroid may require higher dosages of salicylates or salicylate-like drugs. Pharmacologic response to these agents should be monitored more closely whenever a corticosteroid is added to or withdrawn from therapy in patients stabilized on their existing salicylate regimen, and the salicylate dosage adjusted as necessary. During concomitant therapy, patients should be advised to take the medications with food and to immediately report signs and symptoms of GI ulceration and bleeding such as severe abdominal pain, dizziness, lightheadedness, and the appearance of black, tarry stools. The selective use of prophylactic anti-ulcer therapy (e.g., antacids, H2-antagonists) may be appropriate, particularly in patients with a prior history of peptic ulcer disease or GI bleeding and in elderly and debilitated patients."
+  },
+  "aspirin::insulin glargine": {
+    "severity": "Moderate",
+    "mechanism": "The hypoglycemic effect of insulin may be potentiated by certain drugs, including ACE inhibitors, angiotensin receptor blockers (ARBs), 4-aminoquinolines, amylin analogs, anabolic steroids, fibrates, monoamine oxidase inhibitors (MAOIs, including linezolid), salicylates, selective serotonin reuptake inhibitors (SSRIs), sulfonamides, disopyramide, propoxyphene, quinidine, quinine, and ginseng. These drugs may increase the risk of hypoglycemia by enhancing insulin sensitivity (ACE inhibitors, ARBs, fibrates, ginseng); stimulating insulin secretion (salicylates, disopyramide, pentoxifylline, propoxyphene, quinidine, quinine, MAOIs, ginseng); decreasing insulin clearance and resistance (4-aminoquinolines); increasing peripheral glucose utilization (SSRIs, insulin-like growth factor); inhibiting gluconeogenesis (SSRIs, MAOIs, insulin-like growth factor); slowing the rate of gastric emptying (amylin analogs); and/or suppressing postprandial glucagon secretion (amylin analogs). Clinical hypoglycemia has been reported during use of some of these agents alone or with insulin and/or insulin secretagogues. Management: Close monitoring for the development of hypoglycemia is recommended if these drugs are coadministered with insulin, particularly in patients with advanced age and/or renal impairment. The insulin dosage may require adjustment if an interaction is suspected. Patients should be apprised of the signs and symptoms of hypoglycemia (e.g., headache, dizziness, drowsiness, nausea, hunger, tremor, weakness, sweating, palpitations)."
+  },
+  "brinzolamide (ophthalmic)::dexamethasone": null,
+  "brinzolamide (ophthalmic)::insulin glargine": null,
+  "allopurinol::oxycodone": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "oxycodone::phenytoin": {
+    "severity": "Major",
+    "mechanism": "Coadministration with enzyme-inducing anticonvulsants may decrease the plasma concentrations of opioids that are primarily metabolized by CYP450 3A4 such as butorphanol, fentanyl, hydrocodone, and oxycodone. Reduced efficacy or withdrawal symptoms may occur in patients maintained on their narcotic pain regimen following the addition of an enzyme-inducing anticonvulsant. Conversely, discontinuation of the anticonvulsant may increase opioid plasma concentrations and potentiate the risk of overdose and fatal respiratory depression. Management: Pharmacologic response to the opioid should be monitored more closely whenever an enzyme-inducing anticonvulsant is added to or withdrawn from therapy, and the opioid dosage adjusted as necessary. Due to the potential for additive central nervous system depressant effects, ambulatory patients should be counseled to avoid hazardous activities requiring mental alertness and motor coordination until they know how these agents affect them."
+  },
+  "allopurinol::senna": null,
+  "phenytoin::senna": null,
+  "allopurinol::phenytoin": {
+    "severity": "Minor",
+    "mechanism": "Limited clinical data suggest that allopurinol may increase phenytoin serum concentrations. The mechanism is unknown and causality is unclear. It is not known whether ethotoin and mephenytoin, which are similar hydantoin compounds, also participate in this interaction. The patient should be monitored for signs of phenytoin toxicity when allopurinol is added to an established phenytoin regimen. Patients should be advised to notify their physician if they experience symptoms of possible hydantoin toxicity, including drowsiness, visual disturbances, change in mental status, seizures, nausea, or ataxia."
+  },
+  "dexamethasone::oxycodone": {
+    "severity": "Major",
+    "mechanism": "Coadministration with inducers of CYP450 3A4 may decrease the plasma concentrations of opioids that are primarily metabolized by the isoenzyme such as butorphanol, fentanyl, hydrocodone, and oxycodone. Reduced efficacy or withdrawal symptoms may occur in patients maintained on their narcotic pain regimen following the addition of a CYP450 3A4 inducer. Conversely, discontinuation of the inducer may increase opioid plasma concentrations and potentiate the risk of overdose and fatal respiratory depression. Management: Pharmacologic response to the opioid should be monitored more closely whenever a CYP450 3A4 inducer is added to or withdrawn from therapy, and the opioid dosage adjusted as necessary."
+  },
+  "insulin glargine::oxycodone": null,
+  "alvimopan::oxycodone": {
+    "severity": "Major",
+    "mechanism": "Recent exposure to opioids can increase the sensitivity to mu opioid receptor antagonists. Management: The use of alvimopan is contraindicated in patients who have received therapeutic doses of opioids for more than 7 consecutive days immediately prior to alvimopan administration. Caution is advised in patients who have received more than 3 doses of an opioid within the week prior to surgery, as these patients were not studied in the postoperative ileus clinical trials. Patients with recent exposure to opioids should be monitored for increased adverse effects such as abdominal pain, nausea and vomiting, and diarrhea."
+  },
+  "dexamethasone::senna": null,
+  "insulin glargine::senna": null,
+  "alvimopan::senna": null,
+  "alvimopan::dexamethasone": null,
+  "alvimopan::insulin glargine": null,
+  "allopurinol::gabapentin": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "gabapentin::thioguanine": null,
+  "allopurinol::thioguanine": null,
+  "metformin::ondansetron": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "losartan::ondansetron": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "olaparib::ondansetron": {
+    "severity": "Moderate",
+    "mechanism": "Coadministration with olaparib may decrease the plasma concentrations and therapeutic effects of drugs that are substrates of CYP450 1A2 and/or 2B6. The proposed mechanism, based on in vitro data, is increased clearance due to olaparib-mediated induction of CYP450 1A2 and/or 2B6. Management: Caution is advised if olaparib is used concomitantly with drugs that are substrates of CYP450 1A2 and/or 2B6. Pharmacologic response and serum levels should be monitored more closely whenever olaparib is added to or withdrawn from therapy with these drugs. Dosage adjustments may be required if an interaction is suspected."
+  },
+  "metformin::prochlorperazine": {
+    "severity": "Moderate",
+    "mechanism": "The efficacy of insulin and other antidiabetic agents may be diminished by certain drugs, including atypical antipsychotics, corticosteroids, diuretics, estrogens, gonadotropin-releasing hormone agonists, human growth hormone, phenothiazines, progestins, protease inhibitors, sympathomimetic amines, thyroid hormones, L-asparaginase, alpelisib, copanlisib, danazol, diazoxide, isoniazid, megestrol, omacetaxine, phenytoin, tagraxofusp, temsirolimus, as well as pharmacologic dosages of nicotinic acid and adrenocorticotropic agents. These drugs may interfere with blood glucose control because they can cause hyperglycemia, glucose intolerance, new-onset diabetes mellitus, and/or exacerbation of preexisting diabetes. Management: Close clinical monitoring of glycemic control is recommended following initiation or discontinuation of these drugs, and the dosages of concomitant antidiabetic agents adjusted as necessary. Patients should be advised to notify their physician if their blood glucose is consistently high or if they experience symptoms of severe hyperglycemia such as excessive thirst and increases in the volume or frequency of urination."
+  },
+  "losartan::prochlorperazine": {
+    "severity": "Moderate",
+    "mechanism": "Phenothiazines and neuroleptic agents may potentiate the hypotensive effect of some medications secondary to their peripheral alpha-1 adrenergic blocking activity. Orthostatic hypotension and syncope associated with vasodilation may occur, particularly during initial dosing and/or parenteral administration of the phenothiazine or neuroleptic. Management: Close clinical monitoring for development of hypotension is recommended if phenothiazines or neuroleptic agents are used in patients receiving antihypertensive medications or vasodilators. A lower starting dosage and slower titration of the phenothiazine or neuroleptic may be appropriate, especially in the elderly. Patients should be advised to avoid rising abruptly from a sitting or recumbent position and to notify their physician if they experience dizziness, lightheadedness, syncope, orthostasis, or tachycardia. Patients should also avoid driving or operating hazardous machinery."
+  },
+  "olaparib::prochlorperazine": null,
+  "metformin::olaparib": {
+    "severity": "Moderate",
+    "mechanism": "Based on in vitro inhibition data, coadministration with olaparib may increase the plasma concentrations of drugs that are substrates of CYP450 3A4 (e.g., cisapride, ergot alkaloids, fentanyl, lovastatin, oral midazolam, pimozide, quetiapine, simvastatin, triazolam, vinca alkaloids), P-gp (e.g., colchicine, dabigatran, digoxin), breast cancer resistance protein (BCRP) (e.g., rosuvastatin), OATP1B1 (e.g., eluxadoline, glyburide, repaglinide, statins, valsartan), or organic cation transporter 1 or 2 (OCT1, OCT2) (e.g., metformin). The proposed mechanism is decreased clearance due to inhibition of the corresponding metabolizing enzyme and/or efflux/uptake transporter by olaparib. Management: Caution is advised if olaparib must be used concomitantly with drugs that are substrates of the affected enzymes or transporters, particularly those with a narrow therapeutic range. Dosage adjustments as well as clinical and laboratory monitoring may be appropriate for some drugs whenever olaparib is added to or withdrawn from therapy."
+  },
+  "losartan::olaparib": null,
+  "lisinopril::sertraline": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "atorvastatin::sertraline": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "dabrafenib::sertraline": {
+    "severity": "Moderate",
+    "mechanism": "Coadministration with dabrafenib may decrease the plasma concentrations of drugs that are primarily metabolized by CYP450 3A4 and/or 2C9. Dabrafenib has been found in vitro to be an inducer of these isoenzymes. Management: Caution is advised when dabrafenib is prescribed with drugs that undergo metabolism by CYP450 3A4 and/or 2C9. Dosage adjustments as well as clinical and laboratory monitoring may be appropriate for some drugs whenever dabrafenib is added to or withdrawn from therapy. Significantly reduced plasma concentrations and loss of efficacy may occur with sensitive substrates of CYP450 3A4 or 2C9 such as hormonal contraceptives, immunosuppressants (cyclosporine, everolimus, sirolimus, tacrolimus), ivacaftor, and warfarin-type anticoagulants. Alternatives to these medications should be considered if possible."
+  },
+  "sertraline::trametinib": null,
+  "sertraline::vemurafenib": {
+    "severity": "Major",
+    "mechanism": "Vemurafenib can cause concentration-dependent prolongation of the QT interval. Theoretically, coadministration with other agents that can prolong the QT interval may result in additive effects and increased risk of ventricular arrhythmias including torsade de pointes and sudden death. Management: Coadministration of vemurafenib with other drugs that can prolong the QT interval is not recommended. ECG and serum electrolytes, including potassium, magnesium and calcium, should be monitored before starting vemurafenib therapy and after dose modification."
+  },
+  "levothyroxine::metformin": {
+    "severity": "Moderate",
+    "mechanism": "The efficacy of insulin and other antidiabetic agents may be diminished by certain drugs, including atypical antipsychotics, corticosteroids, diuretics, estrogens, gonadotropin-releasing hormone agonists, human growth hormone, phenothiazines, progestins, protease inhibitors, sympathomimetic amines, thyroid hormones, L-asparaginase, alpelisib, copanlisib, danazol, diazoxide, isoniazid, megestrol, omacetaxine, phenytoin, tagraxofusp, temsirolimus, as well as pharmacologic dosages of nicotinic acid and adrenocorticotropic agents. These drugs may interfere with blood glucose control because they can cause hyperglycemia, glucose intolerance, new-onset diabetes mellitus, and/or exacerbation of preexisting diabetes. Management: Close clinical monitoring of glycemic control is recommended following initiation or discontinuation of these drugs, and the dosages of concomitant antidiabetic agents adjusted as necessary. Patients should be advised to notify their physician if their blood glucose is consistently high or if they experience symptoms of severe hyperglycemia such as excessive thirst and increases in the volume or frequency of urination."
+  },
+  "metformin::nortriptyline": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "levothyroxine::losartan": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "losartan::nortriptyline": {
+    "severity": "Moderate",
+    "mechanism": "Many psychotherapeutic and CNS-active agents (e.g., anxiolytics, sedatives, hypnotics, antidepressants, antipsychotics, opioids, alcohol, muscle relaxants) exhibit hypotensive effects, especially during initiation of therapy and dose escalation. Coadministration with antihypertensives and other hypotensive agents, in particular vasodilators and alpha-blockers, may result in additive effects on blood pressure and orthostasis. Management: Caution and close monitoring for development of hypotension is advised during coadministration of these agents. Avoid alcohol in patients receiving vasodilating antihypertensive drugs. Patients should be advised to avoid rising abruptly from a sitting or recumbent position and to notify their physician if they experience dizziness, lightheadedness, syncope, orthostasis, or tachycardia."
+  },
+  "levothyroxine::nortriptyline": {
+    "severity": "Moderate",
+    "mechanism": "Coadministration of thyroid hormone replacement therapy with tricyclic antidepressants may accelerate the onset or potentiate the action of tricyclic antidepressants, increasing the risk of cardiac arrhythmias and CNS stimulation. The proposed mechanism may be an increased receptor sensitivity to catecholamines. Some clinicians have used this interaction therapeutically. Management: Patients receiving concomitant thyroid hormone replacement therapy and tricyclic antidepressant therapy should be closely monitored for cardiac arrhythmias and CNS stimulation. Advise patients to contact their doctor if they experience toxicity symptoms such as: anxiety, agitation, insomnia, shortness of breath, irregular or fast heartbeat, and lightheadedness or dizziness."
+  },
+  "lopinavir::vemurafenib": {
+    "severity": "Major",
+    "mechanism": "Vemurafenib can cause concentration-dependent prolongation of the QT interval. Theoretically, coadministration with other agents that can prolong the QT interval may result in additive effects and increased risk of ventricular arrhythmias including torsade de pointes and sudden death. Management: Coadministration of vemurafenib with other drugs that can prolong the QT interval is not recommended. ECG and serum electrolytes, including potassium, magnesium and calcium, should be monitored before starting vemurafenib therapy and after dose modification."
+  },
+  "cetuximab::lopinavir": null,
+  "irinotecan::lopinavir": null,
+  "cetuximab::vemurafenib": null,
+  "irinotecan::vemurafenib": {
+    "severity": "Moderate",
+    "mechanism": "Coadministration with inducers of the CYP450 3A4 isoenzyme may decrease the plasma concentrations of irinotecan and its pharmacologically active metabolite, SN-38. Irinotecan is partially metabolized by CYP450 3A4, and induction of this process results in less of the drug available in the plasma for conversion to SN-38 via carboxylesterases.. Management: The antitumour activity of irinotecan may be reduced in patients treated with CYP450 3A4 inducers. Pharmacologic response to irinotecan should be monitored more closely whenever a CYP450 3A4 inducer is added to or withdrawn from therapy, and the irinotecan dosage adjusted as necessary."
+  },
+  "cetuximab::irinotecan": null,
+  "omeprazole::pictilisib": null,
+  "omeprazole::pi3ka/di": null,
+  "omeprazole::palbociclib": null,
+  "akt inhibitor mk2206::palbociclib": null,
+  "palbociclib::pictilisib": null,
+  "palbociclib::pi3ka/di": null,
+  "levothyroxine::lisinopril": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "lisinopril::selumetinib": null,
+  "dactolisib::lisinopril": null,
+  "lisinopril::therapeutic tumor infiltrating lymphocytes": null,
+  "atorvastatin::levothyroxine": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "atorvastatin::selumetinib": null,
+  "atorvastatin::dactolisib": null,
+  "atorvastatin::therapeutic tumor infiltrating lymphocytes": null,
+  "levothyroxine::selumetinib": null,
+  "dactolisib::levothyroxine": null,
+  "levothyroxine::therapeutic tumor infiltrating lymphocytes": null,
+  "selumetinib::therapeutic tumor infiltrating lymphocytes": null,
+  "dactolisib::therapeutic tumor infiltrating lymphocytes": null,
+  "gabapentin::metformin": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "gabapentin::losartan": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "aspirin::ondansetron": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "aspirin::prochlorperazine": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "aspirin::sirolimus": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "aspirin::izorlisib": null,
+  "aspirin::pi-103": null,
+  "atorvastatin::sirolimus": {
+    "severity": "Moderate",
+    "mechanism": "Coadministration of a macrolide immunosuppressant with certain HMG-CoA reductase inhibitors may result in elevated plasma concentrations of both due to competitive inhibition of CYP450 3A4 metabolism. High levels of HMG-CoA reductase inhibitory activity in plasma is associated with an increased risk of musculoskeletal toxicity including rhabdomyolysis, which can be fatal. Management: In general, lovastatin, red yeast rice (which contains lovastatin), and simvastatin should preferably be avoided in patients treated with sirolimus or tacrolimus due to the potential for serious interaction. Atorvastatin may be used with caution, although the dosage should start low, and immunosuppressant blood levels should be closely monitored. Pravastatin and fluvastatin are probably the safest alternatives, since they are not metabolized by CYP450 3A4. All patients treated with HMG-CoA reductase inhibitors should be advised to promptly report any unexplained muscle pain, tenderness, or weakness, particularly if accompanied by malaise or fever. Therapy should be discontinued if creatine kinase is markedly elevated in the absence of strenuous exercise or if myopathy is otherwise suspected or diagnosed."
+  },
+  "atorvastatin::izorlisib": null,
+  "atorvastatin::pi-103": null,
+  "ondansetron::sirolimus": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "izorlisib::ondansetron": null,
+  "ondansetron::pi-103": null,
+  "prochlorperazine::sirolimus": null,
+  "izorlisib::prochlorperazine": null,
+  "pi-103::prochlorperazine": null,
+  "izorlisib::sirolimus": null,
+  "pi-103::sirolimus": null,
+  "izorlisib::pi-103": null,
+  "dactolisib::zoledronic acid": null,
+  "selumetinib::zoledronic acid": null,
+  "metformin::sertraline": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "losartan::sertraline": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "capivasertib::oxycodone": null,
+  "oxycodone::palbociclib": {
+    "severity": "Moderate",
+    "mechanism": "Coadministration with inhibitors of CYP450 3A4 may increase the plasma concentrations of oxycodone, which is primarily metabolized by the isoenzyme. Increased oxycodone concentrations could increase or prolong adverse drug effects and may cause potentially fatal respiratory depression. Itraconazole, telithromycin and voriconazole are considered potent inhibitors of CYP450 3A4. Management: Caution may be advisable when oxycodone is prescribed with weak CYP450 3A4 inhibitors. The risk of overdose may be increased following the initiation of a CYP450 3A4 inhibitor in patients already receiving oxycodone. Patients should be closely monitored for signs and symptoms of sedation, respiratory depression, and hypotension. Following discontinuation of the CYP450 3A4 inhibitor, patients should be monitored for reduced efficacy of oxycodone or development of withdrawal symptoms due to reduced plasma oxycodone levels."
+  },
+  "capivasertib::senna": null,
+  "palbociclib::senna": null,
+  "capivasertib::palbociclib": null,
+  "ondansetron::oxitriptan": {
+    "severity": "Major",
+    "mechanism": "Concomitant use of 5-HT3 receptor antagonists with agents that possess or enhance serotonergic activity such as selective serotonin reuptake inhibitors (SSRIs), selective serotonin-norepinephrine reuptake inhibitors (SNRIs), monoamine oxidase inhibitors (MAOIs), tricyclic antidepressants (TCAs), 5-HT1 receptor agonists (triptans), ergot alkaloids, phenylpiperidine opioids, bupropion, dextromethorphan, linezolid, lithium, St. John's wort, tramadol, and tryptophan may potentiate the risk of serotonin syndrome. Management: Caution is advised if 5-HT3 receptor antagonists are prescribed with other agents that affect the serotonergic neurotransmitter system. Patients should be closely monitored for symptoms of the serotonin syndrome during treatment. Particular caution is warranted when initiating or increasing the dosages of these agents. The potential risk for serotonin syndrome should be considered even when administering serotonergic agents sequentially, as some agents may demonstrate a prolonged elimination half-life. For example, a 5-week washout period is typically recommended following use of fluoxetine and 2 weeks following use of MAOIs before administering another serotonergic agent. If serotonin syndrome develops or is suspected during the course of therapy, all serotonergic agents should be discontinued immediately and supportive care rendered as necessary."
+  },
+  "oxitriptan::prochlorperazine": null,
+  "pretomanid::zoledronic acid": null,
+  "dabrafenib::zoledronic acid": null,
+  "trametinib::zoledronic acid": null,
+  "vemurafenib::zoledronic acid": null,
+  "gabapentin::pretomanid": null,
+  "dabrafenib::gabapentin": null,
+  "gabapentin::trametinib": null,
+  "gabapentin::vemurafenib": null,
+  "dabrafenib::pretomanid": {
+    "severity": "Major",
+    "mechanism": "Coadministration of pretomanid with strong or moderate CYP450 3A4 inducers may decrease the plasma concentrations and antimicrobial effects of pretomanid, which has been shown to be a substrate of the isoenzyme. Management: The use of pretomanid with strong or moderate CYP450 3A4 inducers should be avoided. Dosage adjustments as well as clinical and laboratory monitoring of pretomanid should be considered whenever a strong or moderate CYP450 3A4 inducer is added to or withdrawn from therapy."
+  },
+  "pretomanid::trametinib": null,
+  "pretomanid::vemurafenib": null,
+  "dexamethasone::metformin": {
+    "severity": "Moderate",
+    "mechanism": "The efficacy of insulin and other antidiabetic agents may be diminished by certain drugs, including atypical antipsychotics, corticosteroids, diuretics, estrogens, gonadotropin-releasing hormone agonists, human growth hormone, phenothiazines, progestins, protease inhibitors, sympathomimetic amines, thyroid hormones, L-asparaginase, alpelisib, copanlisib, danazol, diazoxide, isoniazid, megestrol, omacetaxine, phenytoin, tagraxofusp, temsirolimus, as well as pharmacologic dosages of nicotinic acid and adrenocorticotropic agents. These drugs may interfere with blood glucose control because they can cause hyperglycemia, glucose intolerance, new-onset diabetes mellitus, and/or exacerbation of preexisting diabetes. Management: Close clinical monitoring of glycemic control is recommended following initiation or discontinuation of these drugs, and the dosages of concomitant antidiabetic agents adjusted as necessary. Patients should be advised to notify their physician if their blood glucose is consistently high or if they experience symptoms of severe hyperglycemia such as excessive thirst and increases in the volume or frequency of urination."
+  },
+  "insulin glargine::metformin": {
+    "severity": "Moderate",
+    "mechanism": "Coadministration of metformin with an insulin secretagogue (e.g., sulfonylurea, meglitinide) or insulin may potentiate the risk of hypoglycemia. Although metformin alone generally does not cause hypoglycemia under normal circumstances of use, the added therapeutic effect when combined with other antidiabetic agents may result in hypoglycemia. The risk is further increased when caloric intake is deficient or when strenuous exercise is not compensated by caloric supplementation. Management: A lower dosage of the insulin secretagogue or insulin may be required when used with metformin. Blood glucose should be closely monitored, and patients should be educated on the potential signs and symptoms of hypoglycemia (e.g., headache, dizziness, drowsiness, nervousness, confusion, tremor, hunger, weakness, perspiration, palpitation, tachycardia) and appropriate remedial actions to take if it occurs. Patients should also be advised to take precautions to avoid hypoglycemia while driving or operating hazardous machinery."
+  },
+  "izorlisib::metformin": null,
+  "capivasertib::metformin": null,
+  "lapatinib::metformin": null,
+  "dexamethasone::losartan": {
+    "severity": "Moderate",
+    "mechanism": "Corticosteroids may antagonize the effects of antihypertensive medications by inducing sodium and fluid retention. These effects may be more common with the natural corticosteroids (cortisone, hydrocortisone) because they have greater mineralocorticoid activity. Conversely, some calcium channel blockers such as diltiazem and verapamil may increase corticosteroid plasma levels and effects by inhibiting their clearance via CYP450 3A4 metabolism. Management: Patients on prolonged (i.e., longer than about a week) or high-dose corticosteroid therapy should have blood pressure, electrolyte levels, and body weight monitored regularly, and be observed for the development of edema and congestive heart failure. The dosages of antihypertensive medications may require adjustment."
+  },
+  "insulin glargine::losartan": {
+    "severity": "Moderate",
+    "mechanism": "The hypoglycemic effect of insulin may be potentiated by certain drugs, including ACE inhibitors, angiotensin receptor blockers (ARBs), 4-aminoquinolines, amylin analogs, anabolic steroids, fibrates, monoamine oxidase inhibitors (MAOIs, including linezolid), salicylates, selective serotonin reuptake inhibitors (SSRIs), sulfonamides, disopyramide, propoxyphene, quinidine, quinine, and ginseng. These drugs may increase the risk of hypoglycemia by enhancing insulin sensitivity (ACE inhibitors, ARBs, fibrates, ginseng); stimulating insulin secretion (salicylates, disopyramide, pentoxifylline, propoxyphene, quinidine, quinine, MAOIs, ginseng); decreasing insulin clearance and resistance (4-aminoquinolines); increasing peripheral glucose utilization (SSRIs, insulin-like growth factor); inhibiting gluconeogenesis (SSRIs, MAOIs, insulin-like growth factor); slowing the rate of gastric emptying (amylin analogs); and/or suppressing postprandial glucagon secretion (amylin analogs). Clinical hypoglycemia has been reported during use of some of these agents alone or with insulin and/or insulin secretagogues. Management: Close monitoring for the development of hypoglycemia is recommended if these drugs are coadministered with insulin, particularly in patients with advanced age and/or renal impairment. The insulin dosage may require adjustment if an interaction is suspected. Patients should be apprised of the signs and symptoms of hypoglycemia (e.g., headache, dizziness, drowsiness, nausea, hunger, tremor, weakness, sweating, palpitations)."
+  },
+  "izorlisib::losartan": null,
+  "capivasertib::losartan": null,
+  "lapatinib::losartan": null,
+  "dexamethasone::izorlisib": null,
+  "capivasertib::dexamethasone": null,
+  "dexamethasone::lapatinib": {
+    "severity": "Moderate",
+    "mechanism": "Coadministration with potent inducers of CYP450 3A4 may significantly decrease the plasma concentrations of lapatinib, which is primarily metabolized by the isoenzyme. Management: The use of lapatinib in combination with potent CYP450 3A4 inducers such as carbamazepine, dexamethasone, phenobarbital, phenytoin, rifamycins, and St. John's wort should generally be avoided."
+  },
+  "dexamethasone::palbociclib": {
+    "severity": "Moderate",
+    "mechanism": "Coadministration with inducers of CYP450 3A4 may decrease the plasma concentrations of palbociclib, which is a substrate of the isoenzyme. Management: The potential for diminished therapeutic effects of palbociclib should be considered when prescribed with inducers of CYP450 3A4. Pharmacologic effects of palbociclib should be monitored more closely whenever an inducer is added to or withdrawn from therapy, and alternative treatment considered if an interaction is suspected."
+  },
+  "insulin glargine::izorlisib": null,
+  "capivasertib::insulin glargine": null,
+  "insulin glargine::lapatinib": null,
+  "insulin glargine::palbociclib": null,
+  "capivasertib::izorlisib": null,
+  "izorlisib::lapatinib": null,
+  "izorlisib::palbociclib": null,
+  "capivasertib::lapatinib": null,
+  "lapatinib::palbociclib": {
+    "severity": "Moderate",
+    "mechanism": "Coadministration with inhibitors of CYP450 3A4 may increase the plasma concentrations of palbociclib, which is a substrate of the isoenzyme. Management: Caution is advised when palbociclib is used with CYP450 3A4 inhibitors. Dosage adjustment for palbociclib is not generally considered necessary for suspected interactions with mild to moderate inhibitors. However, patients should be monitored for increased adverse effects such as infections, neutropenia, leucopenia, anemia, thrombocytopenia, anorexia, nausea, vomiting, diarrhea, stomatitis, alopecia, asthenia, peripheral neuropathy, and epistaxis."
+  },
+  "cisplatin::dexamethasone": {
+    "severity": "Moderate",
+    "mechanism": "The concomitant use of corticosteroids and agents that deplete potassium (e.g., potassium-wasting diuretics, amphotericin B, cation exchange resins) may result in increased risk of hypokalemia. Corticosteroids can produce hypokalemia and other electrolyte disturbances via mineralocorticoid effects, the degree of which varies with the agent and route of administration (i.e. systemic vs. local). Management: Patients receiving potassium-depleting agents with corticosteroids should be monitored closely for development of hypokalemia, particularly if fludrocortisone or large doses of another corticosteroid or adrenocorticotropic agent is given. Potassium supplementation may be necessary. Patients should be advised to notify their physician if they experience signs of electrolyte disturbances such as weakness, lethargy, and muscle pains or cramps."
+  },
+  "alisertib::dexamethasone": null,
+  "cisplatin::insulin glargine": null,
+  "alisertib::insulin glargine": null,
+  "cisplatin::oxycodone": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "alisertib::oxycodone": null,
+  "cisplatin::senna": null,
+  "alisertib::senna": null,
+  "apixaban::oxycodone": null,
+  "metoprolol::oxycodone": {
+    "severity": "Moderate",
+    "mechanism": "Many psychotherapeutic and CNS-active agents (e.g., anxiolytics, sedatives, hypnotics, antidepressants, antipsychotics, opioids, alcohol, muscle relaxants) exhibit hypotensive effects, especially during initiation of therapy and dose escalation. Coadministration with antihypertensives and other hypotensive agents, in particular vasodilators and alpha-blockers, may result in additive effects on blood pressure and orthostasis. Management: Caution and close monitoring for development of hypotension is advised during coadministration of these agents. Avoid alcohol in patients receiving vasodilating antihypertensive drugs. Patients should be advised to avoid rising abruptly from a sitting or recumbent position and to notify their physician if they experience dizziness, lightheadedness, syncope, orthostasis, or tachycardia."
+  },
+  "apixaban::senna": null,
+  "metoprolol::senna": null,
+  "alvimopan::apixaban": null,
+  "alvimopan::metoprolol": null,
+  "dexamethasone::ondansetron": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "dexamethasone::prochlorperazine": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "insulin glargine::ondansetron": null,
+  "insulin glargine::prochlorperazine": {
+    "severity": "Moderate",
+    "mechanism": "The efficacy of insulin and other antidiabetic agents may be diminished by certain drugs, including atypical antipsychotics, corticosteroids, diuretics, estrogens, gonadotropin-releasing hormone agonists, human growth hormone, phenothiazines, progestins, protease inhibitors, sympathomimetic amines, thyroid hormones, L-asparaginase, alpelisib, copanlisib, danazol, diazoxide, isoniazid, megestrol, omacetaxine, phenytoin, tagraxofusp, temsirolimus, as well as pharmacologic dosages of nicotinic acid and adrenocorticotropic agents. These drugs may interfere with blood glucose control because they can cause hyperglycemia, glucose intolerance, new-onset diabetes mellitus, and/or exacerbation of preexisting diabetes. Management: Close clinical monitoring of glycemic control is recommended following initiation or discontinuation of these drugs, and the dosages of concomitant antidiabetic agents adjusted as necessary. Patients should be advised to notify their physician if their blood glucose is consistently high or if they experience symptoms of severe hyperglycemia such as excessive thirst and increases in the volume or frequency of urination."
+  },
+  "allopurinol::apixaban": null,
+  "allopurinol::metoprolol": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "dexamethasone::levothyroxine": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "insulin glargine::levothyroxine": {
+    "severity": "Moderate",
+    "mechanism": "The efficacy of insulin and other antidiabetic agents may be diminished by certain drugs, including atypical antipsychotics, corticosteroids, diuretics, estrogens, gonadotropin-releasing hormone agonists, human growth hormone, phenothiazines, progestins, protease inhibitors, sympathomimetic amines, thyroid hormones, L-asparaginase, alpelisib, copanlisib, danazol, diazoxide, isoniazid, megestrol, omacetaxine, phenytoin, tagraxofusp, temsirolimus, as well as pharmacologic dosages of nicotinic acid and adrenocorticotropic agents. These drugs may interfere with blood glucose control because they can cause hyperglycemia, glucose intolerance, new-onset diabetes mellitus, and/or exacerbation of preexisting diabetes. Management: Close clinical monitoring of glycemic control is recommended following initiation or discontinuation of these drugs, and the dosages of concomitant antidiabetic agents adjusted as necessary. Patients should be advised to notify their physician if their blood glucose is consistently high or if they experience symptoms of severe hyperglycemia such as excessive thirst and increases in the volume or frequency of urination."
+  },
+  "capivasertib::levothyroxine": null,
+  "dasatinib::nilotinib": {
+    "severity": "Major",
+    "mechanism": "Nilotinib can cause concentration-dependent prolongation of the QT interval. Theoretically, coadministration with other agents that can prolong the QT interval may result in additive effects and increased risk of ventricular arrhythmias including torsade de pointes and sudden death. Management: Coadministration of nilotinib with other drugs that can prolong the QT interval should generally be avoided. Should treatment with other QT-prolonging drugs be required, the manufacturer recommends that nilotinib therapy be withheld temporarily. Caution and clinical monitoring are recommended if concomitant use is unavoidable. Patients should have frequent ECGs and be monitored for arrhythmias when QT interval is prolonged."
+  },
+  "imatinib::nilotinib": {
+    "severity": "Moderate",
+    "mechanism": "Coadministration with inhibitors of CYP450 3A4 and/or P-glycoprotein may increase the plasma concentrations of nilotinib, which is a substrate of both the isoenzyme and the efflux transporter. Data are not available for nilotinib in combination with other CYP450 3A4 or P-glycoprotein inhibitors. Theoretically, a reverse interaction may also occur, since many CYP450 3A4 and P-glycoprotein inhibitors are also substrates, and nilotinib is an inhibitor of both. Management: Caution is advised if nilotinib is prescribed in combination with CYP450 3A4 and/or P-glycoprotein inhibitors. Pharmacologic response to nilotinib should be monitored more closely whenever a CYP450 3A4 or P-glycoprotein inhibitor is added to or withdrawn from therapy, and the nilotinib dosage adjusted as necessary. Patients should have frequent ECGs and be monitored for arrhythmias when QT interval is prolonged. A QTc interval exceeding 480 msec will require suspension of nilotinib therapy and immediate action to correct any concomitant risk factors before resuming treatment. Patients should be advised to seek prompt medical attention if they experience symptoms that could indicate the occurrence of torsade de pointes such as dizziness, lightheadedness, fainting, palpitation, irregular heart rhythm, shortness of breath, or syncope. Patients should also be monitored for altered efficacy and safety of the concomitant administered drug."
+  },
+  "dasatinib::imatinib": {
+    "severity": "Moderate",
+    "mechanism": "Coadministration with inhibitors of CYP450 3A4 may increase the plasma concentrations and pharmacologic effects of dasatinib, which is primarily metabolized by the isoenzyme. Management: Caution is advised if dasatinib is used in combination with moderate CYP450 3A4 inhibitors. Close monitoring for toxicity (e.g., myelosuppression, bleeding complications, fluid retention) is recommended, and the dasatinib dosage adjusted as necessary. Patients should also be monitored for altered efficacy and safety of the concomitant administered drug."
+  },
+  "apixaban::zoledronic acid": null,
+  "apixaban::mercaptopurine": null,
+  "apixaban::ivosidenib": {
+    "severity": "Moderate",
+    "mechanism": "Coadministration with inducers of CYP450 3A4 and/or P-glycoprotein (P-gp) may decrease the plasma concentrations of apixaban, which is a substrate of both the isoenzyme and the efflux transporter. Management: The potential for diminished pharmacologic effects of apixaban should be considered during coadministration with inducers of CYP450 3A4 and/or P-gp. Alternative treatments may be required if an interaction is suspected."
+  },
+  "apixaban::bptes": null,
+  "apixaban::gsk321": null,
+  "metoprolol::zoledronic acid": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "mercaptopurine::metoprolol": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "ivosidenib::metoprolol": null,
+  "bptes::metoprolol": null,
+  "gsk321::metoprolol": null,
+  "mercaptopurine::zoledronic acid": null,
+  "ivosidenib::zoledronic acid": null,
+  "bptes::zoledronic acid": null,
+  "gsk321::zoledronic acid": null,
+  "ivosidenib::mercaptopurine": null,
+  "bptes::mercaptopurine": null,
+  "gsk321::mercaptopurine": null,
+  "bptes::ivosidenib": null,
+  "gsk321::ivosidenib": null,
+  "bptes::gsk321": null,
+  "dexamethasone::gabapentin": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "gabapentin::insulin glargine": null,
+  "ondansetron::sertraline": {
+    "severity": "Major",
+    "mechanism": "Concomitant use of 5-HT3 receptor antagonists with agents that possess or enhance serotonergic activity such as selective serotonin reuptake inhibitors (SSRIs) may potentiate the risk of serotonin syndrome, which is a rare but serious and potentially fatal condition thought to result from hyperstimulation of brainstem 5-HT1A and 2A receptors. Treatment with 5-HT3 receptor antagonists has been associated with dose-dependent prolongation of the QT interval. Theoretically, coadministration with other agents that can prolong the QT interval including some SSRIs may result in additive effects and increased risk of ventricular arrhythmias such as torsade de pointes and sudden death. Management: Caution is advised if 5-HT3 receptor antagonists are prescribed in combination with SSRIs. Patients should be closely monitored for symptoms of the serotonin syndrome during treatment. Particular caution is warranted when initiating or increasing the dosages of these agents. The potential risk for serotonin syndrome should be considered even when administering serotonergic agents sequentially, as some agents may demonstrate a prolonged elimination half-life. For example, a 5-week washout period is typically recommended following use of fluoxetine before administering another serotonergic agent. If serotonin syndrome develops or is suspected during the course of therapy, all serotonergic agents should be discontinued immediately and supportive care rendered as necessary. Moderately ill patients may also benefit from the administration of a serotonin antagonist (e.g., cyproheptadine, chlorpromazine). Severe cases should be managed under consultation with a toxicologist and may require sedation, neuromuscular paralysis, intubation, and mechanical ventilation in addition to the other measures."
+  },
+  "apitolisib::ondansetron": null,
+  "prochlorperazine::sertraline": {
+    "severity": "Moderate",
+    "mechanism": "Theoretically, concurrent use of two or more drugs that can cause QT interval prolongation may result in additive effects and increased risk of ventricular arrhythmias including torsade de pointes and sudden death. The risk of an individual agent or a combination of these agents causing ventricular arrhythmia in association with QT prolongation is largely unpredictable but may be increased by certain underlying risk factors such as congenital long QT syndrome, cardiac disease, and electrolyte disturbances. Management: Caution and clinical monitoring are recommended. Patients should be advised to seek prompt medical attention if they experience symptoms that could indicate the occurrence of torsade de pointes such as dizziness, lightheadedness, fainting, palpitation, irregular heart rhythm, shortness of breath, or syncope."
+  },
+  "apitolisib::prochlorperazine": null,
+  "apitolisib::sertraline": null,
+  "mocetinostat::ondansetron": null,
+  "ondansetron::vorinostat": null,
+  "mocetinostat::prochlorperazine": null,
+  "prochlorperazine::vorinostat": null,
+  "lisinopril::mocetinostat": null,
+  "lisinopril::vorinostat": null,
+  "atorvastatin::mocetinostat": null,
+  "atorvastatin::vorinostat": null,
+  "mocetinostat::vorinostat": null,
+  "aspirin::oxitriptan": null,
+  "atorvastatin::oxitriptan": null,
+  "divarasib::levothyroxine": null,
+  "ars-853::levothyroxine": null,
+  "epidermal growth factor receptor tyrosine kinase inhibitor::levothyroxine": null,
+  "ars-853::divarasib": null,
+  "divarasib::epidermal growth factor receptor tyrosine kinase inhibitor": null,
+  "levothyroxine::sertraline": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "levothyroxine::mazindol": {
+    "severity": "Moderate",
+    "mechanism": "The concomitant use of thyroid hormones, especially large doses, with sympathomimetic drugs may potentiate sympathomimetic effects and increase the risk of cardiac insufficiency in patients who have coronary artery disease. Management: Monitoring for increased sympathomimetic effects and cardiac function may be advisable."
+  },
+  "mazindol::sertraline": {
+    "severity": "Major",
+    "mechanism": "Serotonin reuptake inhibitors may potentiate the pharmacologic response to sympathomimetic agents. Management: In general, amphetamines and other sympathomimetic appetite suppressants should not be combined with selective serotonin reuptake inhibitors (SSRIs) or serotonin-norepinephrine reuptake inhibitors (SNRIs). Close monitoring for enhanced sympathomimetic effects and possible serotonin syndrome is recommended if these agents must be used together."
+  },
+  "apixaban::dextran (-1)": {
+    "severity": "Major",
+    "mechanism": "Concomitant use of apixaban with other agents that alter hemostasis such as aspirin, nonsteroidal anti-inflammatory drugs (NSAIDs), platelet aggregation inhibitors, other anticoagulants, thrombolytic agents, or drugs that cause thrombocytopenia may increase the risk of bleeding. In patients receiving neuraxial anesthesia or spinal puncture, the risk of developing an epidural or spinal hematoma during apixaban therapy may also be increased by the concomitant use of other drugs that affect coagulation. The development of epidural and spinal hematoma can lead to long-term neurological injury or permanent paralysis. Management: Caution is recommended if apixaban must be used with other agents that alter hemostasis. Patients should be monitored for increased anticoagulant effects and bleeding complications. In patients undergoing neuraxial intervention, coadministration of these agents should be approached with caution and only after thorough assessment of risks and benefits. Besides bleeding complications, patients should also be monitored frequently for signs and symptoms of neurologic impairment such as midline back pain, sensory and motor deficits (numbness or weakness in lower limbs), and bowel or bladder dysfunction."
+  },
+  "dextran (-1)::metoprolol": null,
+  "allopurinol::ondansetron": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "allopurinol::prochlorperazine": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "allopurinol::oxitriptan": null,
+  "apixaban::celecoxib": {
+    "severity": "Moderate",
+    "mechanism": "Anticoagulants, antiplatelet agents, and thrombolytics may potentiate the risk of gastrointestinal bleeding complications associated with the use of nonsteroidal anti-inflammatory drugs (NSAIDs) including COX-2 inhibitors. Management: Although COX-2 inhibitors are often preferred over traditional, nonselective NSAIDs in patients who have increased risk for gastrointestinal toxicity, caution is advised during coadministration with anticoagulants or antiplatelet agents. Gastroprotective agents such as H2-receptor antagonists or proton pump inhibitors may be appropriate in high risk patients."
+  },
+  "celecoxib::metoprolol": {
+    "severity": "Moderate",
+    "mechanism": "Coadministration with celecoxib may increase the plasma concentrations of metoprolol. The mechanism is celecoxib inhibition of metoprolol metabolism via CYP450 2D6. Management: Although metoprolol has a wide therapeutic range, caution is advised during coadministration with celecoxib because hemodynamic effects of metoprolol may be related to plasma concentration. Patients should be monitored for increased pharmacologic effects that may result in bradycardia or hypotension."
+  },
+  "phenytoin::zoledronic acid": null,
+  "sertraline::trastuzumab deruxtecan": null,
+  "afatinib::sertraline": null,
+  "dacomitinib::sertraline": null,
+  "metformin::trastuzumab deruxtecan": null,
+  "afatinib::metformin": null,
+  "dacomitinib::metformin": null,
+  "losartan::trastuzumab deruxtecan": null,
+  "afatinib::losartan": null,
+  "dacomitinib::losartan": null,
+  "afatinib::trastuzumab deruxtecan": null,
+  "dacomitinib::trastuzumab deruxtecan": null,
+  "afatinib::dacomitinib": null,
+  "camonsertib::lunresertib": null,
+  "capivasertib::gabapentin": null,
+  "capecitabine::metformin": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "capecitabine::losartan": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "metformin::omeprazole": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "losartan::omeprazole": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "lisinopril::potassium acetate": {
+    "severity": "Major",
+    "mechanism": "Concomitant use of angiotensin converting enzyme (ACE) inhibitors and potassium salts may increase the risk of hyperkalemia. Inhibition of ACE results in decreased aldosterone secretion, which in turn causes potassium retention. Management: Caution is advised if ACE inhibitors must be used concurrently with potassium salts, particularly in patients with renal impairment, diabetes, old age, severe or worsening heart failure, dehydration, or concomitant therapy with other agents that increase serum potassium such as nonsteroidal anti-inflammatory drugs, beta-blockers, cyclosporine, heparin, tacrolimus, trimethoprim, and licorice. The combination should generally be avoided in these patients unless absolutely necessary and the benefits outweigh the potential risks. Serum potassium and renal function should be checked prior to initiating therapy and regularly thereafter. Patients should be given counseling on the appropriate levels of potassium and fluid intake, and advised to seek medical attention if they experience signs and symptoms of hyperkalemia such as nausea, vomiting, weakness, listlessness, tingling of the extremities, paralysis, confusion, weak pulse, and a slow or irregular heartbeat."
+  },
+  "atorvastatin::potassium acetate": null,
+  "dactolisib::potassium acetate": null,
+  "potassium acetate::selumetinib": null,
+  "apixaban::gefitinib": null,
+  "gefitinib::metoprolol": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "erlotinib::gefitinib": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "apitolisib::lisinopril": null,
+  "apitolisib::atorvastatin": null,
+  "dexamethasone::voriconazole": {
+    "severity": "Moderate",
+    "mechanism": "Coadministration with inhibitors of CYP450 3A4 may increase the plasma concentrations and pharmacologic effects of corticosteroids, which are primarily metabolized by the isoenzyme. The interaction has been reported with potent inhibitors such as clarithromycin, erythromycin, itraconazole, nefazodone, cobicistat, and ritonavir during concomitant use of various corticosteroids, including inhaled, nasal, and ophthalmic formulations. Systemic corticosteroid adverse effects may occur following intensive or long-term continuous ophthalmic corticosteroid therapy. Cushing's syndrome and adrenal insufficiency have been attributed to the interaction. Management: The possibility of increased corticosteroid effects should be considered during coadministration with potent and moderate CYP450 3A4 inhibitors. When indicated for intranasal or inhalational use, alternative corticosteroids such as beclomethasone, which is less dependent on CYP450 3A4 metabolism, should be considered, particularly if long term treatment is required. Patients should be monitored for signs and symptoms of hypercorticism such as acne, striae, thinning of the skin, easy bruising, moon facies, dorsocervical \"buffalo\" hump, truncal obesity, increased appetite, acute weight gain, edema, hypertension, hirsutism, hyperhidrosis, proximal muscle wasting and weakness, glucose intolerance, exacerbation of preexisting diabetes, depression, and menstrual disorders. Other systemic glucocorticoid effects may include adrenal suppression, immunosuppression, posterior subcapsular cataracts, glaucoma, bone loss, and growth retardation in children and adolescents. Following extensive use with a potent CYP450 3A4 inhibitor, a progressive dosage reduction may be required over a longer period if the corticosteroid is to be withdrawn from therapy, as there may be a significant risk of adrenal suppression."
+  },
+  "insulin glargine::voriconazole": null,
+  "levothyroxine::voriconazole": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "levothyroxine::thioguanine": null,
+  "apixaban::dexamethasone": {
+    "severity": "Moderate",
+    "mechanism": "Coadministration with inducers of CYP450 3A4 and/or P-glycoprotein (P-gp) may decrease the plasma concentrations of apixaban, which is a substrate of both the isoenzyme and the efflux transporter. Management: The potential for diminished pharmacologic effects of apixaban should be considered during coadministration with inducers of CYP450 3A4 and/or P-gp. Alternative treatments may be required if an interaction is suspected."
+  },
+  "dexamethasone::metoprolol": {
+    "severity": "Moderate",
+    "mechanism": "Corticosteroids may antagonize the effects of antihypertensive medications by inducing sodium and fluid retention. These effects may be more common with the natural corticosteroids (cortisone, hydrocortisone) because they have greater mineralocorticoid activity. Conversely, some calcium channel blockers such as diltiazem and verapamil may increase corticosteroid plasma levels and effects by inhibiting their clearance via CYP450 3A4 metabolism. Management: Patients on prolonged (i.e., longer than about a week) or high-dose corticosteroid therapy should have blood pressure, electrolyte levels, and body weight monitored regularly, and be observed for the development of edema and congestive heart failure. The dosages of antihypertensive medications may require adjustment."
+  },
+  "apixaban::insulin glargine": null,
+  "insulin glargine::metoprolol": {
+    "severity": "Moderate",
+    "mechanism": "Beta-blockers may inhibit some of the normal physiologic response to hypoglycemia. Symptoms of hypoglycemia such as tremor and tachycardia may be absent, making it more difficult for patients to recognize an oncoming episode. Specifically, inhibition of catecholamine-mediated glycogenolysis and glucose mobilization in association with beta-blockade can potentiate insulin-induced hypoglycemia in diabetics and delay the recovery of normal blood glucose levels. Prolonged and severe hypoglycemia may occur, although these events have rarely been reported. Significant increases in blood pressure and bradycardia can also occur during hypoglycemia in diabetics treated with insulin and beta-blockers due to antagonism of epinephrine's effect on beta-2 adrenergic receptors, which leads to unopposed alpha-adrenergic effects including vasoconstriction. Other effects reported with various beta-blockers include decreased glucose tolerance and decreased glucose-induced insulin secretion. Management: In general, cardioselective beta-blockers are considered safer than noncardioselective agents in the treatment of diabetic patients. Patients should be advised of the need for regular blood glucose monitoring and be aware that certain symptoms of hypoglycemia such as tremor and tachycardia may be masked. However, other symptoms such as headache, dizziness, drowsiness, confusion, nausea, hunger, weakness, and perspiration may be unaffected."
+  },
+  "allopurinol::dexamethasone": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "allopurinol::insulin glargine": null,
+  "akt inhibitor mk2206::metformin": null,
+  "metformin::selumetinib": null,
+  "dactolisib::metformin": null,
+  "akt inhibitor mk2206::losartan": null,
+  "losartan::selumetinib": null,
+  "dactolisib::losartan": null,
+  "akt inhibitor mk2206::dexamethasone": null,
+  "dexamethasone::selumetinib": {
+    "severity": "Major",
+    "mechanism": "Coadministration with potent or moderate inducers of CYP450 3A4 may decrease the plasma concentrations of selumetinib, which is primarily metabolized by CYP450 3A4 and to a lesser extent by CYP450 2C19, 1A2, 2C9, 2E1, and 3A5. Selumetinib also undergoes glucuronidation by UGT1A1 and UGT1A3. Management: Concomitant use of selumetinib with potent or moderate CYP450 3A4 inducers should generally be avoided."
+  },
+  "dactolisib::dexamethasone": null,
+  "akt inhibitor mk2206::insulin glargine": null,
+  "insulin glargine::selumetinib": null,
+  "dactolisib::insulin glargine": null,
+  "abciximab::warfarin": {
+    "severity": "Major",
+    "mechanism": "The risk of bleeding, including major bleeding (intracranial hemorrhage or a decrease in hemoglobin greater than 5 mg/dl) is significantly more likely when oral anticoagulants and glycoprotein IIb/IIIa inhibitors are given together. Management: Some manufacturers of GP IIb/IIIa inhibitors consider their use contraindicated if patients have received oral anticoagulants within 7 days unless the prothrombin time is less than or equal to 1.2 times control. Bleeding precautions should be observed and patients should be closely monitored for clinical and laboratory evidence of adverse effects."
+  },
+  "allopurinol::sertraline": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "aspirin::zoledronic acid": {
+    "severity": "Moderate",
+    "mechanism": "Theoretical concerns exist regarding the potential for increased risk and severity of gastrointestinal toxicity during coadministration of oral bisphosphonates and nonsteroidal anti-inflammatory drugs (NSAIDs) due to additive or synergistic irritant effects on the gastrointestinal mucosa. Because NSAIDs reduce the rate of ulcer healing in the stomach and duodenum, it is also possible that NSAIDs may delay healing and exaggerate the mucosal injury caused by oral bisphosphonates. Theoretical concerns exist regarding the potential for increased risk and severity of renal impairment during coadministration of bisphosphonates with high dosages or chronic use of NSAIDs due to additive or synergistic nephrotoxic effects on the kidney. The use of bisphosphonates has been associated with nephrotoxicity manifested as deterioration of renal function and renal failure. Cases have primarily involved intravenous formulations of the drugs such as pamidronic acid and zoledronic acid, especially when they are administered too rapidly. The risk of hypocalcemia may also be increased, as drug-induced renal tubular damage can lead to renal loss of calcium and other electrolytes such as magnesium. Bisphosphonates alone often cause mild, asymptomatic hypocalcemia via inhibitive effects on bone resorption and possibly chelation of blood calcium. Chronic use of nonsteroidal anti-inflammatory drugs (NSAIDs) may be associated with renal toxicities including elevations in serum creatinine and BUN, tubular necrosis, glomerulitis, renal papillary necrosis, acute interstitial nephritis, nephrotic syndrome, and renal failure. Management: Caution is advised if bisphosphonates are prescribed in combination with NSAIDs. Patients receiving oral bisphosphonates should be closely monitored for the development of gastrointestinal toxicity and advised to immediately report potential signs and symptoms such as severe abdominal pain, nausea, vomiting, diarrhea, loss of appetite, dizziness, lightheadedness, and/or black, tarry stools. Patients receiving intravenous formulations of bisphosphonates should have renal function and serum electrolytes closely monitored."
+  },
+  "atorvastatin::zoledronic acid": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "aspirin::omeprazole": {
+    "severity": "Minor",
+    "mechanism": "Coadministration with proton pump inhibitors may decrease the oral bioavailability of aspirin and other salicylates. Proton pump inhibitors may enhance the release rate of salicylates from enteric-coated formulations due to premature disruption of the coating and intragastric release of the drug secondary to an increase in gastric pH. The clinical significance of this interaction is unknown. Theoretically, it may increase the risk of gastric adverse effects associated with salicylates."
+  },
+  "atorvastatin::omeprazole": {
+    "severity": "Moderate",
+    "mechanism": "A case report suggests that coadministration with esomeprazole may increase the plasma concentrations of atorvastatin and the associated risk of myopathy. The proposed mechanism is competitive inhibition of intestinal P-glycoprotein, resulting in decreased drug secretion into the intestinal lumen and increased drug bioavailability. Another, perhaps minor mechanism is competitive inhibition of CYP450 3A4 metabolism. Management: Because of the increased risk of musculoskeletal toxicity associated with high levels of HMG-CoA reductase inhibitory activity in plasma, patients treated with atorvastatin, lovastatin, simvastatin, and red yeast rice (which contains lovastatin) should be monitored more closely during concomitant use of proton pump inhibitors. All patients treated with HMG-CoA reductase inhibitors should be advised to promptly report to their physician any unexplained muscle pain, tenderness, or weakness, particularly if accompanied by malaise or fever. Therapy should be discontinued if creatine kinase is markedly elevated or if myopathy is suspected or diagnosed."
+  },
+  "omeprazole::velpatasvir": {
+    "severity": "Major",
+    "mechanism": "Coadministration of velpatasvir with proton pump inhibitors may reduce its gastrointestinal absorption. Velpatasvir exhibits pH-dependent solubility, with increased solubility at lower pH. Management: Concomitant use of sofosbuvir-velpatasvir with proton-pump inhibitors should generally be avoided. If coadministration is required, sofosbuvir-velpatasvir should be administered with food and taken 4 hours before the proton-pump inhibitor at a maximum daily dose equivalent to omeprazole 20 mg. Use with other proton-pump inhibitors has not been studied."
+  },
+  "aspirin::velpatasvir": null,
+  "atorvastatin::velpatasvir": {
+    "severity": "Moderate",
+    "mechanism": "Coadministration with velpatasvir may increase the plasma concentrations of the HMG-CoA reductase inhibitors atorvastatin and simvastatin. The proposed mechanism has not been delineated but may involve velpatasvir inhibition of the hepatic uptake transporter organic anion transporting polypeptide 1B (OATP1B), and the efflux transporters P-glycoprotein (P-gp), and/or breast cancer resistance protein (BCRP), of which atorvastatin and simvastatin are substrates. The interaction has not been studied specifically with all statins; data are currently available for rosuvastatin. Management: The lowest dose of atorvastatin or simvastatin should be used when prescribed with sofosbuvir-velpatasvir, and the dosage titrated cautiously. Pravastatin may be considered as a substitute. All patients receiving statin therapy should be advised to promptly report any unexplained muscle pain, tenderness, or weakness, particularly if accompanied by fever, malaise, and/or dark colored urine. Therapy should be discontinued if creatine kinase is markedly elevated in the absence of strenuous exercise or if myopathy is otherwise suspected or diagnosed."
+  },
+  "aspirin::metformin": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "aspirin::losartan": {
+    "severity": "Moderate",
+    "mechanism": "Nonsteroidal anti-inflammatory drugs (NSAIDs) may attenuate the antihypertensive effects of angiotensin II receptor antagonists. The proposed mechanism is NSAID-induced inhibition of renal prostaglandin synthesis, which results in unopposed pressor activity producing hypertension. In addition, NSAIDs can cause fluid retention, which also affects blood pressure. Concomitant use of NSAIDs and angiotensin II receptor antagonists may cause deterioration in renal function, particularly in patients who are elderly or volume-depleted (including those on diuretic therapy) or have compromised renal function. Management: Patients receiving angiotensin II receptor antagonists who require prolonged (greater than 1 week) concomitant therapy with an NSAID should have blood pressure monitored more closely following initiation, discontinuation, or change of dosage of the NSAID. Renal function should also be evaluated periodically during prolonged coadministration. The interaction is not expected to occur with low doses (e.g., low-dose aspirin) or intermittent short-term administration of NSAIDs."
+  },
+  "aspirin::cisplatin": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "alisertib::aspirin": null,
+  "atorvastatin::metformin": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "atorvastatin::losartan": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "atorvastatin::cisplatin": {
+    "severity": "Moderate",
+    "mechanism": "The risk of peripheral neuropathy may be increased during concurrent use of two or more agents that are associated with this adverse effect. Patient risk factors include diabetes and age older than 60 years. Management: Patients should be monitored closely for symptoms of neuropathy such as burning, tingling, pain, or numbness in the hands and feet. Since the development of peripheral neuropathy may be dose-related for many drugs, the recommended dosages should generally not be exceeded. Consideration should be given to dosage reduction or immediate discontinuation of these medications in patients who develop peripheral neuropathy to limit further damage."
+  },
+  "alisertib::atorvastatin": null,
+  "cisplatin::metformin": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "alisertib::metformin": null,
+  "cisplatin::losartan": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "alisertib::losartan": null,
+  "dexamethasone::dextran (-1)": null,
+  "dextran (-1)::insulin glargine": null,
+  "aspirin::sertraline": {
+    "severity": "Moderate",
+    "mechanism": "Serotonin reuptake inhibitors (SRIs) may potentiate the risk of bleeding in patients treated with ulcerogenic agents and agents that affect hemostasis such as anticoagulants, platelet inhibitors, thrombin inhibitors, thrombolytic agents, or agents that commonly cause thrombocytopenia. The tricyclic antidepressant, clomipramine, is also a strong SRI and may interact similarly. Serotonin release by platelets plays an important role in hemostasis, thus SRIs may alter platelet function and induce bleeding. Management: Caution is advised if SRIs or clomipramine are used in combination with other drugs that affect hemostasis. Close clinical and laboratory observation for hematologic complications is recommended. Patients should be advised to promptly report any signs of bleeding to their physician, including pain, swelling, headache, dizziness, weakness, prolonged bleeding from cuts, increased menstrual flow, vaginal bleeding, nosebleeds, bleeding of gums from brushing, unusual bleeding or bruising, red or brown urine, or red or black stools."
+  },
+  "dexamethasone::flurbiprofen": {
+    "severity": "Moderate",
+    "mechanism": "The combined use of corticosteroids and nonsteroidal anti-inflammatory drugs (NSAIDs) may increase the potential for serious gastrointestinal (GI) toxicity, including inflammation, bleeding, ulceration, and perforation. Management: Caution is advised if corticosteroids and NSAIDs are used together, especially in patients with a prior history of peptic ulcer disease or GI bleeding and in elderly and debilitated patients. During concomitant therapy, patients should be advised to take the medications with food and to immediately report signs and symptoms of GI ulceration and bleeding such as severe abdominal pain, dizziness, lightheadedness, and the appearance of black, tarry stools. The selective use of prophylactic anti-ulcer therapy (e.g., antacids, H2-antagonists) may be considered."
+  },
+  "flurbiprofen::insulin glargine": null,
+  "apixaban::flurbiprofen": {
+    "severity": "Major",
+    "mechanism": "Concomitant use of apixaban with other agents that alter hemostasis such as aspirin, nonsteroidal anti-inflammatory drugs (NSAIDs), platelet aggregation inhibitors, other anticoagulants, thrombolytic agents, or drugs that cause thrombocytopenia may increase the risk of bleeding. In patients receiving neuraxial anesthesia or spinal puncture, the risk of developing an epidural or spinal hematoma during apixaban therapy may also be increased by the concomitant use of other drugs that affect coagulation. The development of epidural and spinal hematoma can lead to long-term neurological injury or permanent paralysis. Management: Caution is recommended if apixaban must be used with other agents that alter hemostasis. Patients should be monitored for increased anticoagulant effects and bleeding complications. In patients undergoing neuraxial intervention, coadministration of these agents should be approached with caution and only after thorough assessment of risks and benefits. Besides bleeding complications, patients should also be monitored frequently for signs and symptoms of neurologic impairment such as midline back pain, sensory and motor deficits (numbness or weakness in lower limbs), and bowel or bladder dysfunction."
+  },
+  "flurbiprofen::metoprolol": {
+    "severity": "Moderate",
+    "mechanism": "Nonsteroidal anti-inflammatory drugs (NSAIDs) may attenuate the antihypertensive effect of beta-blockers. The proposed mechanism is NSAID-induced inhibition of renal prostaglandin synthesis, which results in unopposed pressor activity producing hypertension. In addition, NSAIDs can cause fluid retention, which also affects blood pressure. Indomethacin and piroxicam have been reported to have greater attenuating effects than other NSAIDs, and indomethacin effects may be significant in patients with eclampsia. Management: Patients receiving a beta-blocker who require prolonged (greater than 1 week) concomitant therapy with an NSAID should have blood pressure monitored more closely following initiation, discontinuation, or change of dosage of the NSAID. The interaction is not expected to occur with low doses (e.g., low-dose aspirin) or intermittent short-term administration of NSAIDs."
+  },
+  "gabapentin::ondansetron": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "gabapentin::prochlorperazine": {
+    "severity": "Moderate",
+    "mechanism": "Central nervous system- and/or respiratory-depressant effects may be additively or synergistically increased in patients taking multiple drugs that cause these effects, especially in elderly or debilitated patients. Management: During concomitant use of these drugs, patients should be monitored for potentially excessive or prolonged CNS and respiratory depression. Cautious dosage titration may be required, particularly at treatment initiation. Ambulatory patients should be counseled to avoid hazardous activities requiring mental alertness and motor coordination."
+  },
+  "cisplatin::gabapentin": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "alisertib::gabapentin": null,
+  "cisplatin::ondansetron": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "alisertib::ondansetron": null,
+  "cisplatin::prochlorperazine": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "alisertib::prochlorperazine": null,
+  "dinaciclib::olaparib": null,
+  "dinaciclib::talazoparib": null,
+  "akt inhibitor mk2206::olaparib": null,
+  "akt inhibitor mk2206::talazoparib": null,
+  "lunresertib::olaparib": null,
+  "lunresertib::talazoparib": null,
+  "olaparib::talazoparib": {
+    "severity": "Moderate",
+    "mechanism": "Coadministration with other myelosuppressive agents may potentiate and prolong the bone marrow toxicity associated with olaparib. Myelodysplastic syndrome (MDS) and acute myeloid leukemia (AML) have been reported in patients treated with olaparib. Management: Caution is advised if olaparib is prescribed with other myelosuppressive agents. Complete blood counts should be performed at baseline and monthly thereafter. Do not start olaparib until patients have recovered from hematologic toxicity caused by previous chemotherapy."
+  },
+  "neratinib::ondansetron": null,
+  "afatinib::ondansetron": null,
+  "neratinib::prochlorperazine": null,
+  "afatinib::prochlorperazine": null,
+  "metformin::neratinib": null,
+  "losartan::neratinib": null,
+  "afatinib::neratinib": {
+    "severity": "Moderate",
+    "mechanism": "Coadministration with inhibitors of P-glycoprotein (P-gp) may increase the plasma concentrations of afatinib, which is a substrate of the efflux transporter. Management: Caution is advised if afatinib is used in combination with P-gp inhibitors. Patients should be monitored for potentially increased adverse effects such as diarrhea, which may lead to dehydration with or without renal impairment; cutaneous reactions including rash, erythema, and bullous, blistering, or exfoliating lesions; interstitial lung disease such as lung infiltration, pneumonitis, acute respiratory distress syndrome, and allergic alveolitis; hepatotoxicity, which may be life-threatening or fatal; keratitis characterized by acute or worsening eye inflammation, lacrimation, light sensitivity, blurred vision, eye pain, red eye, and/or ulceration; and left ventricular dysfunction. The manufacturer recommends reducing the daily dose of afatinib by 10 mg if not tolerated. The previous dose may be resumed after discontinuation of the P-gp inhibitor as tolerated."
+  },
+  "fosphenytoin::omeprazole": {
+    "severity": "Moderate",
+    "mechanism": "Omeprazole may increase phenytoin serum concentrations and the risk of toxicity. The proposed mechanism is decreased clearance due to omeprazole-mediated inhibition of CYP450 2C19. Omeprazole may interact in a similar manner with other hydantoins. The clinical significance is unknown; however, higher omeprazole doses (more than 40 mg/day) may be more likely to interact. Management: Clinical and laboratory monitoring may be appropriate whenever omeprazole is added to or withdrawn from therapy with phenytoin. Dosage adjustments may be considered if an interaction is suspected. Patients should be advised to notify their doctor if they experience symptoms of phenytoin toxicity (e.g., drowsiness, visual disturbances, change in mental status, seizures, nausea, or ataxia)."
+  },
+  "ondansetron::zoledronic acid": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "prochlorperazine::zoledronic acid": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "carboplatin::zoledronic acid": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "paclitaxel::zoledronic acid": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "sorafenib::zoledronic acid": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "carboplatin::ondansetron": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "ondansetron::paclitaxel": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "ondansetron::sorafenib": {
+    "severity": "Moderate",
+    "mechanism": "Sorafenib has the potential to prolong QT interval of the electrocardiogram. Theoretically, coadministration with other agents that can prolong the QT interval may result in additive effects and increased risk of ventricular arrhythmias including torsade de pointes and sudden death. Management: Caution is recommended if sorafenib is used in combination with cumulative high-dose anthracycline therapy or other drugs that can prolong the QT interval. ECG and serum electrolytes, including potassium, magnesium and calcium, should be monitored before starting sorafenib therapy and periodically during treatment. Patients should be advised to seek prompt medical attention if they experience symptoms that could indicate the occurrence of torsade de pointes such as dizziness, lightheadedness, fainting, palpitation, irregular heart rhythm, shortness of breath, or syncope."
+  },
+  "carboplatin::prochlorperazine": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "paclitaxel::prochlorperazine": {
+    "severity": "Unknown",
+    "mechanism": null
+  },
+  "prochlorperazine::sorafenib": {
+    "severity": "Moderate",
+    "mechanism": "Sorafenib has the potential to prolong QT interval of the electrocardiogram. Theoretically, coadministration with other agents that can prolong the QT interval may result in additive effects and increased risk of ventricular arrhythmias including torsade de pointes and sudden death. Management: Caution is recommended if sorafenib is used in combination with cumulative high-dose anthracycline therapy or other drugs that can prolong the QT interval. ECG and serum electrolytes, including potassium, magnesium and calcium, should be monitored before starting sorafenib therapy and periodically during treatment. Patients should be advised to seek prompt medical attention if they experience symptoms that could indicate the occurrence of torsade de pointes such as dizziness, lightheadedness, fainting, palpitation, irregular heart rhythm, shortness of breath, or syncope."
+  }
+}

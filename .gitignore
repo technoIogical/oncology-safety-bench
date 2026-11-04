@@ -1,0 +1,12 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+.env
+*.tmp
+.run.lock
+data/eval_dataset_150.v3.with_abstracts.json
+data/*.tmp
+results/

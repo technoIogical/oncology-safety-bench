@@ -1,0 +1,7073 @@
+{
+ "A01AA": {
+  "members": [
+   "9873",
+   "10030",
+   "2712235"
+  ],
+  "name": "Caries prophylactic agents",
+  "source": "ATC"
+ },
+ "A01AB": {
+  "members": [
+   "110",
+   "732",
+   "2358",
+   "2408",
+   "2623",
+   "3640",
+   "5301",
+   "5499",
+   "6922",
+   "6932",
+   "6980",
+   "7268",
+   "7299",
+   "7821",
+   "10395",
+   "23623",
+   "34188",
+   "36702",
+   "237141",
+   "2119240"
+  ],
+  "name": "Antiinfectives and antiseptics for local oral treatment",
+  "source": "ATC"
+ },
+ "A01AC": {
+  "members": [
+   "3264",
+   "5492",
+   "8638",
+   "10759"
+  ],
+  "name": "Corticosteroids for local oral treatment",
+  "source": "ATC"
+ },
+ "A01AD": {
+  "members": [
+   "1191",
+   "1425",
+   "3992",
+   "17073",
+   "46307",
+   "115238"
+  ],
+  "name": "Other agents for local oral treatment",
+  "source": "ATC"
+ },
+ "A02AA": {
+  "members": [
+   "6581",
+   "6582",
+   "29155",
+   "1310566",
+   "1666106"
+  ],
+  "name": "Magnesium compounds",
+  "source": "ATC"
+ },
+ "A02AB": {
+  "members": [
+   "612",
+   "17392",
+   "17618",
+   "23162"
+  ],
+  "name": "Aluminium compounds",
+  "source": "ATC"
+ },
+ "A02AC": {
+  "members": [
+   "1897",
+   "1311526"
+  ],
+  "name": "Calcium compounds",
+  "source": "ATC"
+ },
+ "A02AD": {
+  "members": [
+   "17614",
+   "27221",
+   "29151"
+  ],
+  "name": "Combinations and complexes of aluminium, calcium and magnesium compounds",
+  "source": "ATC"
+ },
+ "A02BA": {
+  "members": [
+   "2541",
+   "4278",
+   "9143",
+   "42319",
+   "114817"
+  ],
+  "name": "H2-receptor antagonists",
+  "source": "ATC"
+ },
+ "A02BB": {
+  "members": [
+   "42331"
+  ],
+  "name": "Prostaglandins",
+  "source": "ATC"
+ },
+ "A02BC": {
+  "members": [
+   "7646",
+   "17128",
+   "40790",
+   "114979",
+   "283742",
+   "816346",
+   "2604577"
+  ],
+  "name": "Proton pump inhibitors",
+  "source": "ATC"
+ },
+ "A02BD": {
+  "members": [],
+  "name": "Combinations for eradication of Helicobacter pylori",
+  "source": "ATC"
+ },
+ "A02BX": {
+  "members": [
+   "2017",
+   "8352",
+   "8730",
+   "10156",
+   "16784",
+   "17305",
+   "19477",
+   "47181",
+   "1362746"
+  ],
+  "name": "Other drugs for peptic ulcer and gastro-oesophageal reflux disease (GORD)",
+  "source": "ATC"
+ },
+ "A03AA": {
+  "members": [
+   "3361",
+   "10819",
+   "20136",
+   "29410",
+   "32698",
+   "59064",
+   "163406",
+   "236209"
+  ],
+  "name": "Synthetic anticholinergics, esters with tertiary amino group",
+  "source": "ATC"
+ },
+ "A03AB": {
+  "members": [
+   "6821",
+   "7818",
+   "8761",
+   "26867",
+   "33743",
+   "33926",
+   "38617",
+   "89782",
+   "89784",
+   "107770"
+  ],
+  "name": "Synthetic anticholinergics, quaternary ammonium compounds",
+  "source": "ATC"
+ },
+ "A03AD": {
+  "members": [
+   "7895",
+   "23684",
+   "52918"
+  ],
+  "name": "Papaverine and derivatives",
+  "source": "ATC"
+ },
+ "A03AE": {
+  "members": [
+   "85248"
+  ],
+  "name": "Serotonin receptor antagonists",
+  "source": "ATC"
+ },
+ "A03AX": {
+  "members": [
+   "8196",
+   "17627",
+   "24855",
+   "27946",
+   "33094",
+   "33724",
+   "44532",
+   "236206"
+  ],
+  "name": "Other drugs for functional gastrointestinal disorders",
+  "source": "ATC"
+ },
+ "A03BA": {
+  "members": [
+   "1223",
+   "153970"
+  ],
+  "name": "Belladonna alkaloids, tertiary amines",
+  "source": "ATC"
+ },
+ "A03BB": {
+  "members": [
+   "89785",
+   "1085787"
+  ],
+  "name": "Belladonna alkaloids, semisynthetic, quaternary ammonium compounds",
+  "source": "ATC"
+ },
+ "A03FA": {
+  "members": [
+   "3626",
+   "6915",
+   "17311",
+   "19768",
+   "21125",
+   "21224",
+   "35255",
+   "135091"
+  ],
+  "name": "Propulsives",
+  "source": "ATC"
+ },
+ "A04AA": {
+  "members": [
+   "26225",
+   "26237",
+   "27392",
+   "68091",
+   "70561"
+  ],
+  "name": "Serotonin (5HT3) antagonists",
+  "source": "ATC"
+ },
+ "A04AD": {
+  "members": [
+   "2378",
+   "9601",
+   "10402",
+   "29954",
+   "31447",
+   "314546",
+   "358255",
+   "1665496"
+  ],
+  "name": "Other antiemetics",
+  "source": "ATC"
+ },
+ "A05AA": {
+  "members": [
+   "1440856",
+   "1798288",
+   "2613950"
+  ],
+  "name": "Bile acids and derivatives",
+  "source": "ATC"
+ },
+ "A06AA": {
+  "members": [
+   "6972"
+  ],
+  "name": "Softeners, emollients",
+  "source": "ATC"
+ },
+ "A06AB": {
+  "members": [
+   "1596",
+   "2129",
+   "8136",
+   "22293",
+   "36387",
+   "66869",
+   "155122"
+  ],
+  "name": "Contact laxatives",
+  "source": "ATC"
+ },
+ "A06AC": {
+  "members": [
+   "6111",
+   "6404",
+   "6873",
+   "20063"
+  ],
+  "name": "Bulk-forming laxatives",
+  "source": "ATC"
+ },
+ "A06AD": {
+  "members": [
+   "6218",
+   "6582",
+   "6585",
+   "6628",
+   "8516",
+   "9945",
+   "28395",
+   "29155",
+   "33055",
+   "36709",
+   "36721",
+   "52356",
+   "56524",
+   "1666106"
+  ],
+  "name": "Osmotically acting laxatives",
+  "source": "ATC"
+ },
+ "A06AG": {
+  "members": [
+   "1596",
+   "4910",
+   "9945",
+   "36709"
+  ],
+  "name": "Enemas",
+  "source": "ATC"
+ },
+ "A06AH": {
+  "members": [
+   "7242",
+   "480639",
+   "1551777",
+   "1876597"
+  ],
+  "name": "Peripheral opioid receptor antagonists",
+  "source": "ATC"
+ },
+ "A06AX": {
+  "members": [
+   "4910",
+   "139778",
+   "623033",
+   "1307404",
+   "1873752",
+   "2107310",
+   "2199674"
+  ],
+  "name": "Other drugs for constipation",
+  "source": "ATC"
+ },
+ "A07AA": {
+  "members": [
+   "732",
+   "2709",
+   "6099",
+   "7268",
+   "7299",
+   "7597",
+   "7934",
+   "8536",
+   "10109",
+   "11124",
+   "35616",
+   "35619",
+   "1111103"
+  ],
+  "name": "Antibiotics",
+  "source": "ATC"
+ },
+ "A07AC": {
+  "members": [
+   "6932"
+  ],
+  "name": "Imidazole derivatives",
+  "source": "ATC"
+ },
+ "A07BA": {
+  "members": [
+   "272"
+  ],
+  "name": "Charcoal preparations",
+  "source": "ATC"
+ },
+ "A07BC": {
+  "members": [
+   "6102",
+   "18516",
+   "32987",
+   "1310706"
+  ],
+  "name": "Other intestinal adsorbents",
+  "source": "ATC"
+ },
+ "A07DA": {
+  "members": [
+   "3500",
+   "6468",
+   "7676",
+   "23024",
+   "1653781"
+  ],
+  "name": "Antipropulsives",
+  "source": "ATC"
+ },
+ "A07EA": {
+  "members": [
+   "1347",
+   "1514",
+   "5492",
+   "8638",
+   "8640",
+   "19831",
+   "57257"
+  ],
+  "name": "Corticosteroids acting locally",
+  "source": "ATC"
+ },
+ "A07EB": {
+  "members": [
+   "42612"
+  ],
+  "name": "Antiallergic agents, excl. corticosteroids",
+  "source": "ATC"
+ },
+ "A07EC": {
+  "members": [
+   "9524",
+   "18747",
+   "32385",
+   "52582"
+  ],
+  "name": "Aminosalicylic acid and similar agents",
+  "source": "ATC"
+ },
+ "A07FA": {
+  "members": [
+   "236782",
+   "350202"
+  ],
+  "name": "Antidiarrheal microorganisms",
+  "source": "ATC"
+ },
+ "A08AA": {
+  "members": [
+   "3268",
+   "3389",
+   "4328",
+   "6664",
+   "8152",
+   "21244",
+   "29444",
+   "32022",
+   "36514",
+   "1300701",
+   "2469247"
+  ],
+  "name": "Centrally acting antiobesity products",
+  "source": "ATC"
+ },
+ "A08AB": {
+  "members": [
+   "37925"
+  ],
+  "name": "Peripherally acting antiobesity products",
+  "source": "ATC"
+ },
+ "A09AA": {
+  "members": [
+   "743",
+   "8016",
+   "41397"
+  ],
+  "name": "Enzyme preparations",
+  "source": "ATC"
+ },
+ "A09AB": {
+  "members": [
+   "5486",
+   "21183"
+  ],
+  "name": "Acid preparations",
+  "source": "ATC"
+ },
+ "A10AB": {
+  "members": [
+   "51428",
+   "86009",
+   "221109",
+   "253182",
+   "400008"
+  ],
+  "name": "Insulins and analogues for injection, fast-acting",
+  "source": "ATC"
+ },
+ "A10AC": {
+  "members": [
+   "86009",
+   "221109",
+   "253182"
+  ],
+  "name": "Insulins and analogues for injection, intermediate-acting",
+  "source": "ATC"
+ },
+ "A10AD": {
+  "members": [
+   "51428",
+   "86009",
+   "221109",
+   "253182"
+  ],
+  "name": "Insulins and analogues for injection, intermediate- or long-acting combined with fast-acting",
+  "source": "ATC"
+ },
+ "A10AE": {
+  "members": [
+   "139825",
+   "221109",
+   "253182",
+   "274783",
+   "1670007",
+   "2740394"
+  ],
+  "name": "Insulins and analogues for injection, long-acting",
+  "source": "ATC"
+ },
+ "A10AF": {
+  "members": [
+   "253182"
+  ],
+  "name": "Insulins and analogues for inhalation",
+  "source": "ATC"
+ },
+ "A10BA": {
+  "members": [
+   "6809",
+   "8129"
+  ],
+  "name": "Biguanides",
+  "source": "ATC"
+ },
+ "A10BB": {
+  "members": [
+   "173",
+   "2068",
+   "2404",
+   "4815",
+   "4816",
+   "4821",
+   "10633",
+   "10635",
+   "25789",
+   "25793",
+   "102846"
+  ],
+  "name": "Sulfonylureas",
+  "source": "ATC"
+ },
+ "A10BD": {
+  "members": [],
+  "name": "Combinations of oral blood glucose lowering drugs",
+  "source": "ATC"
+ },
+ "A10BF": {
+  "members": [
+   "16681",
+   "30009"
+  ],
+  "name": "Alpha glucosidase inhibitors",
+  "source": "ATC"
+ },
+ "A10BG": {
+  "members": [
+   "33738",
+   "72610",
+   "84108"
+  ],
+  "name": "Thiazolidinediones",
+  "source": "ATC"
+ },
+ "A10BH": {
+  "members": [
+   "593411",
+   "596554",
+   "857974",
+   "1100699",
+   "1368001"
+  ],
+  "name": "Dipeptidyl peptidase 4 (DPP-4) inhibitors",
+  "source": "ATC"
+ },
+ "A10BJ": {
+  "members": [
+   "60548",
+   "475968",
+   "1440051",
+   "1534763",
+   "1551291",
+   "1991302"
+  ],
+  "name": "Glucagon-like peptide-1 (GLP-1) analogues",
+  "source": "ATC"
+ },
+ "A10BK": {
+  "members": [
+   "1373458",
+   "1488564",
+   "1545653",
+   "1992672",
+   "2627044",
+   "2638675"
+  ],
+  "name": "Sodium-glucose co-transporter 2 (SGLT2) inhibitors",
+  "source": "ATC"
+ },
+ "A10BX": {
+  "members": [
+   "18880",
+   "26344",
+   "73044",
+   "139953",
+   "274332",
+   "2601723"
+  ],
+  "name": "Other blood glucose lowering drugs, excl. insulins",
+  "source": "ATC"
+ },
+ "A11CA": {
+  "members": [
+   "11246",
+   "19143"
+  ],
+  "name": "Vitamin A, plain",
+  "source": "ATC"
+ },
+ "A11CC": {
+  "members": [
+   "1889",
+   "1894",
+   "2418",
+   "3429",
+   "4018",
+   "12062"
+  ],
+  "name": "Vitamin D and analogues",
+  "source": "ATC"
+ },
+ "A11DA": {
+  "members": [
+   "10454",
+   "18891",
+   "37317"
+  ],
+  "name": "Vitamin B1, plain",
+  "source": "ATC"
+ },
+ "A11GA": {
+  "members": [
+   "1151"
+  ],
+  "name": "Ascorbic acid (vitamin C), plain",
+  "source": "ATC"
+ },
+ "A11HA": {
+  "members": [
+   "1588",
+   "5833",
+   "7405",
+   "9346",
+   "11256",
+   "22701",
+   "32863",
+   "159151",
+   "684879"
+  ],
+  "name": "Other plain vitamin preparations",
+  "source": "ATC"
+ },
+ "A12AA": {
+  "members": [
+   "1897",
+   "1901",
+   "1908",
+   "1919",
+   "25806",
+   "47613",
+   "47618",
+   "47622",
+   "47624"
+  ],
+  "name": "Calcium",
+  "source": "ATC"
+ },
+ "A12BA": {
+  "members": [
+   "8591",
+   "34296",
+   "54993",
+   "89903"
+  ],
+  "name": "Potassium",
+  "source": "ATC"
+ },
+ "A12CA": {
+  "members": [
+   "9863",
+   "36721"
+  ],
+  "name": "Sodium",
+  "source": "ATC"
+ },
+ "A12CB": {
+  "members": [
+   "11422",
+   "39954",
+   "58300"
+  ],
+  "name": "Zinc",
+  "source": "ATC"
+ },
+ "A12CC": {
+  "members": [
+   "6579",
+   "6582",
+   "6585",
+   "52356",
+   "52358",
+   "139233",
+   "142131",
+   "214688"
+  ],
+  "name": "Magnesium",
+  "source": "ATC"
+ },
+ "A12CD": {
+  "members": [
+   "9873"
+  ],
+  "name": "Fluoride",
+  "source": "ATC"
+ },
+ "A14AA": {
+  "members": [
+   "3143",
+   "6818",
+   "6833",
+   "7513",
+   "7779",
+   "7813",
+   "10032"
+  ],
+  "name": "Androstan derivatives",
+  "source": "ATC"
+ },
+ "A16AA": {
+  "members": [
+   "1512",
+   "3022",
+   "4885",
+   "9504",
+   "42955",
+   "401713",
+   "1491625"
+  ],
+  "name": "Amino acids and derivatives",
+  "source": "ATC"
+ },
+ "A16AB": {
+  "members": [
+   "46049",
+   "84959",
+   "214817",
+   "338817",
+   "392509",
+   "578033",
+   "629565",
+   "644101",
+   "901805",
+   "1291609",
+   "1489914",
+   "1720259",
+   "1726975",
+   "1989819",
+   "2046360",
+   "2565814",
+   "2610407",
+   "2630725",
+   "2637446",
+   "2667433",
+   "2677916",
+   "2691830",
+   "2698762",
+   "2738648"
+  ],
+  "name": "Enzymes",
+  "source": "ATC"
+ },
+ "A16AX": {
+  "members": [
+   "820",
+   "10798",
+   "58295",
+   "61805",
+   "402316",
+   "753340",
+   "1313234",
+   "1364468",
+   "1368451",
+   "1547220",
+   "1665222",
+   "1872382",
+   "2054252",
+   "2265712",
+   "2467140",
+   "2467553",
+   "2531288",
+   "2612527",
+   "2675287",
+   "2723056"
+  ],
+  "name": "Various alimentary tract and metabolism products",
+  "source": "ATC"
+ },
+ "B01AA": {
+  "members": [
+   "154",
+   "1598",
+   "8130",
+   "8150",
+   "11289",
+   "50097",
+   "163426"
+  ],
+  "name": "Vitamin K antagonists",
+  "source": "ATC"
+ },
+ "B01AB": {
+  "members": [
+   "1009",
+   "5224",
+   "67031",
+   "67108",
+   "67109",
+   "69528",
+   "69646",
+   "75960",
+   "78484",
+   "280611"
+  ],
+  "name": "Heparin group",
+  "source": "ATC"
+ },
+ "B01AC": {
+  "members": [
+   "1191",
+   "3521",
+   "8814",
+   "10594",
+   "17393",
+   "21107",
+   "27518",
+   "32968",
+   "38655",
+   "40138",
+   "73137",
+   "75635",
+   "83929",
+   "343048",
+   "613391",
+   "1116632",
+   "1537034",
+   "1656052",
+   "1729002"
+  ],
+  "name": "Platelet aggregation inhibitors excl. heparin",
+  "source": "ATC"
+ },
+ "B01AD": {
+  "members": [
+   "772",
+   "4388",
+   "8410",
+   "8834",
+   "10106",
+   "11055",
+   "40028",
+   "76895",
+   "259280",
+   "352374"
+  ],
+  "name": "Enzymes",
+  "source": "ATC"
+ },
+ "B01AE": {
+  "members": [
+   "15202",
+   "60819",
+   "114934",
+   "237057",
+   "1037042"
+  ],
+  "name": "Direct thrombin inhibitors",
+  "source": "ATC"
+ },
+ "B01AF": {
+  "members": [
+   "1114195",
+   "1364430",
+   "1599538",
+   "1927851"
+  ],
+  "name": "Direct factor Xa inhibitors",
+  "source": "ATC"
+ },
+ "B01AX": {
+  "members": [
+   "321208",
+   "1311089",
+   "2110605"
+  ],
+  "name": "Other antithrombotic agents",
+  "source": "ATC"
+ },
+ "B02AA": {
+  "members": [
+   "99",
+   "10691",
+   "14852"
+  ],
+  "name": "Amino acids",
+  "source": "ATC"
+ },
+ "B02AB": {
+  "members": [
+   "535",
+   "1056"
+  ],
+  "name": "Proteinase inhibitors",
+  "source": "ATC"
+ },
+ "B02BA": {
+  "members": [
+   "6728",
+   "8308"
+  ],
+  "name": "Vitamin K",
+  "source": "ATC"
+ },
+ "B02BB": {
+  "members": [],
+  "name": "Fibrinogen",
+  "source": "ATC"
+ },
+ "B02BC": {
+  "members": [
+   "2714",
+   "3992",
+   "10528",
+   "17073",
+   "47610"
+  ],
+  "name": "Local hemostatics",
+  "source": "ATC"
+ },
+ "B02BD": {
+  "members": [
+   "4249",
+   "4254",
+   "4256",
+   "4257",
+   "4262",
+   "4271",
+   "10528",
+   "11274",
+   "314504",
+   "2626727",
+   "2641610",
+   "2681011"
+  ],
+  "name": "Blood coagulation factors",
+  "source": "ATC"
+ },
+ "B02BX": {
+  "members": [
+   "2011",
+   "4112",
+   "711942",
+   "805452",
+   "1989794",
+   "2044896",
+   "2045726",
+   "2054984",
+   "2697133",
+   "2708333",
+   "2709439"
+  ],
+  "name": "Other systemic hemostatics",
+  "source": "ATC"
+ },
+ "B03AA": {
+  "members": [
+   "4356",
+   "24940",
+   "24941",
+   "24942",
+   "24946",
+   "24947",
+   "105655",
+   "236617",
+   "1440290"
+  ],
+  "name": "Iron bivalent, oral preparations",
+  "source": "ATC"
+ },
+ "B03AB": {
+  "members": [
+   "24909",
+   "105673",
+   "1428835",
+   "2539932"
+  ],
+  "name": "Iron trivalent, oral preparations",
+  "source": "ATC"
+ },
+ "B03AD": {
+  "members": [],
+  "name": "Iron in combination with folic acid",
+  "source": "ATC"
+ },
+ "B03BA": {
+  "members": [
+   "5514",
+   "11248",
+   "21373",
+   "29421"
+  ],
+  "name": "Vitamin B12 (cyanocobalamin and analogues)",
+  "source": "ATC"
+ },
+ "B03BB": {
+  "members": [
+   "4511"
+  ],
+  "name": "Folic acid and derivatives",
+  "source": "ATC"
+ },
+ "B03XA": {
+  "members": [
+   "283838",
+   "729596",
+   "1248798",
+   "2262544",
+   "2628210",
+   "2637535",
+   "2679296"
+  ],
+  "name": "Other antianemic preparations",
+  "source": "ATC"
+ },
+ "B05AA": {
+  "members": [
+   "5531",
+   "42635"
+  ],
+  "name": "Blood substitutes and plasma protein fractions",
+  "source": "ATC"
+ },
+ "B05BB": {
+  "members": [
+   "10865"
+  ],
+  "name": "Solutions affecting the electrolyte balance",
+  "source": "ATC"
+ },
+ "B05BC": {
+  "members": [
+   "6628",
+   "11002"
+  ],
+  "name": "Solutions producing osmotic diuresis",
+  "source": "ATC"
+ },
+ "B05CA": {
+  "members": [
+   "2286",
+   "2358",
+   "7299",
+   "7455",
+   "7543",
+   "10179",
+   "29256",
+   "2670453"
+  ],
+  "name": "Antiinfectives",
+  "source": "ATC"
+ },
+ "B05CB": {
+  "members": [
+   "9863",
+   "36676",
+   "52356",
+   "56466"
+  ],
+  "name": "Salt solutions",
+  "source": "ATC"
+ },
+ "B05CX": {
+  "members": [
+   "4850",
+   "4919",
+   "6628",
+   "9945"
+  ],
+  "name": "Other irrigating solutions",
+  "source": "ATC"
+ },
+ "B05XA": {
+  "members": [
+   "712",
+   "1901",
+   "1908",
+   "5486",
+   "6579",
+   "6585",
+   "8591",
+   "9863",
+   "29164",
+   "36676",
+   "36709",
+   "39937",
+   "39954",
+   "54987",
+   "56443",
+   "314797"
+  ],
+  "name": "Electrolyte solutions",
+  "source": "ATC"
+ },
+ "B05XB": {
+  "members": [
+   "6536",
+   "1359422"
+  ],
+  "name": "Amino acids",
+  "source": "ATC"
+ },
+ "B05XX": {
+  "members": [
+   "10865"
+  ],
+  "name": "Other i.v. solution additives",
+  "source": "ATC"
+ },
+ "B06AA": {
+  "members": [
+   "2530",
+   "3210",
+   "5464",
+   "10890"
+  ],
+  "name": "Enzymes",
+  "source": "ATC"
+ },
+ "B06AB": {
+  "members": [
+   "5175"
+  ],
+  "name": "Heme products",
+  "source": "ATC"
+ },
+ "B06AC": {
+  "members": [
+   "658708",
+   "1148138",
+   "2055641",
+   "2467540",
+   "2717169",
+   "2717944",
+   "2724361"
+  ],
+  "name": "Drugs used in hereditary angioedema",
+  "source": "ATC"
+ },
+ "B06AX": {
+  "members": [
+   "2262279",
+   "2265678",
+   "2594468",
+   "2610349",
+   "2671667",
+   "2671958"
+  ],
+  "name": "Other hematological agents",
+  "source": "ATC"
+ },
+ "C01AA": {
+  "members": [
+   "199",
+   "3248",
+   "3403",
+   "3407",
+   "6686",
+   "27929",
+   "132871",
+   "235219"
+  ],
+  "name": "Digitalis glycosides",
+  "source": "ATC"
+ },
+ "C01BA": {
+  "members": [
+   "423",
+   "3541",
+   "8622",
+   "8700",
+   "9068",
+   "27220"
+  ],
+  "name": "Antiarrhythmics, class Ia",
+  "source": "ATC"
+ },
+ "C01BB": {
+  "members": [
+   "1054",
+   "6387",
+   "6926",
+   "42359"
+  ],
+  "name": "Antiarrhythmics, class Ib",
+  "source": "ATC"
+ },
+ "C01BC": {
+  "members": [
+   "4441",
+   "8754",
+   "42368"
+  ],
+  "name": "Antiarrhythmics, class Ic",
+  "source": "ATC"
+ },
+ "C01BD": {
+  "members": [
+   "703",
+   "41289",
+   "49247",
+   "233698"
+  ],
+  "name": "Antiarrhythmics, class III",
+  "source": "ATC"
+ },
+ "C01BG": {
+  "members": [
+   "21099",
+   "40169"
+  ],
+  "name": "Other antiarrhythmics, class I and III",
+  "source": "ATC"
+ },
+ "C01CA": {
+  "members": [
+   "3616",
+   "3628",
+   "3966",
+   "3992",
+   "4169",
+   "6054",
+   "6756",
+   "6805",
+   "6853",
+   "6963",
+   "7512",
+   "8163",
+   "10288",
+   "23638",
+   "24853",
+   "31958",
+   "31988",
+   "41157",
+   "47589",
+   "51253",
+   "61609",
+   "1311141",
+   "1489913"
+  ],
+  "name": "Adrenergic and dopaminergic agents",
+  "source": "ATC"
+ },
+ "C01CE": {
+  "members": [
+   "738",
+   "49626",
+   "52769"
+  ],
+  "name": "Phosphodiesterase inhibitors",
+  "source": "ATC"
+ },
+ "C01CX": {
+  "members": [
+   "39801",
+   "73107",
+   "1999003"
+  ],
+  "name": "Other cardiac stimulants",
+  "source": "ATC"
+ },
+ "C01DA": {
+  "members": [
+   "4040",
+   "4917",
+   "6058"
+  ],
+  "name": "Organic nitrates",
+  "source": "ATC"
+ },
+ "C01DX": {
+  "members": [
+   "2508",
+   "5254",
+   "5303",
+   "7023",
+   "7805",
+   "8674",
+   "10735",
+   "19666",
+   "23852",
+   "31748",
+   "2475830"
+  ],
+  "name": "Other vasodilators used in cardiac diseases",
+  "source": "ATC"
+ },
+ "C01EA": {
+  "members": [
+   "598"
+  ],
+  "name": "Prostaglandins",
+  "source": "ATC"
+ },
+ "C01EB": {
+  "members": [
+   "296",
+   "5640",
+   "5781",
+   "10826",
+   "21406",
+   "35829",
+   "640062",
+   "1649480",
+   "2119172",
+   "2600867",
+   "2698312"
+  ],
+  "name": "Other cardiac preparations",
+  "source": "ATC"
+ },
+ "C02AA": {
+  "members": [
+   "9259",
+   "9260",
+   "62174",
+   "235829"
+  ],
+  "name": "Rauwolfia alkaloids",
+  "source": "ATC"
+ },
+ "C02AB": {
+  "members": [
+   "6876"
+  ],
+  "name": "Methyldopa",
+  "source": "ATC"
+ },
+ "C02AC": {
+  "members": [
+   "2599",
+   "30257",
+   "40114",
+   "55679"
+  ],
+  "name": "Imidazoline receptor agonists",
+  "source": "ATC"
+ },
+ "C02BA": {
+  "members": [
+   "10828"
+  ],
+  "name": "Sulfonium derivatives",
+  "source": "ATC"
+ },
+ "C02BB": {
+  "members": [
+   "6673"
+  ],
+  "name": "Secondary and tertiary amines",
+  "source": "ATC"
+ },
+ "C02CA": {
+  "members": [
+   "5784",
+   "8629",
+   "39230",
+   "49276"
+  ],
+  "name": "Alpha-adrenoreceptor antagonists",
+  "source": "ATC"
+ },
+ "C02CC": {
+  "members": [
+   "1523",
+   "3118",
+   "5036"
+  ],
+  "name": "Guanidine derivatives",
+  "source": "ATC"
+ },
+ "C02DA": {
+  "members": [
+   "3327"
+  ],
+  "name": "Thiazide derivatives",
+  "source": "ATC"
+ },
+ "C02DB": {
+  "members": [
+   "3409",
+   "5470"
+  ],
+  "name": "Hydrazinophthalazine derivatives",
+  "source": "ATC"
+ },
+ "C02DC": {
+  "members": [
+   "6984"
+  ],
+  "name": "Pyrimidine derivatives",
+  "source": "ATC"
+ },
+ "C02DD": {
+  "members": [
+   "7476"
+  ],
+  "name": "Nitroferricyanide derivatives",
+  "source": "ATC"
+ },
+ "C02KB": {
+  "members": [
+   "266604"
+  ],
+  "name": "Tyrosine hydroxylase inhibitors",
+  "source": "ATC"
+ },
+ "C02KX": {
+  "members": [
+   "75207",
+   "358274",
+   "1439816",
+   "1442132",
+   "2678930"
+  ],
+  "name": "Antihypertensives for pulmonary arterial hypertension",
+  "source": "ATC"
+ },
+ "C03AA": {
+  "members": [
+   "1369",
+   "2396",
+   "3000",
+   "5487",
+   "5495",
+   "6860",
+   "8565",
+   "10772",
+   "22033"
+  ],
+  "name": "Thiazides, plain",
+  "source": "ATC"
+ },
+ "C03AB": {
+  "members": [],
+  "name": "Thiazides and potassium in combination",
+  "source": "ATC"
+ },
+ "C03BA": {
+  "members": [
+   "2409",
+   "2603",
+   "5764",
+   "6696",
+   "6916",
+   "11371",
+   "59743"
+  ],
+  "name": "Sulfonamides, plain",
+  "source": "ATC"
+ },
+ "C03CA": {
+  "members": [
+   "1808",
+   "4603",
+   "33770",
+   "38413"
+  ],
+  "name": "Sulfonamides, plain",
+  "source": "ATC"
+ },
+ "C03CB": {
+  "members": [],
+  "name": "Sulfonamides and potassium in combination",
+  "source": "ATC"
+ },
+ "C03CC": {
+  "members": [],
+  "name": "Aryloxyacetic acid derivatives",
+  "source": "ATC"
+ },
+ "C03DA": {
+  "members": [
+   "1982",
+   "9997",
+   "298869",
+   "2562811"
+  ],
+  "name": "Aldosterone antagonists",
+  "source": "ATC"
+ },
+ "C03DB": {
+  "members": [
+   "644",
+   "10763"
+  ],
+  "name": "Other potassium-sparing agents",
+  "source": "ATC"
+ },
+ "C03XA": {
+  "members": [
+   "302285",
+   "358257"
+  ],
+  "name": "Vasopressin antagonists",
+  "source": "ATC"
+ },
+ "C04AA": {
+  "members": [
+   "1321",
+   "6066",
+   "7595"
+  ],
+  "name": "2-amino-1-phenylethanol derivatives",
+  "source": "ATC"
+ },
+ "C04AB": {
+  "members": [
+   "8153",
+   "10634"
+  ],
+  "name": "Imidazoline derivatives",
+  "source": "ATC"
+ },
+ "C04AC": {
+  "members": [
+   "7393",
+   "7414"
+  ],
+  "name": "Nicotinic acid and derivatives",
+  "source": "ATC"
+ },
+ "C04AD": {
+  "members": [
+   "8013",
+   "33086"
+  ],
+  "name": "Purine derivatives",
+  "source": "ATC"
+ },
+ "C04AE": {
+  "members": [
+   "3416",
+   "4024",
+   "7398"
+  ],
+  "name": "Ergot alkaloids",
+  "source": "ATC"
+ },
+ "C04AX": {
+  "members": [
+   "1367",
+   "2970",
+   "7236",
+   "8149",
+   "10561",
+   "11201",
+   "19836",
+   "20609",
+   "27403",
+   "57954",
+   "180806"
+  ],
+  "name": "Other peripheral vasodilators",
+  "source": "ATC"
+ },
+ "C05AA": {
+  "members": [
+   "1514",
+   "3264",
+   "4462",
+   "4463",
+   "4491",
+   "5492",
+   "8638",
+   "10759"
+  ],
+  "name": "Corticosteroids",
+  "source": "ATC"
+ },
+ "C05AD": {
+  "members": [
+   "1399",
+   "3339",
+   "6387",
+   "8701",
+   "10391",
+   "34347"
+  ],
+  "name": "Local anesthetics",
+  "source": "ATC"
+ },
+ "C05AE": {
+  "members": [
+   "3443",
+   "4917",
+   "6058"
+  ],
+  "name": "Muscle relaxants",
+  "source": "ATC"
+ },
+ "C05AX": {
+  "members": [
+   "8163",
+   "38557"
+  ],
+  "name": "Other agents for treatment of hemorrhoids and anal fissures for topical use",
+  "source": "ATC"
+ },
+ "C05BA": {
+  "members": [
+   "5224"
+  ],
+  "name": "Heparins or heparinoids for topical use",
+  "source": "ATC"
+ },
+ "C05BB": {
+  "members": [
+   "9913",
+   "24460",
+   "27712",
+   "33290",
+   "968170"
+  ],
+  "name": "Sclerosing agents for local injection",
+  "source": "ATC"
+ },
+ "C05CA": {
+  "members": [
+   "3489",
+   "9500",
+   "38893"
+  ],
+  "name": "Bioflavonoids",
+  "source": "ATC"
+ },
+ "C07AA": {
+  "members": [
+   "597",
+   "1817",
+   "2116",
+   "7226",
+   "7801",
+   "7973",
+   "8332",
+   "8787",
+   "9947",
+   "10600",
+   "19605",
+   "29518",
+   "37840"
+  ],
+  "name": "Beta blocking agents, non-selective",
+  "source": "ATC"
+ },
+ "C07AB": {
+  "members": [
+   "149",
+   "1202",
+   "1520",
+   "6918",
+   "8620",
+   "19484",
+   "20498",
+   "31555",
+   "37546",
+   "49737",
+   "2712070"
+  ],
+  "name": "Beta blocking agents, selective",
+  "source": "ATC"
+ },
+ "C07AG": {
+  "members": [
+   "6185",
+   "20352"
+  ],
+  "name": "Alpha and beta blocking agents",
+  "source": "ATC"
+ },
+ "C07FB": {
+  "members": [],
+  "name": "Beta blocking agents and calcium channel blockers",
+  "source": "ATC"
+ },
+ "C08CA": {
+  "members": [
+   "4316",
+   "7396",
+   "7417",
+   "7426",
+   "7435",
+   "7441",
+   "17767",
+   "28382",
+   "29275",
+   "33910",
+   "39879",
+   "53692",
+   "135056",
+   "233603",
+   "2376944"
+  ],
+  "name": "Dihydropyridine derivatives",
+  "source": "ATC"
+ },
+ "C08DA": {
+  "members": [
+   "4648",
+   "11170",
+   "2730302"
+  ],
+  "name": "Phenylalkylamine derivatives",
+  "source": "ATC"
+ },
+ "C08DB": {
+  "members": [
+   "3443"
+  ],
+  "name": "Benzothiazepine derivatives",
+  "source": "ATC"
+ },
+ "C08EA": {
+  "members": [
+   "1436",
+   "4327"
+  ],
+  "name": "Phenylalkylamine derivatives",
+  "source": "ATC"
+ },
+ "C09AA": {
+  "members": [
+   "1998",
+   "3827",
+   "18867",
+   "21102",
+   "29046",
+   "30131",
+   "35208",
+   "35296",
+   "36908",
+   "38454",
+   "39990",
+   "50166",
+   "54552",
+   "60245"
+  ],
+  "name": "ACE inhibitors, plain",
+  "source": "ATC"
+ },
+ "C09BB": {
+  "members": [],
+  "name": "ACE inhibitors and calcium channel blockers",
+  "source": "ATC"
+ },
+ "C09CA": {
+  "members": [
+   "52175",
+   "69749",
+   "73494",
+   "83515",
+   "83818",
+   "214354"
+  ],
+  "name": "Angiotensin II receptor blockers (ARBs), plain",
+  "source": "ATC"
+ },
+ "C09DB": {
+  "members": [],
+  "name": "Angiotensin II receptor blockers (ARBs) and calcium channel blockers",
+  "source": "ATC"
+ },
+ "C09DX": {
+  "members": [],
+  "name": "Angiotensin II receptor blockers (ARBs), other combinations",
+  "source": "ATC"
+ },
+ "C09XA": {
+  "members": [
+   "325646"
+  ],
+  "name": "Renin-inhibitors",
+  "source": "ATC"
+ },
+ "C10AA": {
+  "members": [
+   "6472",
+   "36567",
+   "41127",
+   "42463",
+   "83367",
+   "301542",
+   "596723",
+   "861634"
+  ],
+  "name": "HMG CoA reductase inhibitors",
+  "source": "ATC"
+ },
+ "C10AB": {
+  "members": [
+   "1525",
+   "2594",
+   "4719",
+   "8703",
+   "21149",
+   "24609",
+   "1433887"
+  ],
+  "name": "Fibrates",
+  "source": "ATC"
+ },
+ "C10AC": {
+  "members": [
+   "2447",
+   "2685",
+   "141626"
+  ],
+  "name": "Bile acid sequestrants",
+  "source": "ATC"
+ },
+ "C10AD": {
+  "members": [
+   "7393",
+   "7414",
+   "16817",
+   "104486"
+  ],
+  "name": "Nicotinic acid and derivatives",
+  "source": "ATC"
+ },
+ "C10AX": {
+  "members": [
+   "3292",
+   "8699",
+   "38248",
+   "69440",
+   "341248",
+   "1364479",
+   "1367839",
+   "1659152",
+   "1665684",
+   "2282403",
+   "2478335",
+   "2588243",
+   "2637345",
+   "2729426"
+  ],
+  "name": "Other lipid modifying agents",
+  "source": "ATC"
+ },
+ "C10BA": {
+  "members": [],
+  "name": "Combinations of various lipid modifying agents",
+  "source": "ATC"
+ },
+ "C10BX": {
+  "members": [],
+  "name": "Lipid modifying agents in combination with other drugs",
+  "source": "ATC"
+ },
+ "D01AA": {
+  "members": [
+   "5021",
+   "7268",
+   "7597"
+  ],
+  "name": "Antibiotics",
+  "source": "ATC"
+ },
+ "D01AC": {
+  "members": [
+   "2623",
+   "3743",
+   "4450",
+   "6135",
+   "6932",
+   "10450",
+   "19295",
+   "24876",
+   "27901",
+   "32411",
+   "32638",
+   "36435",
+   "37319",
+   "38298",
+   "61773",
+   "1482680",
+   "1539753"
+  ],
+  "name": "Imidazole and triazole derivatives",
+  "source": "ATC"
+ },
+ "D01AE": {
+  "members": [
+   "2399",
+   "4451",
+   "9525",
+   "10637",
+   "17804",
+   "21090",
+   "26422",
+   "31476",
+   "34188",
+   "36345",
+   "37801",
+   "38372",
+   "47461",
+   "1543173"
+  ],
+  "name": "Other antifungals for topical use",
+  "source": "ATC"
+ },
+ "D01BA": {
+  "members": [
+   "5021",
+   "37801"
+  ],
+  "name": "Antifungals for systemic use",
+  "source": "ATC"
+ },
+ "D02AE": {
+  "members": [
+   "11002"
+  ],
+  "name": "Carbamide products",
+  "source": "ATC"
+ },
+ "D02BA": {
+  "members": [
+   "74",
+   "13369"
+  ],
+  "name": "Protectives against UV-radiation for topical use",
+  "source": "ATC"
+ },
+ "D02BB": {
+  "members": [
+   "19143",
+   "2262250"
+  ],
+  "name": "Protectives against UV-radiation for systemic use",
+  "source": "ATC"
+ },
+ "D03AX": {
+  "members": [
+   "20012",
+   "22701",
+   "22708",
+   "38623",
+   "115238",
+   "992920",
+   "1311506",
+   "2637758"
+  ],
+  "name": "Other cicatrizants",
+  "source": "ATC"
+ },
+ "D03BA": {
+  "members": [
+   "1752",
+   "10890",
+   "58939"
+  ],
+  "name": "Proteolytic enzymes",
+  "source": "ATC"
+ },
+ "D04AA": {
+  "members": [
+   "2578",
+   "3449",
+   "3498",
+   "8132",
+   "8745",
+   "9009",
+   "10847",
+   "18753",
+   "20861",
+   "20881",
+   "28012",
+   "1360721"
+  ],
+  "name": "Antihistamines for topical use",
+  "source": "ATC"
+ },
+ "D04AB": {
+  "members": [
+   "1399",
+   "3339",
+   "6387",
+   "10391",
+   "18889",
+   "34347"
+  ],
+  "name": "Anesthetics for topical use",
+  "source": "ATC"
+ },
+ "D04AX": {
+  "members": [
+   "3638"
+  ],
+  "name": "Other antipruritics",
+  "source": "ATC"
+ },
+ "D05AD": {
+  "members": [
+   "6854",
+   "10844"
+  ],
+  "name": "Psoralens for topical use",
+  "source": "ATC"
+ },
+ "D05AX": {
+  "members": [
+   "1894",
+   "29365",
+   "83947",
+   "291204",
+   "1091836",
+   "2602286"
+  ],
+  "name": "Other antipsoriatics for topical use",
+  "source": "ATC"
+ },
+ "D05BA": {
+  "members": [
+   "6854",
+   "10844",
+   "15842"
+  ],
+  "name": "Psoralens for systemic use",
+  "source": "ATC"
+ },
+ "D05BB": {
+  "members": [
+   "4182",
+   "16818"
+  ],
+  "name": "Retinoids for treatment of psoriasis",
+  "source": "ATC"
+ },
+ "D06AA": {
+  "members": [
+   "2408",
+   "3154",
+   "7821",
+   "10395"
+  ],
+  "name": "Tetracycline and derivatives",
+  "source": "ATC"
+ },
+ "D06AX": {
+  "members": [
+   "641",
+   "1291",
+   "2348",
+   "7299",
+   "10968",
+   "11232",
+   "35616",
+   "35619",
+   "42372",
+   "642274",
+   "1596450",
+   "1994739"
+  ],
+  "name": "Other antibiotics for topical use",
+  "source": "ATC"
+ },
+ "D06BA": {
+  "members": [
+   "6572",
+   "9793",
+   "10176",
+   "10179",
+   "10184",
+   "10193"
+  ],
+  "name": "Sulfonamides",
+  "source": "ATC"
+ },
+ "D06BB": {
+  "members": [
+   "281",
+   "5653",
+   "8463",
+   "38868",
+   "49428",
+   "59839",
+   "59943",
+   "594680",
+   "753346",
+   "1426865",
+   "1483575"
+  ],
+  "name": "Antivirals",
+  "source": "ATC"
+ },
+ "D06BX": {
+  "members": [
+   "6922",
+   "1242806",
+   "2471078"
+  ],
+  "name": "Other chemotherapeutics",
+  "source": "ATC"
+ },
+ "D07AA": {
+  "members": [
+   "5492",
+   "6902",
+   "8638"
+  ],
+  "name": "Corticosteroids, weak (group I)",
+  "source": "ATC"
+ },
+ "D07AB": {
+  "members": [
+   "3254",
+   "3264",
+   "4458",
+   "4491",
+   "10759",
+   "21249",
+   "108074",
+   "108088",
+   "236650"
+  ],
+  "name": "Corticosteroids, moderately potent (group II)",
+  "source": "ATC"
+ },
+ "D07AC": {
+  "members": [
+   "1347",
+   "1514",
+   "3255",
+   "3392",
+   "4462",
+   "4463",
+   "4500",
+   "17652",
+   "19831",
+   "23043",
+   "26416",
+   "34369",
+   "41126",
+   "41208",
+   "91311",
+   "108091",
+   "108118"
+  ],
+  "name": "Corticosteroids, potent (group III)",
+  "source": "ATC"
+ },
+ "D07AD": {
+  "members": [
+   "2590",
+   "5084"
+  ],
+  "name": "Corticosteroids, very potent (group IV)",
+  "source": "ATC"
+ },
+ "D07XA": {
+  "members": [
+   "5492",
+   "8638"
+  ],
+  "name": "Corticosteroids, weak, other combinations",
+  "source": "ATC"
+ },
+ "D07XB": {
+  "members": [
+   "3264",
+   "4458",
+   "4491",
+   "10759",
+   "236650"
+  ],
+  "name": "Corticosteroids, moderately potent, other combinations",
+  "source": "ATC"
+ },
+ "D07XC": {
+  "members": [
+   "1514",
+   "3255",
+   "3392",
+   "4463",
+   "108118"
+  ],
+  "name": "Corticosteroids, potent, other combinations",
+  "source": "ATC"
+ },
+ "D08AC": {
+  "members": [
+   "2358",
+   "22865",
+   "26849",
+   "34633",
+   "1373041"
+  ],
+  "name": "Biguanides and amidines",
+  "source": "ATC"
+ },
+ "D08AE": {
+  "members": [
+   "5293",
+   "10795",
+   "20877",
+   "33290",
+   "54908"
+  ],
+  "name": "Phenol and derivatives",
+  "source": "ATC"
+ },
+ "D08AG": {
+  "members": [
+   "5933",
+   "8611"
+  ],
+  "name": "Iodine products",
+  "source": "ATC"
+ },
+ "D08AH": {
+  "members": [
+   "110",
+   "2407",
+   "3226",
+   "5942"
+  ],
+  "name": "Quinoline derivatives",
+  "source": "ATC"
+ },
+ "D08AJ": {
+  "members": [
+   "1378",
+   "2286",
+   "20614",
+   "288088",
+   "1011450"
+  ],
+  "name": "Quaternary ammonium compounds",
+  "source": "ATC"
+ },
+ "D08AK": {
+  "members": [
+   "6762",
+   "10472",
+   "1311634",
+   "1426941"
+  ],
+  "name": "Mercurial products",
+  "source": "ATC"
+ },
+ "D08AL": {
+  "members": [
+   "9789",
+   "2606543"
+  ],
+  "name": "Silver compounds",
+  "source": "ATC"
+ },
+ "D08AX": {
+  "members": [
+   "448",
+   "5499",
+   "8604",
+   "20762",
+   "797541",
+   "1310593",
+   "1362872"
+  ],
+  "name": "Other antiseptics and disinfectants",
+  "source": "ATC"
+ },
+ "D09AA": {
+  "members": [
+   "1378",
+   "2286",
+   "2358",
+   "4556",
+   "5942",
+   "7455",
+   "8611",
+   "10795",
+   "17610",
+   "27748",
+   "89722",
+   "1311593"
+  ],
+  "name": "Medicated dressings with antiinfectives",
+  "source": "ATC"
+ },
+ "D10AA": {
+  "members": [
+   "3264",
+   "4491",
+   "6902"
+  ],
+  "name": "Corticosteroids, combinations for treatment of acne",
+  "source": "ATC"
+ },
+ "D10AB": {
+  "members": [
+   "10223",
+   "29584",
+   "2059173"
+  ],
+  "name": "Preparations containing sulfur",
+  "source": "ATC"
+ },
+ "D10AD": {
+  "members": [
+   "6064",
+   "10753",
+   "11246",
+   "60223",
+   "2205637"
+  ],
+  "name": "Retinoids for topical use in acne",
+  "source": "ATC"
+ },
+ "D10AE": {
+  "members": [
+   "1418"
+  ],
+  "name": "Peroxides",
+  "source": "ATC"
+ },
+ "D10AF": {
+  "members": [
+   "2348",
+   "2582",
+   "4053",
+   "6980",
+   "10169",
+   "29418"
+  ],
+  "name": "Antiinfectives for treatment of acne",
+  "source": "ATC"
+ },
+ "D10AX": {
+  "members": [
+   "615",
+   "3108",
+   "35382",
+   "46241",
+   "2474340"
+  ],
+  "name": "Other anti-acne preparations for topical use",
+  "source": "ATC"
+ },
+ "D10BA": {
+  "members": [
+   "6064"
+  ],
+  "name": "Retinoids for treatment of acne",
+  "source": "ATC"
+ },
+ "D11AA": {
+  "members": [
+   "1546438"
+  ],
+  "name": "Antihidrotics",
+  "source": "ATC"
+ },
+ "D11AC": {
+  "members": [
+   "8611",
+   "288088"
+  ],
+  "name": "Medicated shampoos",
+  "source": "ATC"
+ },
+ "D11AH": {
+  "members": [
+   "42316",
+   "42612",
+   "81864",
+   "321952",
+   "1193326",
+   "1865953",
+   "1876376",
+   "2589225",
+   "2591476",
+   "2691310",
+   "2693758",
+   "2721163"
+  ],
+  "name": "Agents for dermatitis, excluding corticosteroids",
+  "source": "ATC"
+ },
+ "D11AX": {
+  "members": [
+   "569",
+   "1886",
+   "1908",
+   "3355",
+   "5499",
+   "5509",
+   "6069",
+   "6585",
+   "6984",
+   "7812",
+   "13982",
+   "15080",
+   "17145",
+   "25025",
+   "28068",
+   "28817",
+   "39952",
+   "134615",
+   "142141"
+  ],
+  "name": "Other dermatologicals",
+  "source": "ATC"
+ },
+ "G01AA": {
+  "members": [
+   "732",
+   "2348",
+   "2582",
+   "7268",
+   "7597",
+   "7821"
+  ],
+  "name": "Antibiotics",
+  "source": "ATC"
+ },
+ "G01AC": {
+  "members": [
+   "110",
+   "2407",
+   "3226",
+   "3435",
+   "5942"
+  ],
+  "name": "Quinoline derivatives",
+  "source": "ATC"
+ },
+ "G01AD": {
+  "members": [
+   "168",
+   "1151"
+  ],
+  "name": "Organic acids",
+  "source": "ATC"
+ },
+ "G01AF": {
+  "members": [
+   "2623",
+   "3743",
+   "6135",
+   "6922",
+   "6932",
+   "7701",
+   "10612",
+   "19884",
+   "24876",
+   "27901",
+   "32411",
+   "32638",
+   "36435",
+   "38298",
+   "61773"
+  ],
+  "name": "Imidazole derivatives",
+  "source": "ATC"
+ },
+ "G01AX": {
+  "members": [
+   "4601",
+   "5301",
+   "7419",
+   "8611",
+   "21090",
+   "54908",
+   "1483575"
+  ],
+  "name": "Other antiinfectives and antiseptics",
+  "source": "ATC"
+ },
+ "G02AB": {
+  "members": [
+   "4021",
+   "4023",
+   "6883"
+  ],
+  "name": "Ergot alkaloids",
+  "source": "ATC"
+ },
+ "G02AD": {
+  "members": [
+   "2051",
+   "3477",
+   "3478",
+   "12449",
+   "42331"
+  ],
+  "name": "Prostaglandins",
+  "source": "ATC"
+ },
+ "G02CA": {
+  "members": [
+   "4333",
+   "7595",
+   "9392"
+  ],
+  "name": "Sympathomimetics, labour repressants",
+  "source": "ATC"
+ },
+ "G02CB": {
+  "members": [
+   "1760",
+   "6446",
+   "6834",
+   "47579",
+   "76887"
+  ],
+  "name": "Prolactine inhibitors",
+  "source": "ATC"
+ },
+ "G02CC": {
+  "members": [
+   "1425",
+   "5640",
+   "7258"
+  ],
+  "name": "Antiinflammatory products for vaginal administration",
+  "source": "ATC"
+ },
+ "G02CX": {
+  "members": [
+   "59639",
+   "236664",
+   "236665",
+   "1665509",
+   "2176312",
+   "2637134",
+   "2725511"
+  ],
+  "name": "Other gynecologicals",
+  "source": "ATC"
+ },
+ "G03AA": {
+  "members": [],
+  "name": "Progestogens and estrogens, fixed combinations",
+  "source": "ATC"
+ },
+ "G03AB": {
+  "members": [],
+  "name": "Progestogens and estrogens, sequential preparations",
+  "source": "ATC"
+ },
+ "G03AC": {
+  "members": [
+   "6373",
+   "6529",
+   "6691",
+   "6703",
+   "7514",
+   "7519",
+   "11636",
+   "14584",
+   "22656"
+  ],
+  "name": "Progestogens",
+  "source": "ATC"
+ },
+ "G03AD": {
+  "members": [
+   "6373",
+   "1005921"
+  ],
+  "name": "Emergency contraceptives",
+  "source": "ATC"
+ },
+ "G03BA": {
+  "members": [
+   "4494",
+   "6904",
+   "10379"
+  ],
+  "name": "3-oxoandrosten (4) derivatives",
+  "source": "ATC"
+ },
+ "G03CA": {
+  "members": [
+   "2397",
+   "4083",
+   "4094",
+   "4099",
+   "4103",
+   "4124",
+   "34625",
+   "2539031"
+  ],
+  "name": "Natural and semisynthetic estrogens, plain",
+  "source": "ATC"
+ },
+ "G03CB": {
+  "members": [
+   "3368",
+   "3390"
+  ],
+  "name": "Synthetic estrogens, plain",
+  "source": "ATC"
+ },
+ "G03CC": {
+  "members": [
+   "3368",
+   "3390",
+   "4094",
+   "4103"
+  ],
+  "name": "Estrogens, combinations with other drugs",
+  "source": "ATC"
+ },
+ "G03DA": {
+  "members": [
+   "4793",
+   "5542",
+   "6691",
+   "8727"
+  ],
+  "name": "Pregnen (4) derivatives",
+  "source": "ATC"
+ },
+ "G03DB": {
+  "members": [
+   "3706",
+   "6690",
+   "6703",
+   "8744",
+   "22483",
+   "22968",
+   "31930",
+   "78904"
+  ],
+  "name": "Pregnadien derivatives",
+  "source": "ATC"
+ },
+ "G03DC": {
+  "members": [
+   "525",
+   "4129",
+   "6529",
+   "7514",
+   "24591"
+  ],
+  "name": "Estren derivatives",
+  "source": "ATC"
+ },
+ "G03EA": {
+  "members": [],
+  "name": "Androgens and estrogens",
+  "source": "ATC"
+ },
+ "G03EK": {
+  "members": [
+   "6904"
+  ],
+  "name": "Androgens and female sex hormones in combination with other drugs",
+  "source": "ATC"
+ },
+ "G03GA": {
+  "members": [
+   "4986",
+   "25357",
+   "134404",
+   "386938",
+   "388084"
+  ],
+  "name": "Gonadotropins",
+  "source": "ATC"
+ },
+ "G03GB": {
+  "members": [
+   "2596",
+   "2983"
+  ],
+  "name": "Ovulation stimulants, synthetic",
+  "source": "ATC"
+ },
+ "G03XA": {
+  "members": [
+   "3102",
+   "4792"
+  ],
+  "name": "Antigonadotropins and similar agents",
+  "source": "ATC"
+ },
+ "G03XB": {
+  "members": [
+   "6964",
+   "1005921"
+  ],
+  "name": "Progesterone receptor modulators",
+  "source": "ATC"
+ },
+ "G03XC": {
+  "members": [
+   "72143",
+   "1370971",
+   "1441386"
+  ],
+  "name": "Selective estrogen receptor modulators",
+  "source": "ATC"
+ },
+ "G03XX": {
+  "members": [
+   "3143"
+  ],
+  "name": "Other sex hormones and modulators of the genital system",
+  "source": "ATC"
+ },
+ "G04BA": {
+  "members": [
+   "712",
+   "1901"
+  ],
+  "name": "Acidifiers",
+  "source": "ATC"
+ },
+ "G04BD": {
+  "members": [
+   "3816",
+   "4440",
+   "32675",
+   "37815",
+   "55175",
+   "119565",
+   "136198",
+   "236778",
+   "322167",
+   "797195",
+   "1300786",
+   "2472254"
+  ],
+  "name": "Drugs for urinary frequency and incontinence",
+  "source": "ATC"
+ },
+ "G04BE": {
+  "members": [
+   "598",
+   "1043",
+   "7895",
+   "10561",
+   "136411",
+   "220982",
+   "306674",
+   "358263",
+   "1291301"
+  ],
+  "name": "Drugs used in erectile dysfunction",
+  "source": "ATC"
+ },
+ "G04BX": {
+  "members": [
+   "2714",
+   "3455",
+   "6581",
+   "6765",
+   "8120",
+   "16728",
+   "36122"
+  ],
+  "name": "Other urologicals",
+  "source": "ATC"
+ },
+ "G04CA": {
+  "members": [
+   "17300",
+   "37798",
+   "77492",
+   "720825"
+  ],
+  "name": "Alpha-adrenoreceptor antagonists",
+  "source": "ATC"
+ },
+ "G04CB": {
+  "members": [
+   "25025",
+   "228790"
+  ],
+  "name": "Testosterone-5-alpha reductase inhibitors",
+  "source": "ATC"
+ },
+ "H01AA": {
+  "members": [
+   "376",
+   "2890"
+  ],
+  "name": "ACTH",
+  "source": "ATC"
+ },
+ "H01AB": {
+  "members": [
+   "4952"
+  ],
+  "name": "Thyrotropin",
+  "source": "ATC"
+ },
+ "H01AC": {
+  "members": [
+   "56188",
+   "56570",
+   "61148",
+   "274403",
+   "616877",
+   "1044584",
+   "2557373",
+   "2569562",
+   "2644503"
+  ],
+  "name": "Somatropin and somatropin agonists",
+  "source": "ATC"
+ },
+ "H01AX": {
+  "members": [
+   "278739"
+  ],
+  "name": "Other anterior pituitary lobe hormones and analogues",
+  "source": "ATC"
+ },
+ "H01BA": {
+  "members": [
+   "1098",
+   "3251",
+   "6531",
+   "7703",
+   "57048"
+  ],
+  "name": "Vasopressin and analogues",
+  "source": "ATC"
+ },
+ "H01BB": {
+  "members": [
+   "7824"
+  ],
+  "name": "Oxytocin and analogues",
+  "source": "ATC"
+ },
+ "H01CA": {
+  "members": [
+   "6384",
+   "28656"
+  ],
+  "name": "Gonadotropin-releasing hormones",
+  "source": "ATC"
+ },
+ "H01CB": {
+  "members": [
+   "7617",
+   "9939",
+   "68092",
+   "1364105",
+   "2724363"
+  ],
+  "name": "Somatostatin and analogues",
+  "source": "ATC"
+ },
+ "H01CC": {
+  "members": [
+   "35825",
+   "68147",
+   "2049846",
+   "2621019"
+  ],
+  "name": "Anti-gonadotropin-releasing hormones",
+  "source": "ATC"
+ },
+ "H02AA": {
+  "members": [
+   "3256",
+   "4452",
+   "1312358"
+  ],
+  "name": "Mineralocorticoids",
+  "source": "ATC"
+ },
+ "H02AB": {
+  "members": [
+   "1514",
+   "2878",
+   "3264",
+   "4463",
+   "5492",
+   "6902",
+   "7910",
+   "8638",
+   "8640",
+   "10759",
+   "12473",
+   "21285",
+   "21660",
+   "22396",
+   "29523",
+   "55681",
+   "2669799"
+  ],
+  "name": "Glucocorticoids",
+  "source": "ATC"
+ },
+ "H02CA": {
+  "members": [
+   "6135",
+   "38668",
+   "2286252"
+  ],
+  "name": "Anticorticosteroids",
+  "source": "ATC"
+ },
+ "H03AA": {
+  "members": [
+   "13982"
+  ],
+  "name": "Thyroid hormones",
+  "source": "ATC"
+ },
+ "H03BA": {
+  "members": [
+   "8794",
+   "19084"
+  ],
+  "name": "Thiouracils",
+  "source": "ATC"
+ },
+ "H03BB": {
+  "members": [
+   "2020",
+   "6835"
+  ],
+  "name": "Sulfur-containing imidazole derivatives",
+  "source": "ATC"
+ },
+ "H03BC": {
+  "members": [
+   "34318"
+  ],
+  "name": "Perchlorates",
+  "source": "ATC"
+ },
+ "H04AA": {
+  "members": [
+   "4832",
+   "2535233"
+  ],
+  "name": "Glycogenolytic hormones",
+  "source": "ATC"
+ },
+ "H05AA": {
+  "members": [
+   "32915",
+   "1427222",
+   "1921069"
+  ],
+  "name": "Parathyroid hormones and analogues",
+  "source": "ATC"
+ },
+ "H05BA": {
+  "members": [
+   "36118"
+  ],
+  "name": "Calcitonin preparations",
+  "source": "ATC"
+ },
+ "H05BX": {
+  "members": [
+   "1889",
+   "11516",
+   "73710",
+   "407990",
+   "1876119"
+  ],
+  "name": "Other anti-parathyroid agents",
+  "source": "ATC"
+ },
+ "J01AA": {
+  "members": [
+   "2408",
+   "3154",
+   "3640",
+   "6513",
+   "6812",
+   "6980",
+   "7821",
+   "9462",
+   "10395",
+   "21272",
+   "384455",
+   "2055906",
+   "2059018",
+   "2059269"
+  ],
+  "name": "Tetracyclines",
+  "source": "ATC"
+ },
+ "J01BA": {
+  "members": [
+   "2348",
+   "10463"
+  ],
+  "name": "Amphenicols",
+  "source": "ATC"
+ },
+ "J01CA": {
+  "members": [
+   "626",
+   "627",
+   "723",
+   "733",
+   "1266",
+   "2015",
+   "6927",
+   "8339",
+   "8372",
+   "10168",
+   "10322",
+   "10591",
+   "18687",
+   "26797",
+   "29629",
+   "37775"
+  ],
+  "name": "Penicillins with extended spectrum",
+  "source": "ATC"
+ },
+ "J01CE": {
+  "members": [
+   "7980",
+   "7984",
+   "18609",
+   "33277",
+   "34649"
+  ],
+  "name": "Beta-lactamase sensitive penicillins",
+  "source": "ATC"
+ },
+ "J01CF": {
+  "members": [
+   "2625",
+   "3356",
+   "4448",
+   "7233",
+   "7773",
+   "2181306"
+  ],
+  "name": "Beta-lactamase resistant penicillins",
+  "source": "ATC"
+ },
+ "J01CG": {
+  "members": [
+   "10167",
+   "37617"
+  ],
+  "name": "Beta-lactamase inhibitors",
+  "source": "ATC"
+ },
+ "J01CR": {
+  "members": [],
+  "name": "Combinations of penicillins, incl. beta-lactamase inhibitors",
+  "source": "ATC"
+ },
+ "J01DB": {
+  "members": [
+   "2177",
+   "2179",
+   "2180",
+   "2231",
+   "2233",
+   "2236",
+   "2238",
+   "2239"
+  ],
+  "name": "First-generation cephalosporins",
+  "source": "ATC"
+ },
+ "J01DC": {
+  "members": [
+   "2176",
+   "2178",
+   "2182",
+   "2183",
+   "2187",
+   "2188",
+   "2189",
+   "2194",
+   "19552",
+   "20486",
+   "28981"
+  ],
+  "name": "Second-generation cephalosporins",
+  "source": "ATC"
+ },
+ "J01DD": {
+  "members": [
+   "2184",
+   "2186",
+   "2190",
+   "2191",
+   "2192",
+   "2193",
+   "7069",
+   "20482",
+   "20485",
+   "20489",
+   "20492",
+   "25033",
+   "25037",
+   "83682"
+  ],
+  "name": "Third-generation cephalosporins",
+  "source": "ATC"
+ },
+ "J01DE": {
+  "members": [
+   "20481",
+   "27130"
+  ],
+  "name": "Fourth-generation cephalosporins",
+  "source": "ATC"
+ },
+ "J01DF": {
+  "members": [
+   "1272"
+  ],
+  "name": "Monobactams",
+  "source": "ATC"
+ },
+ "J01DH": {
+  "members": [
+   "29561",
+   "119771",
+   "325642",
+   "2750185"
+  ],
+  "name": "Carbapenems",
+  "source": "ATC"
+ },
+ "J01DI": {
+  "members": [
+   "1040004",
+   "2265702"
+  ],
+  "name": "Other cephalosporins and penems",
+  "source": "ATC"
+ },
+ "J01EA": {
+  "members": [
+   "10829",
+   "19727"
+  ],
+  "name": "Trimethoprim and derivatives",
+  "source": "ATC"
+ },
+ "J01EB": {
+  "members": [
+   "10178",
+   "10179",
+   "10184",
+   "10188",
+   "10193",
+   "10206",
+   "10207"
+  ],
+  "name": "Short-acting sulfonamides",
+  "source": "ATC"
+ },
+ "J01EC": {
+  "members": [
+   "10171",
+   "10180",
+   "10183"
+  ],
+  "name": "Intermediate-acting sulfonamides",
+  "source": "ATC"
+ },
+ "J01EE": {
+  "members": [],
+  "name": "Combinations of sulfonamides and trimethoprim, incl. derivatives",
+  "source": "ATC"
+ },
+ "J01FA": {
+  "members": [
+   "4053",
+   "6084",
+   "6985",
+   "7629",
+   "9478",
+   "9991",
+   "10864",
+   "18631",
+   "21212",
+   "23437",
+   "30005",
+   "274786"
+  ],
+  "name": "Macrolides",
+  "source": "ATC"
+ },
+ "J01FF": {
+  "members": [
+   "2582",
+   "6398"
+  ],
+  "name": "Lincosamides",
+  "source": "ATC"
+ },
+ "J01FG": {
+  "members": [
+   "66958"
+  ],
+  "name": "Streptogramins",
+  "source": "ATC"
+ },
+ "J01GA": {
+  "members": [
+   "10109"
+  ],
+  "name": "Streptomycins",
+  "source": "ATC"
+ },
+ "J01GB": {
+  "members": [
+   "641",
+   "3328",
+   "6099",
+   "7299",
+   "7337",
+   "9806",
+   "10627",
+   "26397",
+   "1596450",
+   "2049549"
+  ],
+  "name": "Other aminoglycosides",
+  "source": "ATC"
+ },
+ "J01MA": {
+  "members": [
+   "2551",
+   "3925",
+   "7517",
+   "7623",
+   "7960",
+   "18469",
+   "28872",
+   "37771",
+   "42322",
+   "82122",
+   "83719",
+   "115552",
+   "138099",
+   "139462",
+   "228476",
+   "1927663"
+  ],
+  "name": "Fluoroquinolones",
+  "source": "ATC"
+ },
+ "J01MB": {
+  "members": [
+   "2550",
+   "7798",
+   "25112",
+   "35797"
+  ],
+  "name": "Other quinolones",
+  "source": "ATC"
+ },
+ "J01RA": {
+  "members": [],
+  "name": "Combinations of antibacterials",
+  "source": "ATC"
+ },
+ "J01XA": {
+  "members": [
+   "11124",
+   "57021",
+   "473837",
+   "1539239",
+   "1547611"
+  ],
+  "name": "Glycopeptide antibacterials",
+  "source": "ATC"
+ },
+ "J01XB": {
+  "members": [
+   "2709",
+   "8536"
+  ],
+  "name": "Polymyxins",
+  "source": "ATC"
+ },
+ "J01XD": {
+  "members": [
+   "6922",
+   "7701",
+   "10612"
+  ],
+  "name": "Imidazole derivatives",
+  "source": "ATC"
+ },
+ "J01XE": {
+  "members": [
+   "7454"
+  ],
+  "name": "Nitrofuran derivatives",
+  "source": "ATC"
+ },
+ "J01XX": {
+  "members": [
+   "270",
+   "1291",
+   "4550",
+   "6832",
+   "21264",
+   "22299",
+   "29256",
+   "31901",
+   "39823",
+   "190376",
+   "1540825",
+   "2198944",
+   "2709212"
+  ],
+  "name": "Other antibacterials",
+  "source": "ATC"
+ },
+ "J02AA": {
+  "members": [
+   "732"
+  ],
+  "name": "Antibiotics",
+  "source": "ATC"
+ },
+ "J02AB": {
+  "members": [
+   "6135",
+   "6932"
+  ],
+  "name": "Imidazole derivatives",
+  "source": "ATC"
+ },
+ "J02AC": {
+  "members": [
+   "4450",
+   "28031",
+   "121243",
+   "282446",
+   "1720882",
+   "2602577"
+  ],
+  "name": "Triazole and tetrazole derivatives",
+  "source": "ATC"
+ },
+ "J02AX": {
+  "members": [
+   "4451",
+   "140108",
+   "325887",
+   "341018",
+   "2560213"
+  ],
+  "name": "Other antimycotics for systemic use",
+  "source": "ATC"
+ },
+ "J04AA": {
+  "members": [
+   "7833"
+  ],
+  "name": "Aminosalicylic acid and derivatives",
+  "source": "ATC"
+ },
+ "J04AB": {
+  "members": [
+   "3007",
+   "9384",
+   "35616",
+   "35617",
+   "55672",
+   "78903"
+  ],
+  "name": "Antibiotics",
+  "source": "ATC"
+ },
+ "J04AC": {
+  "members": [
+   "6038"
+  ],
+  "name": "Hydrazides",
+  "source": "ATC"
+ },
+ "J04AD": {
+  "members": [
+   "4127",
+   "8871"
+  ],
+  "name": "Thiocarbamide derivatives",
+  "source": "ATC"
+ },
+ "J04AK": {
+  "members": [
+   "4110",
+   "8987",
+   "57047",
+   "1364504",
+   "2198359"
+  ],
+  "name": "Other drugs for treatment of tuberculosis",
+  "source": "ATC"
+ },
+ "J04AM": {
+  "members": [],
+  "name": "Combinations of drugs for treatment of tuberculosis",
+  "source": "ATC"
+ },
+ "J04BA": {
+  "members": [
+   "2592",
+   "3108"
+  ],
+  "name": "Drugs for treatment of lepra",
+  "source": "ATC"
+ },
+ "J05AB": {
+  "members": [
+   "281",
+   "4678",
+   "5653",
+   "11194",
+   "59161",
+   "59839",
+   "68099",
+   "73645",
+   "83171",
+   "275891",
+   "2284718",
+   "2587901",
+   "2599518"
+  ],
+  "name": "Nucleosides and nucleotides excl. reverse transcriptase inhibitors",
+  "source": "ATC"
+ },
+ "J05AC": {
+  "members": [
+   "9386",
+   "38868"
+  ],
+  "name": "Cyclic amines",
+  "source": "ATC"
+ },
+ "J05AD": {
+  "members": [
+   "33562"
+  ],
+  "name": "Phosphonic acid derivatives",
+  "source": "ATC"
+ },
+ "J05AE": {
+  "members": [
+   "83395",
+   "85762",
+   "114289",
+   "134527",
+   "190548",
+   "228656",
+   "343047",
+   "358262",
+   "460132",
+   "2745988"
+  ],
+  "name": "Protease inhibitors",
+  "source": "ATC"
+ },
+ "J05AF": {
+  "members": [
+   "3363",
+   "3364",
+   "11413",
+   "59763",
+   "68244",
+   "190521",
+   "276237",
+   "300195",
+   "306266",
+   "474128",
+   "1721603"
+  ],
+  "name": "Nucleoside and nucleotide reverse transcriptase inhibitors",
+  "source": "ATC"
+ },
+ "J05AG": {
+  "members": [
+   "53654",
+   "83816",
+   "195085",
+   "475969",
+   "1102270",
+   "2055755"
+  ],
+  "name": "Non-nucleoside reverse transcriptase inhibitors",
+  "source": "ATC"
+ },
+ "J05AH": {
+  "members": [
+   "69722",
+   "260101",
+   "619693"
+  ],
+  "name": "Neuraminidase inhibitors",
+  "source": "ATC"
+ },
+ "J05AJ": {
+  "members": [
+   "719872",
+   "1306286",
+   "1433868",
+   "2475077"
+  ],
+  "name": "Integrase inhibitors",
+  "source": "ATC"
+ },
+ "J05AP": {
+  "members": [
+   "9344",
+   "1102129",
+   "1102261",
+   "1482790",
+   "1484911",
+   "1597381",
+   "1606218",
+   "1652103",
+   "1734628",
+   "1734630"
+  ],
+  "name": "Antivirals for treatment of HCV infections",
+  "source": "ATC"
+ },
+ "J05AR": {
+  "members": [],
+  "name": "Antivirals for treatment of HIV infections, combinations",
+  "source": "ATC"
+ },
+ "J05AX": {
+  "members": [
+   "6048",
+   "30227",
+   "139896",
+   "620216",
+   "1426865",
+   "1988648",
+   "2043283",
+   "2055104",
+   "2099995",
+   "2380373",
+   "2586068",
+   "2625651",
+   "2743603"
+  ],
+  "name": "Other antivirals",
+  "source": "ATC"
+ },
+ "J06BB": {
+  "members": [
+   "3510",
+   "22178",
+   "26744",
+   "35465",
+   "39385",
+   "89886",
+   "597392",
+   "1722336",
+   "1727875"
+  ],
+  "name": "Specific immunoglobulins",
+  "source": "ATC"
+ },
+ "J07AM": {
+  "members": [
+   "798306"
+  ],
+  "name": "Tetanus vaccines",
+  "source": "ATC"
+ },
+ "J07BN": {
+  "members": [
+   "2468231",
+   "2479831"
+  ],
+  "name": "Covid-19 vaccines",
+  "source": "ATC"
+ },
+ "L01AA": {
+  "members": [
+   "2346",
+   "3002",
+   "5657",
+   "6674",
+   "6718",
+   "8637",
+   "38865",
+   "134547",
+   "2531369"
+  ],
+  "name": "Nitrogen mustard analogues",
+  "source": "ATC"
+ },
+ "L01AB": {
+  "members": [
+   "1828",
+   "38508"
+  ],
+  "name": "Alkyl sulfonates",
+  "source": "ATC"
+ },
+ "L01AC": {
+  "members": [
+   "10473"
+  ],
+  "name": "Ethylene imines",
+  "source": "ATC"
+ },
+ "L01AD": {
+  "members": [
+   "2105",
+   "6466",
+   "10114",
+   "10996"
+  ],
+  "name": "Nitrosoureas",
+  "source": "ATC"
+ },
+ "L01AG": {
+  "members": [
+   "4132"
+  ],
+  "name": "Epoxides",
+  "source": "ATC"
+ },
+ "L01AX": {
+  "members": [
+   "3098",
+   "6996",
+   "8347",
+   "37776"
+  ],
+  "name": "Other alkylating agents",
+  "source": "ATC"
+ },
+ "L01BA": {
+  "members": [
+   "6851",
+   "68446",
+   "196239",
+   "662019"
+  ],
+  "name": "Folic acid analogues",
+  "source": "ATC"
+ },
+ "L01BB": {
+  "members": [
+   "103",
+   "10485",
+   "24698",
+   "44151",
+   "44157",
+   "274771"
+  ],
+  "name": "Purine analogues",
+  "source": "ATC"
+ },
+ "L01BC": {
+  "members": [
+   "1251",
+   "3041",
+   "4488",
+   "4492",
+   "4582",
+   "12574",
+   "15657",
+   "194000"
+  ],
+  "name": "Pyrimidine analogues",
+  "source": "ATC"
+ },
+ "L01CA": {
+  "members": [
+   "11198",
+   "11202",
+   "11204",
+   "39541"
+  ],
+  "name": "Vinca alkaloids and analogues",
+  "source": "ATC"
+ },
+ "L01CB": {
+  "members": [
+   "4179",
+   "10362"
+  ],
+  "name": "Podophyllotoxin derivatives",
+  "source": "ATC"
+ },
+ "L01CD": {
+  "members": [
+   "56946",
+   "72962",
+   "996051"
+  ],
+  "name": "Taxanes",
+  "source": "ATC"
+ },
+ "L01CE": {
+  "members": [
+   "51499",
+   "57308"
+  ],
+  "name": "Topoisomerase 1 (TOP1) inhibitors",
+  "source": "ATC"
+ },
+ "L01CX": {
+  "members": [
+   "1716278"
+  ],
+  "name": "Other plant alkaloids and natural products",
+  "source": "ATC"
+ },
+ "L01DA": {
+  "members": [
+   "3100"
+  ],
+  "name": "Actinomycines",
+  "source": "ATC"
+ },
+ "L01DB": {
+  "members": [
+   "239",
+   "3109",
+   "3639",
+   "3995",
+   "5650",
+   "7005",
+   "31435",
+   "33764"
+  ],
+  "name": "Anthracyclines and related substances",
+  "source": "ATC"
+ },
+ "L01DC": {
+  "members": [
+   "632",
+   "1622",
+   "6995",
+   "337523"
+  ],
+  "name": "Other cytotoxic antibiotics",
+  "source": "ATC"
+ },
+ "L01EA": {
+  "members": [
+   "282388",
+   "475342",
+   "662281",
+   "1307619",
+   "1364347",
+   "2584304"
+  ],
+  "name": "BCR-ABL tyrosine kinase inhibitors",
+  "source": "ATC"
+ },
+ "L01EB": {
+  "members": [
+   "328134",
+   "337525",
+   "1430438",
+   "1721560",
+   "2058849",
+   "2570736",
+   "2691150"
+  ],
+  "name": "Epidermal growth factor receptor (EGFR) tyrosine kinase inhibitors",
+  "source": "ATC"
+ },
+ "L01EC": {
+  "members": [
+   "1147220",
+   "1424911",
+   "2049106",
+   "2682434"
+  ],
+  "name": "B-Raf serine-threonine kinase (BRAF) inhibitors",
+  "source": "ATC"
+ },
+ "L01ED": {
+  "members": [
+   "1148495",
+   "1535457",
+   "1727455",
+   "1921217",
+   "2103164"
+  ],
+  "name": "Anaplastic lymphoma kinase (ALK) inhibitors",
+  "source": "ATC"
+ },
+ "L01EE": {
+  "members": [
+   "1425099",
+   "1722365",
+   "2049122",
+   "2289380",
+   "2705551"
+  ],
+  "name": "Mitogen-activated protein kinase (MEK) inhibitors",
+  "source": "ATC"
+ },
+ "L01EF": {
+  "members": [
+   "1601374",
+   "1873916",
+   "1946825"
+  ],
+  "name": "Cyclin-dependent kinase (CDK) inhibitors",
+  "source": "ATC"
+ },
+ "L01EG": {
+  "members": [
+   "35302",
+   "141704",
+   "657797"
+  ],
+  "name": "Mammalian target of rapamycin (mTOR) kinase inhibitors",
+  "source": "ATC"
+ },
+ "L01EH": {
+  "members": [
+   "480167",
+   "1940643",
+   "2361285",
+   "2721604",
+   "2728187"
+  ],
+  "name": "Human epidermal growth factor receptor 2 (HER2) tyrosine kinase inhibitors",
+  "source": "ATC"
+ },
+ "L01EJ": {
+  "members": [
+   "1193326",
+   "2197490",
+   "2595243",
+   "2665204"
+  ],
+  "name": "Janus-associated kinase (JAK) inhibitors",
+  "source": "ATC"
+ },
+ "L01EK": {
+  "members": [
+   "1242999",
+   "2534233",
+   "2670179"
+  ],
+  "name": "Vascular endothelial growth factor receptor (VEGFR) tyrosine kinase inhibitors",
+  "source": "ATC"
+ },
+ "L01EL": {
+  "members": [
+   "1442981",
+   "1986808",
+   "2262435",
+   "2629338"
+  ],
+  "name": "Bruton's tyrosine kinase (BTK) inhibitors",
+  "source": "ATC"
+ },
+ "L01EM": {
+  "members": [
+   "1544460",
+   "1945077",
+   "2058509",
+   "2169285",
+   "2695422"
+  ],
+  "name": "Phosphatidylinositol-3-kinase (Pi3K) inhibitors",
+  "source": "ATC"
+ },
+ "L01EN": {
+  "members": [
+   "2123125",
+   "2359268",
+   "2550729",
+   "2628190"
+  ],
+  "name": "Fibroblast growth factor receptor (FGFR) tyrosine kinase inhibitors",
+  "source": "ATC"
+ },
+ "L01EP": {
+  "members": [
+   "2362165",
+   "2477103"
+  ],
+  "name": "Cellular-mesenchymal-epithelial transition factor (c-MET) kinase inhibitors",
+  "source": "ATC"
+ },
+ "L01EX": {
+  "members": [
+   "357977",
+   "495881",
+   "714438",
+   "1098413",
+   "1312397",
+   "1363268",
+   "1592737",
+   "1603296",
+   "1919083",
+   "2105628",
+   "2105806",
+   "2183102",
+   "2197862",
+   "2272107",
+   "2362165",
+   "2369389",
+   "2370147",
+   "2394936",
+   "2477103",
+   "2478439",
+   "2643048",
+   "2669967",
+   "2670644",
+   "2705378"
+  ],
+  "name": "Other protein kinase inhibitors",
+  "source": "ATC"
+ },
+ "L01FA": {
+  "members": [
+   "121191",
+   "712566",
+   "974779"
+  ],
+  "name": "CD20 (Clusters of Differentiation 20) inhibitors",
+  "source": "ATC"
+ },
+ "L01FB": {
+  "members": [
+   "1942950",
+   "2099295"
+  ],
+  "name": "CD22 (Clusters of Differentiation 22) inhibitors",
+  "source": "ATC"
+ },
+ "L01FC": {
+  "members": [
+   "1721947",
+   "2282018"
+  ],
+  "name": "CD38 (Clusters of Differentiation 38) inhibitors",
+  "source": "ATC"
+ },
+ "L01FD": {
+  "members": [
+   "224905",
+   "1298944",
+   "2473851",
+   "2698198"
+  ],
+  "name": "HER2 (Human Epidermal Growth Factor Receptor 2) inhibitors",
+  "source": "ATC"
+ },
+ "L01FE": {
+  "members": [
+   "263034",
+   "318341",
+   "1723738"
+  ],
+  "name": "EGFR (Epidermal Growth Factor Receptor) inhibitors",
+  "source": "ATC"
+ },
+ "L01FF": {
+  "members": [
+   "1547545",
+   "1597876",
+   "1792776",
+   "1875534",
+   "1919503",
+   "2058826",
+   "2539967",
+   "2632981",
+   "2669406",
+   "2677426"
+  ],
+  "name": "PD-1/PD-L1 (Programmed cell death protein 1/death ligand 1) inhibitors",
+  "source": "ATC"
+ },
+ "L01FG": {
+  "members": [
+   "253337",
+   "1535922"
+  ],
+  "name": "VEGF/VEGFR (Vascular Endothelial Growth Factor / -Receptor) inhibitors",
+  "source": "ATC"
+ },
+ "L01FX": {
+  "members": [
+   "80726",
+   "1094833",
+   "1147320",
+   "1294580",
+   "1597258",
+   "1726104",
+   "1855735",
+   "2054068",
+   "2174090",
+   "2387211",
+   "2387834",
+   "2474039",
+   "2540964",
+   "2549199",
+   "2619313",
+   "2619426",
+   "2621548",
+   "2625122",
+   "2637392",
+   "2639782",
+   "2644447",
+   "2644880",
+   "2682954",
+   "2695869",
+   "2703033",
+   "2719416"
+  ],
+  "name": "Other monoclonal antibodies and antibody drug conjugates",
+  "source": "ATC"
+ },
+ "L01FY": {
+  "members": [],
+  "name": "Combinations of monoclonal antibodies and antibody drug conjugates",
+  "source": "ATC"
+ },
+ "L01XA": {
+  "members": [
+   "2555",
+   "32592",
+   "40048",
+   "1733681"
+  ],
+  "name": "Platinum compounds",
+  "source": "ATC"
+ },
+ "L01XB": {
+  "members": [
+   "8702"
+  ],
+  "name": "Methylhydrazines",
+  "source": "ATC"
+ },
+ "L01XD": {
+  "members": [
+   "683",
+   "115243",
+   "337068"
+  ],
+  "name": "Sensitizers used in photodynamic/radiation therapy",
+  "source": "ATC"
+ },
+ "L01XF": {
+  "members": [
+   "10753",
+   "81864",
+   "233272"
+  ],
+  "name": "Retinoids for cancer treatment",
+  "source": "ATC"
+ },
+ "L01XG": {
+  "members": [
+   "358258",
+   "1302966",
+   "1723735"
+  ],
+  "name": "Proteasome inhibitors",
+  "source": "ATC"
+ },
+ "L01XH": {
+  "members": [
+   "194337",
+   "877510",
+   "1543543",
+   "1603350"
+  ],
+  "name": "Histone deacetylase (HDAC) inhibitors",
+  "source": "ATC"
+ },
+ "L01XJ": {
+  "members": [
+   "1242987",
+   "1659191",
+   "2105845"
+  ],
+  "name": "Hedgehog pathway inhibitors",
+  "source": "ATC"
+ },
+ "L01XK": {
+  "members": [
+   "1597582",
+   "1862579",
+   "1918231",
+   "2099704"
+  ],
+  "name": "Poly (ADP-ribose) polymerase (PARP) inhibitors",
+  "source": "ATC"
+ },
+ "L01XL": {
+  "members": [
+   "1986438",
+   "1987398",
+   "2387277",
+   "2479136",
+   "2536430",
+   "2594775",
+   "2644436",
+   "2675860",
+   "2698195"
+  ],
+  "name": "Antineoplastic cell and gene therapy",
+  "source": "ATC"
+ },
+ "L01XM": {
+  "members": [
+   "1940332",
+   "2049873",
+   "2623641",
+   "2690647"
+  ],
+  "name": "Isocitrate dehydrogenase (IDH) inhibitors",
+  "source": "ATC"
+ },
+ "L01XX": {
+  "members": [
+   "569",
+   "739",
+   "1156",
+   "4089",
+   "5296",
+   "5552",
+   "7004",
+   "8011",
+   "18330",
+   "27100",
+   "34132",
+   "140587",
+   "214470",
+   "227239",
+   "596724",
+   "1045453",
+   "1232150",
+   "1747556",
+   "2109055",
+   "2121416",
+   "2178390",
+   "2274378",
+   "2374729",
+   "2550714",
+   "2567226",
+   "2590743",
+   "2625882",
+   "2670631",
+   "2685236",
+   "2698325"
+  ],
+  "name": "Other antineoplastic agents",
+  "source": "ATC"
+ },
+ "L01XY": {
+  "members": [],
+  "name": "Combinations of antineoplastic agents",
+  "source": "ATC"
+ },
+ "L02AA": {
+  "members": [
+   "3390",
+   "4124",
+   "25284"
+  ],
+  "name": "Estrogens",
+  "source": "ATC"
+ },
+ "L02AB": {
+  "members": [
+   "4793",
+   "6691",
+   "6703"
+  ],
+  "name": "Progestogens",
+  "source": "ATC"
+ },
+ "L02AE": {
+  "members": [
+   "1825",
+   "38782",
+   "42375",
+   "50610",
+   "50975"
+  ],
+  "name": "Gonadotropin releasing hormone analogues",
+  "source": "ATC"
+ },
+ "L02BA": {
+  "members": [
+   "10324",
+   "38409",
+   "282357",
+   "2628469",
+   "2752682"
+  ],
+  "name": "Anti-estrogens",
+  "source": "ATC"
+ },
+ "L02BB": {
+  "members": [
+   "4508",
+   "31805",
+   "83008",
+   "1307298",
+   "1999574",
+   "2180325"
+  ],
+  "name": "Anti-androgens",
+  "source": "ATC"
+ },
+ "L02BG": {
+  "members": [
+   "677",
+   "15070",
+   "72965",
+   "84857",
+   "258494"
+  ],
+  "name": "Aromatase inhibitors",
+  "source": "ATC"
+ },
+ "L02BX": {
+  "members": [
+   "301739",
+   "475230",
+   "1100072",
+   "2472778"
+  ],
+  "name": "Other hormone antagonists and related agents",
+  "source": "ATC"
+ },
+ "L03AA": {
+  "members": [
+   "68442",
+   "69634",
+   "70161",
+   "70167",
+   "140502",
+   "338036",
+   "1440046",
+   "2612526",
+   "2670630"
+  ],
+  "name": "Colony stimulating factors",
+  "source": "ATC"
+ },
+ "L03AB": {
+  "members": [
+   "4381",
+   "5879",
+   "5880",
+   "59744",
+   "72257",
+   "75917",
+   "120608",
+   "202912",
+   "253453",
+   "1421648",
+   "1546168",
+   "2587059"
+  ],
+  "name": "Interferons",
+  "source": "ATC"
+ },
+ "L03AC": {
+  "members": [
+   "70223",
+   "139994",
+   "2682678"
+  ],
+  "name": "Interleukins",
+  "source": "ATC"
+ },
+ "L03AX": {
+  "members": [
+   "38221",
+   "40230",
+   "40450",
+   "59768",
+   "283746",
+   "733003",
+   "997261",
+   "2059219",
+   "2633005",
+   "2664896",
+   "2684021"
+  ],
+  "name": "Other immunostimulants",
+  "source": "ATC"
+ },
+ "L04AA": {
+  "members": [
+   "7145",
+   "44157",
+   "299635",
+   "614391",
+   "1112973",
+   "1311600",
+   "1492727",
+   "2564025",
+   "2587717",
+   "2724365",
+   "2725523"
+  ],
+  "name": "Selective immunosuppressants",
+  "source": "ATC"
+ },
+ "L04AB": {
+  "members": [
+   "191831",
+   "214555",
+   "327361",
+   "709271",
+   "819300"
+  ],
+  "name": "Tumor necrosis factor alpha (TNF-alpha) inhibitors",
+  "source": "ATC"
+ },
+ "L04AC": {
+  "members": [
+   "72435",
+   "190353",
+   "196102",
+   "612865",
+   "763450",
+   "847083",
+   "853491",
+   "1535218",
+   "1599788",
+   "1745099",
+   "1872251",
+   "1923319",
+   "1928588",
+   "2053436",
+   "2166040",
+   "2391541",
+   "2610417",
+   "2668041",
+   "2668384"
+  ],
+  "name": "Interleukin inhibitors",
+  "source": "ATC"
+ },
+ "L04AD": {
+  "members": [
+   "3008",
+   "42316",
+   "2475166"
+  ],
+  "name": "Calcineurin inhibitors",
+  "source": "ATC"
+ },
+ "L04AE": {
+  "members": [
+   "1012892",
+   "2121085",
+   "2288236",
+   "2532300",
+   "2668045"
+  ],
+  "name": "Sphingosine-1-phosphate (S1P) receptor modulators",
+  "source": "ATC"
+ },
+ "L04AF": {
+  "members": [
+   "1357536",
+   "2047232",
+   "2196092",
+   "2612087",
+   "2641595",
+   "2716558"
+  ],
+  "name": "Janus-associated kinase (JAK) inhibitors",
+  "source": "ATC"
+ },
+ "L04AG": {
+  "members": [
+   "42405",
+   "117055",
+   "354770",
+   "356988",
+   "712566",
+   "1092437",
+   "1538097",
+   "1876366",
+   "2104604",
+   "2274803",
+   "2373951",
+   "2565265",
+   "2626349",
+   "2642274",
+   "2691526",
+   "2728380"
+  ],
+  "name": "Monoclonal antibodies",
+  "source": "ATC"
+ },
+ "L04AH": {
+  "members": [
+   "35302",
+   "141704"
+  ],
+  "name": "Mammalian target of rapamycin (mTOR) kinase inhibitors",
+  "source": "ATC"
+ },
+ "L04AJ": {
+  "members": [
+   "591781",
+   "2107301",
+   "2557372",
+   "2572100",
+   "2591404",
+   "2639620",
+   "2663938",
+   "2671061",
+   "2672489",
+   "2678952",
+   "2686619"
+  ],
+  "name": "Complement inhibitors",
+  "source": "ATC"
+ },
+ "L04AK": {
+  "members": [
+   "27169",
+   "1310520"
+  ],
+  "name": "Dihydroorotate dehydrogenase (DHODH) inhibitors",
+  "source": "ATC"
+ },
+ "L04AX": {
+  "members": [
+   "1256",
+   "6851",
+   "10432",
+   "342369",
+   "1369713",
+   "1373478",
+   "1546433",
+   "1592254",
+   "2261783"
+  ],
+  "name": "Other immunosuppressants",
+  "source": "ATC"
+ },
+ "M01AA": {
+  "members": [
+   "7816",
+   "8160",
+   "28198",
+   "30202",
+   "183877"
+  ],
+  "name": "Butylpyrazolidines",
+  "source": "ATC"
+ },
+ "M01AB": {
+  "members": [
+   "1796",
+   "3355",
+   "5781",
+   "10237",
+   "10636",
+   "16689",
+   "16695",
+   "19847",
+   "24605",
+   "28876",
+   "34769",
+   "35827",
+   "39994"
+  ],
+  "name": "Acetic acid derivatives and related substances",
+  "source": "ATC"
+ },
+ "M01AC": {
+  "members": [
+   "8356",
+   "20890",
+   "23687",
+   "37790",
+   "41493"
+  ],
+  "name": "Oxicams",
+  "source": "ATC"
+ },
+ "M01AE": {
+  "members": [
+   "4331",
+   "4502",
+   "5640",
+   "6142",
+   "7258",
+   "10255",
+   "17387",
+   "24830",
+   "28908",
+   "32613",
+   "237162"
+  ],
+  "name": "Propionic acid derivatives",
+  "source": "ATC"
+ },
+ "M01AG": {
+  "members": [
+   "4453",
+   "6678",
+   "38377"
+  ],
+  "name": "Fenamates",
+  "source": "ATC"
+ },
+ "M01AH": {
+  "members": [
+   "140587",
+   "232158",
+   "278567",
+   "279950",
+   "307296"
+  ],
+  "name": "Coxibs",
+  "source": "ATC"
+ },
+ "M01AX": {
+  "members": [
+   "1029",
+   "1425",
+   "2473",
+   "4845",
+   "7418",
+   "8673",
+   "22759",
+   "28068",
+   "30225",
+   "31448",
+   "32526",
+   "53694",
+   "2669456"
+  ],
+  "name": "Other antiinflammatory and antirheumatic agents, non-steroids",
+  "source": "ATC"
+ },
+ "M01CB": {
+  "members": [
+   "1227",
+   "4980"
+  ],
+  "name": "Gold preparations",
+  "source": "ATC"
+ },
+ "M01CC": {
+  "members": [
+   "7975"
+  ],
+  "name": "Penicillamine and similar agents",
+  "source": "ATC"
+ },
+ "M02AA": {
+  "members": [
+   "1425",
+   "1796",
+   "3355",
+   "4502",
+   "5640",
+   "5781",
+   "6142",
+   "6678",
+   "7258",
+   "7418",
+   "7816",
+   "8160",
+   "8356",
+   "8673",
+   "10636",
+   "16689",
+   "24608",
+   "28908",
+   "30202",
+   "53694",
+   "82910",
+   "183877",
+   "237162",
+   "262307"
+  ],
+  "name": "Antiinflammatory preparations, non-steroids for topical use",
+  "source": "ATC"
+ },
+ "M02AB": {
+  "members": [
+   "1992"
+  ],
+  "name": "Capsaicin and similar agents",
+  "source": "ATC"
+ },
+ "M02AX": {
+  "members": [
+   "3455",
+   "10634",
+   "10639",
+   "19729"
+  ],
+  "name": "Other topical products for joint and muscular pain",
+  "source": "ATC"
+ },
+ "M03AA": {
+  "members": [
+   "460",
+   "10917"
+  ],
+  "name": "Curare alkaloids",
+  "source": "ATC"
+ },
+ "M03AB": {
+  "members": [
+   "10154"
+  ],
+  "name": "Choline derivatives",
+  "source": "ATC"
+ },
+ "M03AC": {
+  "members": [
+   "1218",
+   "4638",
+   "7883",
+   "26826",
+   "71535",
+   "319864"
+  ],
+  "name": "Other quaternary ammonium compounds",
+  "source": "ATC"
+ },
+ "M03BA": {
+  "members": [
+   "2101",
+   "6845",
+   "24807",
+   "89818"
+  ],
+  "name": "Carbamic acid esters",
+  "source": "ATC"
+ },
+ "M03BB": {
+  "members": [
+   "2373",
+   "2410"
+  ],
+  "name": "Oxazol, thiazine, and triazine derivatives",
+  "source": "ATC"
+ },
+ "M03BC": {
+  "members": [],
+  "name": "Ethers, chemically close to antihistamines",
+  "source": "ATC"
+ },
+ "M03BX": {
+  "members": [
+   "1292",
+   "6755",
+   "10639",
+   "21949",
+   "34479",
+   "37985",
+   "38085",
+   "57258"
+  ],
+  "name": "Other centrally acting agents",
+  "source": "ATC"
+ },
+ "M03CA": {
+  "members": [
+   "3105"
+  ],
+  "name": "Dantrolene and derivatives",
+  "source": "ATC"
+ },
+ "M04AA": {
+  "members": [
+   "519",
+   "38136",
+   "73689"
+  ],
+  "name": "Preparations inhibiting uric acid production",
+  "source": "ATC"
+ },
+ "M04AB": {
+  "members": [
+   "1385",
+   "8698",
+   "10205",
+   "1731031"
+  ],
+  "name": "Preparations increasing uric acid excretion",
+  "source": "ATC"
+ },
+ "M04AC": {
+  "members": [
+   "2683"
+  ],
+  "name": "Preparations with no effect on uric acid metabolism",
+  "source": "ATC"
+ },
+ "M04AX": {
+  "members": [
+   "1011650"
+  ],
+  "name": "Other antigout preparations",
+  "source": "ATC"
+ },
+ "M05BA": {
+  "members": [
+   "3350",
+   "11476",
+   "55685",
+   "77655"
+  ],
+  "name": "Bisphosphonates",
+  "source": "ATC"
+ },
+ "M05BX": {
+  "members": [
+   "17610",
+   "29495",
+   "51487",
+   "993449",
+   "2043855",
+   "2123126",
+   "2586354"
+  ],
+  "name": "Other drugs affecting bone structure and mineralization",
+  "source": "ATC"
+ },
+ "M09AB": {
+  "members": [
+   "1752",
+   "2525",
+   "898492"
+  ],
+  "name": "Enzymes",
+  "source": "ATC"
+ },
+ "M09AX": {
+  "members": [
+   "1810569",
+   "1863556",
+   "2170226",
+   "2267207",
+   "2389840",
+   "2390935",
+   "2480096",
+   "2641675",
+   "2663954",
+   "2678889",
+   "2753162"
+  ],
+  "name": "Other drugs for disorders of the musculo-skeletal system",
+  "source": "ATC"
+ },
+ "N01AB": {
+  "members": [
+   "3920",
+   "5095",
+   "6026",
+   "27340",
+   "36453",
+   "1362698",
+   "2534464"
+  ],
+  "name": "Halogenated hydrocarbons",
+  "source": "ATC"
+ },
+ "N01AF": {
+  "members": [
+   "5302",
+   "6847",
+   "10493"
+  ],
+  "name": "Barbiturates, plain",
+  "source": "ATC"
+ },
+ "N01AH": {
+  "members": [
+   "480",
+   "4337",
+   "8143",
+   "17933",
+   "56795",
+   "73032"
+  ],
+  "name": "Opioid anesthetics",
+  "source": "ATC"
+ },
+ "N01AX": {
+  "members": [
+   "4177",
+   "6130",
+   "7486",
+   "8758",
+   "8782",
+   "11363",
+   "1544577",
+   "2119365"
+  ],
+  "name": "Other general anesthetics",
+  "source": "ATC"
+ },
+ "N01BA": {
+  "members": [
+   "1399",
+   "8701",
+   "10391",
+   "20859"
+  ],
+  "name": "Esters of aminobenzoic acid",
+  "source": "ATC"
+ },
+ "N01BB": {
+  "members": [
+   "1815",
+   "3339",
+   "4171",
+   "6387",
+   "6759",
+   "8686",
+   "35780",
+   "259453",
+   "592464"
+  ],
+  "name": "Amides",
+  "source": "ATC"
+ },
+ "N01BC": {
+  "members": [
+   "2653"
+  ],
+  "name": "Esters of benzoic acid",
+  "source": "ATC"
+ },
+ "N01BX": {
+  "members": [
+   "1992",
+   "4141",
+   "23744",
+   "33290"
+  ],
+  "name": "Other local anesthetics",
+  "source": "ATC"
+ },
+ "N02AA": {
+  "members": [
+   "3423",
+   "7052",
+   "7676",
+   "7804",
+   "7814",
+   "7894",
+   "23088"
+  ],
+  "name": "Natural opium alkaloids",
+  "source": "ATC"
+ },
+ "N02AB": {
+  "members": [
+   "4337",
+   "6754"
+  ],
+  "name": "Phenylpiperidine derivatives",
+  "source": "ATC"
+ },
+ "N02AC": {
+  "members": [
+   "3290",
+   "8354",
+   "8785"
+  ],
+  "name": "Diphenylpropylamine derivatives",
+  "source": "ATC"
+ },
+ "N02AD": {
+  "members": [
+   "8001",
+   "8119"
+  ],
+  "name": "Benzomorphan derivatives",
+  "source": "ATC"
+ },
+ "N02AE": {
+  "members": [
+   "1819"
+  ],
+  "name": "Oripavine derivatives",
+  "source": "ATC"
+ },
+ "N02AF": {
+  "members": [
+   "1841",
+   "7238"
+  ],
+  "name": "Morphinan derivatives",
+  "source": "ATC"
+ },
+ "N02AJ": {
+  "members": [],
+  "name": "Opioids in combination with non-opioid analgesics",
+  "source": "ATC"
+ },
+ "N02AX": {
+  "members": [
+   "6761",
+   "10597",
+   "10689",
+   "22713",
+   "787390",
+   "2392230"
+  ],
+  "name": "Other opioids",
+  "source": "ATC"
+ },
+ "N02BA": {
+  "members": [
+   "1191",
+   "1372",
+   "3393",
+   "9518",
+   "17393",
+   "24468",
+   "27438",
+   "36108",
+   "236348"
+  ],
+  "name": "Salicylic acid and derivatives",
+  "source": "ATC"
+ },
+ "N02BB": {
+  "members": [
+   "695",
+   "1001",
+   "34710"
+  ],
+  "name": "Pyrazolones",
+  "source": "ATC"
+ },
+ "N02BE": {
+  "members": [
+   "161",
+   "8113"
+  ],
+  "name": "Anilides",
+  "source": "ATC"
+ },
+ "N02BF": {
+  "members": [
+   "25480",
+   "187832"
+  ],
+  "name": "Gabapentinoids",
+  "source": "ATC"
+ },
+ "N02BG": {
+  "members": [
+   "4444",
+   "6857",
+   "7285",
+   "25193",
+   "68503"
+  ],
+  "name": "Other analgesics and antipyretics",
+  "source": "ATC"
+ },
+ "N02CA": {
+  "members": [
+   "3418",
+   "4025",
+   "6446",
+   "6911"
+  ],
+  "name": "Ergot alkaloids",
+  "source": "ATC"
+ },
+ "N02CC": {
+  "members": [
+   "37418",
+   "88014",
+   "135775",
+   "141366",
+   "228783",
+   "231049",
+   "279645",
+   "2256930"
+  ],
+  "name": "Selective serotonin (5HT1) agonists",
+  "source": "ATC"
+ },
+ "N02CD": {
+  "members": [
+   "2045613",
+   "2056691",
+   "2058846",
+   "2268216",
+   "2282307",
+   "2282660",
+   "2571813",
+   "2637955"
+  ],
+  "name": "Calcitonin gene-related peptide (CGRP) antagonists",
+  "source": "ATC"
+ },
+ "N02CX": {
+  "members": [
+   "2599",
+   "8373",
+   "32633",
+   "50138",
+   "51486"
+  ],
+  "name": "Other antimigraine preparations",
+  "source": "ATC"
+ },
+ "N03AA": {
+  "members": [
+   "6758",
+   "6825",
+   "8134",
+   "8691",
+   "46795"
+  ],
+  "name": "Barbiturates and derivatives",
+  "source": "ATC"
+ },
+ "N03AB": {
+  "members": [
+   "4136",
+   "6757",
+   "8183",
+   "72236"
+  ],
+  "name": "Hydantoin derivatives",
+  "source": "ATC"
+ },
+ "N03AC": {
+  "members": [
+   "10827",
+   "32894"
+  ],
+  "name": "Oxazolidine derivatives",
+  "source": "ATC"
+ },
+ "N03AD": {
+  "members": [
+   "4135",
+   "33309",
+   "47858"
+  ],
+  "name": "Succinimide derivatives",
+  "source": "ATC"
+ },
+ "N03AE": {
+  "members": [
+   "2598"
+  ],
+  "name": "Benzodiazepine derivatives",
+  "source": "ATC"
+ },
+ "N03AF": {
+  "members": [
+   "2002",
+   "32624",
+   "69036",
+   "1482502"
+  ],
+  "name": "Carboxamide derivatives",
+  "source": "ATC"
+ },
+ "N03AG": {
+  "members": [
+   "14851",
+   "23420",
+   "31914",
+   "34568"
+  ],
+  "name": "Fatty acid derivatives",
+  "source": "ATC"
+ },
+ "N03AX": {
+  "members": [
+   "4328",
+   "10240",
+   "18846",
+   "24812",
+   "28439",
+   "33253",
+   "38404",
+   "39998",
+   "114477",
+   "623400",
+   "1112990",
+   "1356552",
+   "1739745",
+   "2045371",
+   "2054968",
+   "2265690",
+   "2604689"
+  ],
+  "name": "Other antiepileptics",
+  "source": "ATC"
+ },
+ "N04AA": {
+  "members": [
+   "1589",
+   "3267",
+   "4134",
+   "8718",
+   "10811",
+   "19610",
+   "29682",
+   "38876"
+  ],
+  "name": "Tertiary amines",
+  "source": "ATC"
+ },
+ "N04AB": {
+  "members": [],
+  "name": "Ethers chemically close to antihistamines",
+  "source": "ATC"
+ },
+ "N04AC": {
+  "members": [
+   "1424"
+  ],
+  "name": "Ethers of tropine or tropine derivatives",
+  "source": "ATC"
+ },
+ "N04BA": {
+  "members": [
+   "6375"
+  ],
+  "name": "Dopa and dopa derivatives",
+  "source": "ATC"
+ },
+ "N04BB": {
+  "members": [
+   "620"
+  ],
+  "name": "Adamantane derivatives",
+  "source": "ATC"
+ },
+ "N04BC": {
+  "members": [
+   "1043",
+   "1760",
+   "8047",
+   "8353",
+   "47579",
+   "72302",
+   "616739",
+   "746741"
+  ],
+  "name": "Dopamine agonists",
+  "source": "ATC"
+ },
+ "N04BD": {
+  "members": [
+   "9639",
+   "134748",
+   "1922448"
+  ],
+  "name": "Monoamine oxidase B inhibitors",
+  "source": "ATC"
+ },
+ "N04BX": {
+  "members": [
+   "19832",
+   "60307",
+   "72937",
+   "2362167"
+  ],
+  "name": "Other dopaminergic agents",
+  "source": "ATC"
+ },
+ "N04CX": {
+  "members": [
+   "2199015"
+  ],
+  "name": "Other antiparkinson drugs",
+  "source": "ATC"
+ },
+ "N05AA": {
+  "members": [
+   "155",
+   "2403",
+   "6852",
+   "8742",
+   "10805",
+   "21877",
+   "59860"
+  ],
+  "name": "Phenothiazines with aliphatic side-chain",
+  "source": "ATC"
+ },
+ "N05AB": {
+  "members": [
+   "4496",
+   "8042",
+   "8076",
+   "8704",
+   "10498",
+   "10800",
+   "16735",
+   "38133"
+  ],
+  "name": "Phenothiazines with piperazine structure",
+  "source": "ATC"
+ },
+ "N05AC": {
+  "members": [
+   "6779",
+   "8348",
+   "8766",
+   "10502"
+  ],
+  "name": "Phenothiazines with piperidine structure",
+  "source": "ATC"
+ },
+ "N05AD": {
+  "members": [
+   "1373",
+   "3648",
+   "5093",
+   "10804",
+   "19777",
+   "29961",
+   "33739",
+   "2275602"
+  ],
+  "name": "Butyrophenone derivatives",
+  "source": "ATC"
+ },
+ "N05AE": {
+  "members": [
+   "7019",
+   "7815",
+   "41996",
+   "115698",
+   "1040028"
+  ],
+  "name": "Indole derivatives",
+  "source": "ATC"
+ },
+ "N05AF": {
+  "members": [
+   "2406",
+   "4495",
+   "10510",
+   "114176"
+  ],
+  "name": "Thioxanthene derivatives",
+  "source": "ATC"
+ },
+ "N05AG": {
+  "members": [
+   "4507",
+   "7974",
+   "8331"
+  ],
+  "name": "Diphenylbutylpiperidine derivatives",
+  "source": "ATC"
+ },
+ "N05AH": {
+  "members": [
+   "2620",
+   "2626",
+   "6475",
+   "51272",
+   "61381",
+   "784649"
+  ],
+  "name": "Diazepines, oxazepines, thiazepines and oxepines",
+  "source": "ATC"
+ },
+ "N05AL": {
+  "members": [
+   "10239",
+   "10588",
+   "35350",
+   "37416",
+   "39468",
+   "46303"
+  ],
+  "name": "Benzamides",
+  "source": "ATC"
+ },
+ "N05AN": {
+  "members": [
+   "6448"
+  ],
+  "name": "Lithium",
+  "source": "ATC"
+ },
+ "N05AX": {
+  "members": [
+   "35636",
+   "40003",
+   "55244",
+   "73178",
+   "89013",
+   "679314",
+   "1658314",
+   "1667655",
+   "1791685"
+  ],
+  "name": "Other antipsychotics",
+  "source": "ATC"
+ },
+ "N05BA": {
+  "members": [
+   "596",
+   "1749",
+   "2356",
+   "2622",
+   "3155",
+   "3322",
+   "6470",
+   "6680",
+   "7781",
+   "8627",
+   "21241",
+   "21311",
+   "24524",
+   "26412",
+   "28181",
+   "38365"
+  ],
+  "name": "Benzodiazepine derivatives",
+  "source": "ATC"
+ },
+ "N05BB": {
+  "members": [
+   "5553",
+   "89812"
+  ],
+  "name": "Diphenylmethane derivatives",
+  "source": "ATC"
+ },
+ "N05BC": {
+  "members": [
+   "6760"
+  ],
+  "name": "Carbamates",
+  "source": "ATC"
+ },
+ "N05BE": {
+  "members": [
+   "1827"
+  ],
+  "name": "Azaspirodecanedione derivatives",
+  "source": "ATC"
+ },
+ "N05CA": {
+  "members": [
+   "516",
+   "719",
+   "1325",
+   "2978",
+   "5302",
+   "6847",
+   "8004",
+   "9624",
+   "10493",
+   "17381",
+   "19874",
+   "19928",
+   "83885",
+   "89810",
+   "89811"
+  ],
+  "name": "Barbiturates, plain",
+  "source": "ATC"
+ },
+ "N05CC": {
+  "members": [
+   "7909",
+   "22892"
+  ],
+  "name": "Aldehydes and derivatives",
+  "source": "ATC"
+ },
+ "N05CD": {
+  "members": [
+   "4077",
+   "4460",
+   "4501",
+   "6960",
+   "7440",
+   "10355",
+   "10767",
+   "19790",
+   "28894",
+   "35185",
+   "38555",
+   "2383941"
+  ],
+  "name": "Benzodiazepine derivatives",
+  "source": "ATC"
+ },
+ "N05CF": {
+  "members": [
+   "39993",
+   "40001",
+   "74667",
+   "461016"
+  ],
+  "name": "Benzodiazepine related drugs",
+  "source": "ATC"
+ },
+ "N05CH": {
+  "members": [
+   "6711",
+   "596205",
+   "1490468"
+  ],
+  "name": "Melatonin receptor agonists",
+  "source": "ATC"
+ },
+ "N05CJ": {
+  "members": [
+   "1547099",
+   "2272403",
+   "2591497"
+  ],
+  "name": "Orexin receptor antagonists",
+  "source": "ATC"
+ },
+ "N05CM": {
+  "members": [
+   "2067",
+   "2372",
+   "4118",
+   "6823",
+   "8770",
+   "9601",
+   "31722",
+   "38610",
+   "48937",
+   "253206"
+  ],
+  "name": "Other hypnotics and sedatives",
+  "source": "ATC"
+ },
+ "N06AA": {
+  "members": [
+   "704",
+   "722",
+   "2597",
+   "3247",
+   "3332",
+   "3634",
+   "3638",
+   "5691",
+   "5979",
+   "6465",
+   "6646",
+   "7531",
+   "7674",
+   "8886",
+   "10834",
+   "17698",
+   "19895",
+   "35242",
+   "446248"
+  ],
+  "name": "Non-selective monoamine reuptake inhibitors",
+  "source": "ATC"
+ },
+ "N06AB": {
+  "members": [
+   "2556",
+   "4493",
+   "32937",
+   "36437",
+   "42355",
+   "321988"
+  ],
+  "name": "Selective serotonin reuptake inhibitors",
+  "source": "ATC"
+ },
+ "N06AF": {
+  "members": [
+   "5981",
+   "6011",
+   "7394",
+   "8123",
+   "10734"
+  ],
+  "name": "Monoamine oxidase inhibitors, non-selective",
+  "source": "ATC"
+ },
+ "N06AX": {
+  "members": [
+   "94",
+   "6929",
+   "7500",
+   "10737",
+   "10898",
+   "11196",
+   "15996",
+   "29434",
+   "30031",
+   "31565",
+   "38252",
+   "39786",
+   "42347",
+   "47111",
+   "60842",
+   "72625",
+   "258326",
+   "588250",
+   "734064",
+   "1086769",
+   "1433212",
+   "1455099",
+   "2119365",
+   "2121777",
+   "2669905",
+   "2672253"
+  ],
+  "name": "Other antidepressants",
+  "source": "ATC"
+ },
+ "N06BA": {
+  "members": [
+   "725",
+   "3288",
+   "6816",
+   "6901",
+   "7966",
+   "24840",
+   "24860",
+   "30125",
+   "38400",
+   "352372",
+   "641465",
+   "700810",
+   "2121751"
+  ],
+  "name": "Centrally acting sympathomimetics",
+  "source": "ATC"
+ },
+ "N06BC": {
+  "members": [
+   "1886",
+   "34644"
+  ],
+  "name": "Xanthine derivatives",
+  "source": "ATC"
+ },
+ "N06BX": {
+  "members": [
+   "193",
+   "2228",
+   "3116",
+   "8351",
+   "9020",
+   "17939",
+   "24506",
+   "32645",
+   "34604",
+   "35097",
+   "45938",
+   "51296",
+   "997602"
+  ],
+  "name": "Other psychostimulants and nootropics",
+  "source": "ATC"
+ },
+ "N06DA": {
+  "members": [
+   "4637",
+   "10318",
+   "135447",
+   "183379",
+   "2690627"
+  ],
+  "name": "Anticholinesterases",
+  "source": "ATC"
+ },
+ "N06DX": {
+  "members": [
+   "6719",
+   "2557217",
+   "2626143",
+   "2687966"
+  ],
+  "name": "Other anti-dementia drugs",
+  "source": "ATC"
+ },
+ "N07AA": {
+  "members": [
+   "623",
+   "3551",
+   "7315",
+   "9000"
+  ],
+  "name": "Anticholinesterases",
+  "source": "ATC"
+ },
+ "N07AB": {
+  "members": [
+   "1999",
+   "19257"
+  ],
+  "name": "Choline esters",
+  "source": "ATC"
+ },
+ "N07AX": {
+  "members": [
+   "8328",
+   "44281"
+  ],
+  "name": "Other parasympathomimetics",
+  "source": "ATC"
+ },
+ "N07BA": {
+  "members": [
+   "7407",
+   "591622",
+   "1723152"
+  ],
+  "name": "Drugs used in nicotine dependence",
+  "source": "ATC"
+ },
+ "N07BB": {
+  "members": [
+   "1902",
+   "3554",
+   "7243",
+   "31479",
+   "82819"
+  ],
+  "name": "Drugs used in alcohol dependence",
+  "source": "ATC"
+ },
+ "N07BC": {
+  "members": [
+   "1819",
+   "3304",
+   "6813",
+   "28863",
+   "236913"
+  ],
+  "name": "Drugs used in opioid dependence",
+  "source": "ATC"
+ },
+ "N07XX": {
+  "members": [
+   "10390",
+   "35623",
+   "72467",
+   "897018",
+   "1545063",
+   "1876905",
+   "1918219",
+   "1921877",
+   "2053490",
+   "2099289",
+   "2106338",
+   "2197878",
+   "2375522",
+   "2604578",
+   "2631931",
+   "2632852",
+   "2634995",
+   "2671939",
+   "2694283"
+  ],
+  "name": "Other nervous system drugs",
+  "source": "ATC"
+ },
+ "P01AA": {
+  "members": [
+   "2407",
+   "5942",
+   "166718"
+  ],
+  "name": "Hydroxyquinoline derivatives",
+  "source": "ATC"
+ },
+ "P01AB": {
+  "members": [
+   "6922",
+   "7427",
+   "7701",
+   "10612",
+   "36314"
+  ],
+  "name": "Nitroimidazole derivatives",
+  "source": "ATC"
+ },
+ "P01AX": {
+  "members": [
+   "3142",
+   "3820",
+   "9061",
+   "31819",
+   "42333",
+   "60212",
+   "236186",
+   "1926480"
+  ],
+  "name": "Other agents against amoebiasis and other protozoal diseases",
+  "source": "ATC"
+ },
+ "P01BA": {
+  "members": [
+   "720",
+   "2393",
+   "5521",
+   "8687",
+   "2054023"
+  ],
+  "name": "Aminoquinolines",
+  "source": "ATC"
+ },
+ "P01BB": {
+  "members": [
+   "2382"
+  ],
+  "name": "Biguanides",
+  "source": "ATC"
+ },
+ "P01BC": {
+  "members": [
+   "6694",
+   "9071"
+  ],
+  "name": "Methanolquinolines",
+  "source": "ATC"
+ },
+ "P01BD": {
+  "members": [
+   "9010"
+  ],
+  "name": "Diaminopyrimidines",
+  "source": "ATC"
+ },
+ "P01BE": {
+  "members": [
+   "18343",
+   "18346",
+   "2367409"
+  ],
+  "name": "Artemisinin and derivatives, plain",
+  "source": "ATC"
+ },
+ "P01BF": {
+  "members": [],
+  "name": "Artemisinin and derivatives, combinations",
+  "source": "ATC"
+ },
+ "P01BX": {
+  "members": [
+   "50749"
+  ],
+  "name": "Other antimalarials",
+  "source": "ATC"
+ },
+ "P01CA": {
+  "members": [
+   "18994",
+   "2564146"
+  ],
+  "name": "Nitroimidazole derivatives",
+  "source": "ATC"
+ },
+ "P01CC": {
+  "members": [
+   "7421",
+   "7455"
+  ],
+  "name": "Nitrofuran derivatives",
+  "source": "ATC"
+ },
+ "P01CX": {
+  "members": [
+   "569",
+   "1494066"
+  ],
+  "name": "Other agents against leishmaniasis and trypanosomiasis",
+  "source": "ATC"
+ },
+ "P02BA": {
+  "members": [
+   "7778",
+   "8628"
+  ],
+  "name": "Quinoline derivatives and related substances",
+  "source": "ATC"
+ },
+ "P02BX": {
+  "members": [
+   "2118525"
+  ],
+  "name": "Other antitrematodal agents",
+  "source": "ATC"
+ },
+ "P02CA": {
+  "members": [
+   "430",
+   "4325",
+   "6672",
+   "10450",
+   "25096"
+  ],
+  "name": "Benzimidazole derivatives",
+  "source": "ATC"
+ },
+ "P02CB": {
+  "members": [
+   "3384",
+   "8340"
+  ],
+  "name": "Piperazine and derivatives",
+  "source": "ATC"
+ },
+ "P02CC": {
+  "members": [
+   "8984",
+   "1871175"
+  ],
+  "name": "Tetrahydropyrimidine derivatives",
+  "source": "ATC"
+ },
+ "P02CE": {
+  "members": [
+   "6371"
+  ],
+  "name": "Imidazothiazole derivatives",
+  "source": "ATC"
+ },
+ "P02CF": {
+  "members": [
+   "6069"
+  ],
+  "name": "Avermectines",
+  "source": "ATC"
+ },
+ "P02DA": {
+  "members": [
+   "7402"
+  ],
+  "name": "Salicylic acid derivatives",
+  "source": "ATC"
+ },
+ "P03AA": {
+  "members": [
+   "3554",
+   "10517",
+   "29584"
+  ],
+  "name": "Sulfur containing products",
+  "source": "ATC"
+ },
+ "P03AB": {
+  "members": [
+   "1388"
+  ],
+  "name": "Chlorine containing products",
+  "source": "ATC"
+ },
+ "P03AC": {
+  "members": [
+   "19338",
+   "33199",
+   "33303",
+   "1232405"
+  ],
+  "name": "Pyrethrines, incl. synthetic compounds",
+  "source": "ATC"
+ },
+ "P03AX": {
+  "members": [
+   "1426",
+   "6606",
+   "19044",
+   "324072",
+   "1310168",
+   "2475532"
+  ],
+  "name": "Other ectoparasiticides, incl. scabicides",
+  "source": "ATC"
+ },
+ "R01AA": {
+  "members": [
+   "3966",
+   "3992",
+   "7247",
+   "7812",
+   "8163",
+   "24856",
+   "27492",
+   "37935",
+   "38453",
+   "39841",
+   "59094"
+  ],
+  "name": "Sympathomimetics, plain",
+  "source": "ATC"
+ },
+ "R01AB": {
+  "members": [
+   "3966",
+   "7247",
+   "7812",
+   "8163",
+   "37935",
+   "39841"
+  ],
+  "name": "Sympathomimetics, combinations excl. corticosteroids",
+  "source": "ATC"
+ },
+ "R01AC": {
+  "members": [
+   "865",
+   "18603",
+   "28627",
+   "31563",
+   "42612",
+   "135391",
+   "1360721"
+  ],
+  "name": "Antiallergic agents, excl. corticosteroids",
+  "source": "ATC"
+ },
+ "R01AD": {
+  "members": [
+   "1347",
+   "1514",
+   "3264",
+   "8638",
+   "10759",
+   "19831",
+   "25120",
+   "41126",
+   "57257",
+   "108118",
+   "274964"
+  ],
+  "name": "Corticosteroids",
+  "source": "ATC"
+ },
+ "R01AX": {
+  "members": [
+   "4556",
+   "11246",
+   "26849",
+   "42372"
+  ],
+  "name": "Other nasal preparations",
+  "source": "ATC"
+ },
+ "R01BA": {
+  "members": [
+   "8163",
+   "8175",
+   "8896"
+  ],
+  "name": "Sympathomimetics",
+  "source": "ATC"
+ },
+ "R02AA": {
+  "members": [
+   "110",
+   "1378",
+   "1390",
+   "2286",
+   "2358",
+   "2407",
+   "3226",
+   "5321",
+   "8611",
+   "20614",
+   "22906",
+   "26849",
+   "33290",
+   "236393",
+   "2119240"
+  ],
+  "name": "Antiseptics",
+  "source": "ATC"
+ },
+ "R02AB": {
+  "members": [
+   "1291",
+   "5011",
+   "7299",
+   "10968",
+   "25437"
+  ],
+  "name": "Antibiotics",
+  "source": "ATC"
+ },
+ "R02AD": {
+  "members": [
+   "625",
+   "1399",
+   "2653",
+   "6387",
+   "23744"
+  ],
+  "name": "Anesthetics, local",
+  "source": "ATC"
+ },
+ "R02AX": {
+  "members": [
+   "1425",
+   "4502",
+   "5640"
+  ],
+  "name": "Other throat preparations",
+  "source": "ATC"
+ },
+ "R03AA": {
+  "members": [
+   "3992"
+  ],
+  "name": "Alpha- and beta-adrenoreceptor agonists",
+  "source": "ATC"
+ },
+ "R03AB": {
+  "members": [
+   "6054",
+   "7688"
+  ],
+  "name": "Non-selective beta-adrenoreceptor agonists",
+  "source": "ATC"
+ },
+ "R03AC": {
+  "members": [
+   "435",
+   "2580",
+   "4333",
+   "5307",
+   "6023",
+   "9388",
+   "10368",
+   "19499",
+   "25255",
+   "33767",
+   "34530",
+   "35373",
+   "36117",
+   "38967",
+   "1114326",
+   "1546059"
+  ],
+  "name": "Selective beta-2-adrenoreceptor agonists",
+  "source": "ATC"
+ },
+ "R03AK": {
+  "members": [],
+  "name": "Adrenergics in combination with corticosteroids or other drugs, excl. anticholinergics",
+  "source": "ATC"
+ },
+ "R03BA": {
+  "members": [
+   "1347",
+   "1514",
+   "10759",
+   "19831",
+   "25120",
+   "41126",
+   "108118",
+   "274964"
+  ],
+  "name": "Glucocorticoids",
+  "source": "ATC"
+ },
+ "R03BB": {
+  "members": [
+   "2102775"
+  ],
+  "name": "Anticholinergics",
+  "source": "ATC"
+ },
+ "R03BC": {
+  "members": [
+   "31563",
+   "42612"
+  ],
+  "name": "Antiallergic agents, excl. corticosteroids",
+  "source": "ATC"
+ },
+ "R03CA": {
+  "members": [
+   "3966"
+  ],
+  "name": "Alpha- and beta-adrenoreceptor agonists",
+  "source": "ATC"
+ },
+ "R03CB": {
+  "members": [
+   "6054",
+   "7688",
+   "29704"
+  ],
+  "name": "Non-selective beta-adrenoreceptor agonists",
+  "source": "ATC"
+ },
+ "R03CC": {
+  "members": [
+   "435",
+   "2580",
+   "4333",
+   "5307",
+   "6023",
+   "10368",
+   "18751",
+   "25255",
+   "33767",
+   "34530",
+   "35373",
+   "38967"
+  ],
+  "name": "Selective beta-2-adrenoreceptor agonists",
+  "source": "ATC"
+ },
+ "R03DA": {
+  "members": [
+   "689",
+   "3714",
+   "10437",
+   "10438",
+   "18752",
+   "20976",
+   "34906"
+  ],
+  "name": "Xanthines",
+  "source": "ATC"
+ },
+ "R03DC": {
+  "members": [
+   "88249",
+   "114970"
+  ],
+  "name": "Leukotriene receptor antagonists",
+  "source": "ATC"
+ },
+ "R03DX": {
+  "members": [
+   "4335",
+   "24274",
+   "46307",
+   "302379",
+   "1091836",
+   "1720597",
+   "1746889",
+   "1989100",
+   "2587789",
+   "2729265"
+  ],
+  "name": "Other systemic drugs for obstructive airway diseases",
+  "source": "ATC"
+ },
+ "R05CA": {
+  "members": [
+   "2915",
+   "5032",
+   "5975",
+   "8597",
+   "21116",
+   "38998",
+   "636827",
+   "1309795",
+   "1337969"
+  ],
+  "name": "Expectorants",
+  "source": "ATC"
+ },
+ "R05CB": {
+  "members": [
+   "44",
+   "197",
+   "625",
+   "1753",
+   "2023",
+   "6628",
+   "24272",
+   "24305",
+   "28554",
+   "36669",
+   "337623",
+   "2375829"
+  ],
+  "name": "Mucolytics",
+  "source": "ATC"
+ },
+ "R05DA": {
+  "members": [
+   "2670",
+   "3289",
+   "4166",
+   "5489",
+   "7533",
+   "32009",
+   "33431"
+  ],
+  "name": "Opium alkaloids and derivatives",
+  "source": "ATC"
+ },
+ "R05DB": {
+  "members": [
+   "18993",
+   "19862",
+   "20217",
+   "21247",
+   "21254",
+   "23419",
+   "27866",
+   "32626",
+   "32658",
+   "33740",
+   "39969",
+   "52014",
+   "121069",
+   "235961",
+   "236749",
+   "402565",
+   "2104180"
+  ],
+  "name": "Other cough suppressants",
+  "source": "ATC"
+ },
+ "R06AA": {
+  "members": [
+   "2578",
+   "3444",
+   "3498",
+   "3642",
+   "19759",
+   "20220",
+   "20881",
+   "23386",
+   "38685"
+  ],
+  "name": "Aminoalkyl ethers",
+  "source": "ATC"
+ },
+ "R06AB": {
+  "members": [
+   "1767",
+   "2400",
+   "3449",
+   "8132",
+   "22696",
+   "22697"
+  ],
+  "name": "Substituted alkylamines",
+  "source": "ATC"
+ },
+ "R06AC": {
+  "members": [
+   "6822",
+   "9009",
+   "10847",
+   "20861",
+   "1360721"
+  ],
+  "name": "Substituted ethylene diamines",
+  "source": "ATC"
+ },
+ "R06AD": {
+  "members": [
+   "8745",
+   "10471",
+   "10825",
+   "28012",
+   "29528",
+   "29648"
+  ],
+  "name": "Phenothiazine derivatives",
+  "source": "ATC"
+ },
+ "R06AE": {
+  "members": [
+   "2354",
+   "2977",
+   "6676",
+   "20610",
+   "54236",
+   "59636",
+   "356887"
+  ],
+  "name": "Piperazine derivatives",
+  "source": "ATC"
+ },
+ "R06AX": {
+  "members": [
+   "865",
+   "3013",
+   "6146",
+   "10849",
+   "18600",
+   "18603",
+   "18753",
+   "19959",
+   "23796",
+   "28889",
+   "29411",
+   "33283",
+   "33712",
+   "38810",
+   "39684",
+   "42328",
+   "42330",
+   "61455",
+   "87636",
+   "275635"
+  ],
+  "name": "Other antihistamines for systemic use",
+  "source": "ATC"
+ },
+ "R07AB": {
+  "members": [
+   "528",
+   "3637",
+   "7424",
+   "8015",
+   "24453"
+  ],
+  "name": "Respiratory stimulants",
+  "source": "ATC"
+ },
+ "R07AX": {
+  "members": [
+   "7442",
+   "1243041"
+  ],
+  "name": "Other respiratory system products",
+  "source": "ATC"
+ },
+ "S01AA": {
+  "members": [
+   "641",
+   "733",
+   "1291",
+   "2194",
+   "2348",
+   "2408",
+   "3328",
+   "4053",
+   "4556",
+   "6099",
+   "7268",
+   "7299",
+   "7337",
+   "7821",
+   "7980",
+   "8536",
+   "10395",
+   "10627",
+   "10968",
+   "11124",
+   "18631",
+   "29996",
+   "35616",
+   "1549540",
+   "1596450"
+  ],
+  "name": "Antibiotics",
+  "source": "ATC"
+ },
+ "S01AB": {
+  "members": [
+   "10169",
+   "10179",
+   "10207"
+  ],
+  "name": "Sulfonamides",
+  "source": "ATC"
+ },
+ "S01AD": {
+  "members": [
+   "281",
+   "4678",
+   "5653",
+   "10803",
+   "11194",
+   "68099",
+   "85763"
+  ],
+  "name": "Antivirals",
+  "source": "ATC"
+ },
+ "S01AE": {
+  "members": [
+   "2551",
+   "7517",
+   "7623",
+   "28872",
+   "82122",
+   "139462",
+   "228476",
+   "819911"
+  ],
+  "name": "Fluoroquinolones",
+  "source": "ATC"
+ },
+ "S01AX": {
+  "members": [
+   "2358",
+   "7455",
+   "8611",
+   "22865",
+   "26849",
+   "34633",
+   "35382",
+   "56513",
+   "1373041",
+   "1998841"
+  ],
+  "name": "Other antiinfectives",
+  "source": "ATC"
+ },
+ "S01BA": {
+  "members": [
+   "1514",
+   "2590",
+   "2878",
+   "3254",
+   "3264",
+   "4491",
+   "5492",
+   "8638",
+   "10759",
+   "23043",
+   "29439",
+   "55681",
+   "108074",
+   "108088",
+   "237027"
+  ],
+  "name": "Corticosteroids, plain",
+  "source": "ATC"
+ },
+ "S01BC": {
+  "members": [
+   "3355",
+   "4502",
+   "5781",
+   "7816",
+   "8356",
+   "9525",
+   "19737",
+   "35827",
+   "298665"
+  ],
+  "name": "Antiinflammatory agents, non-steroids",
+  "source": "ATC"
+ },
+ "S01CB": {
+  "members": [
+   "1514",
+   "3264",
+   "4491",
+   "5492",
+   "8638"
+  ],
+  "name": "Corticosteroids/antiinfectives/mydriatics in combination",
+  "source": "ATC"
+ },
+ "S01EA": {
+  "members": [
+   "2599",
+   "3992",
+   "14845",
+   "23410",
+   "134615"
+  ],
+  "name": "Sympathomimetics in glaucoma therapy",
+  "source": "ATC"
+ },
+ "S01EB": {
+  "members": [
+   "194",
+   "1999",
+   "6027",
+   "7315",
+   "8299",
+   "8328",
+   "89778",
+   "107771",
+   "2721766"
+  ],
+  "name": "Parasympathomimetics",
+  "source": "ATC"
+ },
+ "S01EC": {
+  "members": [
+   "167",
+   "3353",
+   "6826",
+   "60207",
+   "194881"
+  ],
+  "name": "Carbonic anhydrase inhibitors",
+  "source": "ATC"
+ },
+ "S01ED": {
+  "members": [
+   "1520",
+   "1813",
+   "2116",
+   "10600",
+   "10824"
+  ],
+  "name": "Beta blocking agents",
+  "source": "ATC"
+ },
+ "S01EE": {
+  "members": [
+   "43611",
+   "283809",
+   "283810",
+   "1244607",
+   "1546408",
+   "1988390"
+  ],
+  "name": "Prostaglandin analogues",
+  "source": "ATC"
+ },
+ "S01EX": {
+  "members": [
+   "5036",
+   "22298",
+   "1992864",
+   "2612691"
+  ],
+  "name": "Other antiglaucoma preparations",
+  "source": "ATC"
+ },
+ "S01FA": {
+  "members": [
+   "1223",
+   "3001",
+   "9601",
+   "10869",
+   "27084",
+   "89785"
+  ],
+  "name": "Anticholinergics",
+  "source": "ATC"
+ },
+ "S01FB": {
+  "members": [
+   "3966",
+   "8163",
+   "51253"
+  ],
+  "name": "Sympathomimetics excl. antiglaucoma preparations",
+  "source": "ATC"
+ },
+ "S01GA": {
+  "members": [
+   "7247",
+   "7812",
+   "8163",
+   "10288",
+   "37935",
+   "39841",
+   "134615"
+  ],
+  "name": "Sympathomimetics used as decongestants",
+  "source": "ATC"
+ },
+ "S01GX": {
+  "members": [
+   "6146",
+   "18603",
+   "20610",
+   "28144",
+   "28627",
+   "31563",
+   "39684",
+   "42612",
+   "52151",
+   "135391",
+   "1000082"
+  ],
+  "name": "Other antiallergics",
+  "source": "ATC"
+ },
+ "S01HA": {
+  "members": [
+   "2653",
+   "3339",
+   "6387",
+   "8701",
+   "10391",
+   "18889",
+   "20859",
+   "34905"
+  ],
+  "name": "Local anesthetics",
+  "source": "ATC"
+ },
+ "S01JA": {
+  "members": [
+   "25138"
+  ],
+  "name": "Colouring agents",
+  "source": "ATC"
+ },
+ "S01KA": {
+  "members": [
+   "27334"
+  ],
+  "name": "Viscoelastic substances",
+  "source": "ATC"
+ },
+ "S01LA": {
+  "members": [
+   "118886",
+   "253337",
+   "498509",
+   "595060",
+   "1232150",
+   "2204915",
+   "2591519"
+  ],
+  "name": "Antineovascularisation agents",
+  "source": "ATC"
+ },
+ "S01XA": {
+  "members": [
+   "197",
+   "1151",
+   "3008",
+   "3022",
+   "4166",
+   "5224",
+   "7244",
+   "8410",
+   "8597",
+   "9346",
+   "11246",
+   "22701",
+   "29998",
+   "35302",
+   "54989",
+   "591622",
+   "1483575",
+   "1801820",
+   "1995537",
+   "2104332",
+   "2557372",
+   "2645108"
+  ],
+  "name": "Other ophthalmologicals",
+  "source": "ATC"
+ },
+ "S02AA": {
+  "members": [
+   "168",
+   "1700",
+   "2348",
+   "2358",
+   "2551",
+   "4550",
+   "5499",
+   "5942",
+   "6932",
+   "7299",
+   "7455",
+   "7623",
+   "8536",
+   "10395",
+   "35616",
+   "46239",
+   "1596450"
+  ],
+  "name": "Antiinfectives",
+  "source": "ATC"
+ },
+ "S02BA": {
+  "members": [
+   "1514",
+   "3264",
+   "5492",
+   "8638"
+  ],
+  "name": "Corticosteroids",
+  "source": "ATC"
+ },
+ "S02DA": {
+  "members": [
+   "1001",
+   "2653",
+   "3339",
+   "6387"
+  ],
+  "name": "Analgesics and anesthetics",
+  "source": "ATC"
+ },
+ "S03AA": {
+  "members": [
+   "2348",
+   "2358",
+   "2551",
+   "7299",
+   "8536",
+   "10395",
+   "26849",
+   "1596450"
+  ],
+  "name": "Antiinfectives",
+  "source": "ATC"
+ },
+ "S03BA": {
+  "members": [
+   "1514",
+   "3264",
+   "8638"
+  ],
+  "name": "Corticosteroids",
+  "source": "ATC"
+ },
+ "V03AB": {
+  "members": [
+   "197",
+   "448",
+   "742",
+   "3445",
+   "4457",
+   "4890",
+   "5514",
+   "5975",
+   "6837",
+   "6878",
+   "7242",
+   "8153",
+   "8299",
+   "8597",
+   "8604",
+   "8826",
+   "9894",
+   "15027",
+   "15226",
+   "21579",
+   "24902",
+   "34345",
+   "42826",
+   "1546411",
+   "1716191",
+   "1726988",
+   "2045114"
+  ],
+  "name": "Antidotes",
+  "source": "ATC"
+ },
+ "V03AC": {
+  "members": [
+   "3131",
+   "11645",
+   "614373"
+  ],
+  "name": "Iron chelating agents",
+  "source": "ATC"
+ },
+ "V03AE": {
+  "members": [
+   "214342",
+   "214824",
+   "234416",
+   "1484283",
+   "1546437",
+   "1594675",
+   "2047628"
+  ],
+  "name": "Drugs for treatment of hyperkalemia and hyperphosphatemia",
+  "source": "ATC"
+ },
+ "V03AF": {
+  "members": [
+   "44",
+   "4126",
+   "42736",
+   "196319",
+   "283821",
+   "1242127",
+   "2479690"
+  ],
+  "name": "Detoxifying agents for antineoplastic treatment",
+  "source": "ATC"
+ },
+ "V03AG": {
+  "members": [
+   "36709"
+  ],
+  "name": "Drugs for treatment of hypercalcemia",
+  "source": "ATC"
+ },
+ "V03AH": {
+  "members": [
+   "3327"
+  ],
+  "name": "Drugs for treatment of hypoglycemia",
+  "source": "ATC"
+ },
+ "V03AN": {
+  "members": [
+   "411",
+   "2034",
+   "5140",
+   "7456",
+   "7806"
+  ],
+  "name": "Medical gases",
+  "source": "ATC"
+ },
+ "V03AX": {
+  "members": [
+   "1306284",
+   "2569089"
+  ],
+  "name": "Other therapeutic products",
+  "source": "ATC"
+ },
+ "V03AZ": {
+  "members": [
+   "448"
+  ],
+  "name": "Nerve depressants",
+  "source": "ATC"
+ },
+ "V04CA": {
+  "members": [
+   "4850",
+   "10635"
+  ],
+  "name": "Tests for diabetes",
+  "source": "ATC"
+ },
+ "V04CC": {
+  "members": [
+   "6585",
+   "9800",
+   "9945"
+  ],
+  "name": "Tests for bile duct patency",
+  "source": "ATC"
+ },
+ "V04CD": {
+  "members": [
+   "6923",
+   "56188",
+   "236901",
+   "1999420"
+  ],
+  "name": "Tests for pituitary function",
+  "source": "ATC"
+ },
+ "V04CE": {
+  "members": [
+   "4626",
+   "10212"
+  ],
+  "name": "Tests for liver functional capacity",
+  "source": "ATC"
+ },
+ "V04CG": {
+  "members": [
+   "6878",
+   "7993"
+  ],
+  "name": "Tests for gastric secretion",
+  "source": "ATC"
+ },
+ "V04CM": {
+  "members": [
+   "6384"
+  ],
+  "name": "Tests for fertility disturbances",
+  "source": "ATC"
+ },
+ "V04CX": {
+  "members": [
+   "2037",
+   "3752",
+   "4511",
+   "5775",
+   "6628",
+   "11363",
+   "155080",
+   "1311533",
+   "1426872",
+   "2586857"
+  ],
+  "name": "Other diagnostic agents",
+  "source": "ATC"
+ },
+ "V06DC": {
+  "members": [
+   "4570",
+   "4850"
+  ],
+  "name": "Carbohydrates",
+  "source": "ATC"
+ },
+ "V08AA": {
+  "members": [
+   "5928",
+   "1546223",
+   "1546451"
+  ],
+  "name": "Watersoluble, nephrotropic, high osmolar X-ray contrast media",
+  "source": "ATC"
+ },
+ "V08AB": {
+  "members": [
+   "5956",
+   "5966",
+   "6920",
+   "27729",
+   "27779",
+   "27781",
+   "27792",
+   "27793",
+   "51474",
+   "87639",
+   "2606484"
+  ],
+  "name": "Watersoluble, nephrotropic, low osmolar X-ray contrast media",
+  "source": "ATC"
+ },
+ "V08AC": {
+  "members": [
+   "5936",
+   "5967",
+   "183830"
+  ],
+  "name": "Watersoluble, hepatotropic X-ray contrast media",
+  "source": "ATC"
+ },
+ "V08CA": {
+  "members": [
+   "24897",
+   "25483",
+   "41144",
+   "84990",
+   "228833",
+   "236987",
+   "1364290",
+   "2618720",
+   "2745120"
+  ],
+  "name": "Paramagnetic contrast media",
+  "source": "ATC"
+ },
+ "V08CB": {
+  "members": [
+   "77754"
+  ],
+  "name": "Superparamagnetic contrast media",
+  "source": "ATC"
+ },
+ "V09AB": {
+  "members": [],
+  "name": "Iodine (123I) compounds",
+  "source": "ATC"
+ },
+ "V09FX": {
+  "members": [],
+  "name": "Various thyroid diagnostic radiopharmaceuticals",
+  "source": "ATC"
+ },
+ "V09GB": {
+  "members": [],
+  "name": "Iodine (125I) compounds",
+  "source": "ATC"
+ },
+ "V09GX": {
+  "members": [],
+  "name": "Other cardiovascular system diagnostic radiopharmaceuticals",
+  "source": "ATC"
+ },
+ "V09HX": {
+  "members": [],
+  "name": "Other diagnostic radiopharmaceuticals for inflammation and infection detection",
+  "source": "ATC"
+ },
+ "V09IB": {
+  "members": [],
+  "name": "Indium (111In) compounds",
+  "source": "ATC"
+ },
+ "V09IX": {
+  "members": [
+   "1362737"
+  ],
+  "name": "Other diagnostic radiopharmaceuticals for tumour detection",
+  "source": "ATC"
+ },
+ "V10BX": {
+  "members": [
+   "177906"
+  ],
+  "name": "Various pain palliation radiopharmaceuticals",
+  "source": "ATC"
+ },
+ "V10XA": {
+  "members": [],
+  "name": "Iodine (131I) compounds",
+  "source": "ATC"
+ },
+ "V10XX": {
+  "members": [],
+  "name": "Various therapeutic radiopharmaceuticals",
+  "source": "ATC"
+ }
+}

@@ -1,0 +1,1220 @@
+{
+  "by_ingredient": {
+    "10753": [
+      "label_biomarker:fusion",
+      "civic_predictive:A",
+      "civic_predictive:B"
+    ],
+    "1094833": [
+      "atc:L01FX",
+      "label_biomarker:MSI-H",
+      "label_biomarker:dMMR",
+      "label_biomarker:expression",
+      "label_biomarker:other"
+    ],
+    "1098413": [
+      "atc:L01EX",
+      "civic_predictive:B"
+    ],
+    "1147220": [
+      "atc:L01EC",
+      "label_biomarker:mutation",
+      "civic_predictive:A",
+      "civic_predictive:B"
+    ],
+    "1147320": [
+      "atc:L01FX",
+      "label_biomarker:expression"
+    ],
+    "1148495": [
+      "atc:L01ED",
+      "label_biomarker:other",
+      "civic_predictive:A",
+      "civic_predictive:B"
+    ],
+    "1193326": [
+      "atc:L01EJ"
+    ],
+    "121191": [
+      "atc:L01FA",
+      "label_biomarker:expression"
+    ],
+    "1242987": [
+      "atc:L01XJ",
+      "civic_predictive:B"
+    ],
+    "1242999": [
+      "atc:L01EK"
+    ],
+    "1294580": [
+      "atc:L01FX",
+      "label_biomarker:expression"
+    ],
+    "1298944": [
+      "atc:L01FD",
+      "label_biomarker:expression",
+      "civic_predictive:B"
+    ],
+    "1302966": [
+      "atc:L01XG"
+    ],
+    "1307619": [
+      "atc:L01EA",
+      "label_biomarker:fusion"
+    ],
+    "1312397": [
+      "atc:L01EX"
+    ],
+    "1363268": [
+      "atc:L01EX",
+      "civic_predictive:B"
+    ],
+    "1364347": [
+      "atc:L01EA",
+      "label_biomarker:mutation",
+      "label_biomarker:other",
+      "civic_predictive:B"
+    ],
+    "141704": [
+      "atc:L01EG",
+      "label_biomarker:expression",
+      "civic_predictive:B"
+    ],
+    "1424911": [
+      "atc:L01EC",
+      "label_biomarker:mutation",
+      "civic_predictive:A",
+      "civic_predictive:B"
+    ],
+    "1425099": [
+      "atc:L01EE",
+      "label_biomarker:mutation",
+      "civic_predictive:A",
+      "civic_predictive:B"
+    ],
+    "1430438": [
+      "atc:L01EB",
+      "label_biomarker:mutation",
+      "civic_predictive:A",
+      "civic_predictive:B"
+    ],
+    "1442981": [
+      "atc:L01EL",
+      "label_biomarker:deletion",
+      "civic_predictive:B"
+    ],
+    "1535457": [
+      "atc:L01ED",
+      "label_biomarker:other",
+      "civic_predictive:A",
+      "civic_predictive:B"
+    ],
+    "1535922": [
+      "atc:L01FG",
+      "label_biomarker:deletion",
+      "label_biomarker:expression",
+      "label_biomarker:mutation",
+      "civic_predictive:A"
+    ],
+    "1543543": [
+      "atc:L01XH"
+    ],
+    "1544460": [
+      "atc:L01EM"
+    ],
+    "1547545": [
+      "label_biomarker:MSI-H",
+      "label_biomarker:TMB-H",
+      "label_biomarker:dMMR",
+      "label_biomarker:expression",
+      "label_biomarker:other",
+      "civic_predictive:B"
+    ],
+    "1592737": [
+      "atc:L01EX"
+    ],
+    "1597258": [
+      "atc:L01FX",
+      "label_biomarker:expression"
+    ],
+    "1597582": [
+      "atc:L01XK",
+      "label_biomarker:mutation",
+      "label_biomarker:other",
+      "civic_predictive:A",
+      "civic_predictive:B"
+    ],
+    "1597876": [
+      "label_biomarker:MSI-H",
+      "label_biomarker:dMMR",
+      "label_biomarker:expression",
+      "label_biomarker:other",
+      "civic_predictive:B"
+    ],
+    "1601374": [
+      "atc:L01EF",
+      "label_biomarker:expression",
+      "label_biomarker:mutation",
+      "civic_predictive:A",
+      "civic_predictive:B"
+    ],
+    "1603296": [
+      "atc:L01EX",
+      "label_biomarker:other"
+    ],
+    "1603350": [
+      "atc:L01XH"
+    ],
+    "1659191": [
+      "atc:L01XJ",
+      "civic_predictive:B"
+    ],
+    "1721560": [
+      "atc:L01EB",
+      "label_biomarker:deletion",
+      "label_biomarker:mutation",
+      "civic_predictive:A",
+      "civic_predictive:B"
+    ],
+    "1721947": [
+      "atc:L01FC"
+    ],
+    "1722365": [
+      "atc:L01EE",
+      "label_biomarker:mutation",
+      "civic_predictive:A",
+      "civic_predictive:B"
+    ],
+    "1723735": [
+      "atc:L01XG"
+    ],
+    "1723738": [
+      "atc:L01FE"
+    ],
+    "1726104": [
+      "atc:L01FX"
+    ],
+    "1727455": [
+      "atc:L01ED",
+      "label_biomarker:other",
+      "civic_predictive:A",
+      "civic_predictive:B"
+    ],
+    "1792776": [
+      "label_biomarker:expression",
+      "label_biomarker:mutation",
+      "label_biomarker:other",
+      "civic_predictive:A",
+      "civic_predictive:B"
+    ],
+    "18330": [
+      "label_biomarker:fusion"
+    ],
+    "1855735": [
+      "atc:L01FX"
+    ],
+    "1862579": [
+      "atc:L01XK",
+      "label_biomarker:mutation",
+      "civic_predictive:A",
+      "civic_predictive:B"
+    ],
+    "1873916": [
+      "atc:L01EF",
+      "label_biomarker:expression",
+      "civic_predictive:B"
+    ],
+    "1875534": [
+      "civic_predictive:B"
+    ],
+    "1918231": [
+      "atc:L01XK",
+      "label_biomarker:mutation",
+      "label_biomarker:other",
+      "civic_predictive:A"
+    ],
+    "1919083": [
+      "atc:L01EX",
+      "civic_predictive:A",
+      "civic_predictive:B"
+    ],
+    "1919503": [
+      "label_biomarker:dMMR",
+      "label_biomarker:other",
+      "civic_predictive:B"
+    ],
+    "1921217": [
+      "atc:L01ED",
+      "label_biomarker:other",
+      "civic_predictive:A",
+      "civic_predictive:B"
+    ],
+    "1940332": [
+      "atc:L01XM",
+      "label_biomarker:mutation",
+      "civic_predictive:A"
+    ],
+    "1940643": [
+      "atc:L01EH",
+      "label_biomarker:expression",
+      "civic_predictive:A",
+      "civic_predictive:B"
+    ],
+    "1942950": [
+      "atc:L01FB",
+      "label_biomarker:expression"
+    ],
+    "194337": [
+      "atc:L01XH"
+    ],
+    "1945077": [
+      "atc:L01EM",
+      "civic_predictive:B"
+    ],
+    "1946825": [
+      "atc:L01EF",
+      "label_biomarker:expression",
+      "civic_predictive:B"
+    ],
+    "1986808": [
+      "atc:L01EL"
+    ],
+    "2049106": [
+      "atc:L01EC",
+      "label_biomarker:mutation",
+      "civic_predictive:A",
+      "civic_predictive:B"
+    ],
+    "2049122": [
+      "atc:L01EE",
+      "label_biomarker:mutation",
+      "civic_predictive:A",
+      "civic_predictive:B"
+    ],
+    "2049873": [
+      "atc:L01XM",
+      "label_biomarker:mutation",
+      "civic_predictive:A",
+      "civic_predictive:B"
+    ],
+    "2054068": [
+      "atc:L01FX"
+    ],
+    "2058509": [
+      "atc:L01EM"
+    ],
+    "2058826": [
+      "label_biomarker:expression"
+    ],
+    "2058849": [
+      "atc:L01EB",
+      "label_biomarker:mutation",
+      "civic_predictive:A",
+      "civic_predictive:B"
+    ],
+    "2099295": [
+      "atc:L01FB"
+    ],
+    "2099704": [
+      "atc:L01XK",
+      "label_biomarker:mutation",
+      "civic_predictive:B"
+    ],
+    "2103164": [
+      "atc:L01ED",
+      "label_biomarker:other",
+      "civic_predictive:B"
+    ],
+    "2105628": [
+      "atc:L01EX",
+      "label_biomarker:fusion",
+      "civic_predictive:A",
+      "civic_predictive:B"
+    ],
+    "2105806": [
+      "atc:L01EX",
+      "label_biomarker:mutation",
+      "civic_predictive:A",
+      "civic_predictive:B"
+    ],
+    "2105845": [
+      "atc:L01XJ"
+    ],
+    "2123125": [
+      "atc:L01EN",
+      "label_biomarker:other",
+      "civic_predictive:A",
+      "civic_predictive:B"
+    ],
+    "2169285": [
+      "atc:L01EM",
+      "label_biomarker:mutation",
+      "label_biomarker:other",
+      "civic_predictive:A",
+      "civic_predictive:B"
+    ],
+    "2174090": [
+      "atc:L01FX"
+    ],
+    "2183102": [
+      "atc:L01EX"
+    ],
+    "2197490": [
+      "atc:L01EJ"
+    ],
+    "2197862": [
+      "atc:L01EX",
+      "label_biomarker:fusion",
+      "label_biomarker:other",
+      "civic_predictive:A",
+      "civic_predictive:B"
+    ],
+    "224905": [
+      "atc:L01FD",
+      "label_biomarker:expression",
+      "civic_predictive:A",
+      "civic_predictive:B"
+    ],
+    "2262435": [
+      "atc:L01EL"
+    ],
+    "2272107": [
+      "atc:L01EX",
+      "label_biomarker:mutation"
+    ],
+    "2274378": [
+      "label_biomarker:mutation"
+    ],
+    "2282018": [
+      "atc:L01FC"
+    ],
+    "2289380": [
+      "atc:L01EE",
+      "civic_predictive:A",
+      "civic_predictive:B"
+    ],
+    "2359268": [
+      "atc:L01EN",
+      "label_biomarker:fusion",
+      "label_biomarker:other",
+      "civic_predictive:A"
+    ],
+    "2361285": [
+      "atc:L01EH",
+      "label_biomarker:expression",
+      "label_biomarker:other"
+    ],
+    "2362165": [
+      "atc:L01EP",
+      "atc:L01EX",
+      "label_biomarker:mutation",
+      "civic_predictive:A"
+    ],
+    "2369389": [
+      "atc:L01EX"
+    ],
+    "2370147": [
+      "atc:L01EX",
+      "label_biomarker:fusion",
+      "label_biomarker:mutation",
+      "civic_predictive:A",
+      "civic_predictive:B"
+    ],
+    "2387211": [
+      "atc:L01FX"
+    ],
+    "2387834": [
+      "atc:L01FX"
+    ],
+    "2394936": [
+      "atc:L01EX",
+      "label_biomarker:fusion",
+      "civic_predictive:A"
+    ],
+    "2473851": [
+      "atc:L01FD",
+      "label_biomarker:expression",
+      "civic_predictive:A"
+    ],
+    "2474039": [
+      "atc:L01FX"
+    ],
+    "2477103": [
+      "atc:L01EP",
+      "atc:L01EX",
+      "label_biomarker:mutation",
+      "civic_predictive:B"
+    ],
+    "2478439": [
+      "atc:L01EX"
+    ],
+    "253337": [
+      "atc:L01FG",
+      "civic_predictive:B"
+    ],
+    "2534233": [
+      "atc:L01EK"
+    ],
+    "2539967": [
+      "label_biomarker:dMMR"
+    ],
+    "2540964": [
+      "atc:L01FX"
+    ],
+    "2549199": [
+      "atc:L01FX",
+      "label_biomarker:mutation",
+      "civic_predictive:A"
+    ],
+    "2550714": [
+      "label_biomarker:mutation"
+    ],
+    "2550729": [
+      "atc:L01EN",
+      "civic_predictive:A",
+      "civic_predictive:B"
+    ],
+    "2570736": [
+      "atc:L01EB",
+      "civic_predictive:A"
+    ],
+    "2584304": [
+      "atc:L01EA",
+      "label_biomarker:fusion",
+      "label_biomarker:mutation"
+    ],
+    "2590743": [
+      "label_biomarker:other"
+    ],
+    "2595243": [
+      "atc:L01EJ",
+      "label_biomarker:other"
+    ],
+    "2619313": [
+      "atc:L01FX",
+      "label_biomarker:other",
+      "civic_predictive:B"
+    ],
+    "2619426": [
+      "atc:L01FX"
+    ],
+    "2621548": [
+      "atc:L01FX",
+      "label_biomarker:expression"
+    ],
+    "2623641": [
+      "atc:L01XM",
+      "label_biomarker:mutation"
+    ],
+    "2625122": [
+      "atc:L01FX"
+    ],
+    "2625882": [
+      "label_biomarker:mutation"
+    ],
+    "2628190": [
+      "atc:L01EN",
+      "label_biomarker:fusion"
+    ],
+    "2628469": [
+      "label_biomarker:mutation"
+    ],
+    "2629338": [
+      "atc:L01EL"
+    ],
+    "263034": [
+      "atc:L01FE",
+      "label_biomarker:mutation",
+      "civic_predictive:A",
+      "civic_predictive:B"
+    ],
+    "2637392": [
+      "atc:L01FX"
+    ],
+    "2639782": [
+      "atc:L01FX"
+    ],
+    "2643048": [
+      "atc:L01EX",
+      "label_biomarker:mutation"
+    ],
+    "2644447": [
+      "atc:L01FX"
+    ],
+    "2644880": [
+      "atc:L01FX"
+    ],
+    "2665204": [
+      "atc:L01EJ"
+    ],
+    "2669406": [
+      "civic_predictive:B"
+    ],
+    "2669967": [
+      "atc:L01EX",
+      "label_biomarker:other",
+      "civic_predictive:A",
+      "civic_predictive:B"
+    ],
+    "2670179": [
+      "atc:L01EK"
+    ],
+    "2670644": [
+      "atc:L01EX",
+      "label_biomarker:fusion",
+      "label_biomarker:other"
+    ],
+    "2677426": [
+      "label_biomarker:expression"
+    ],
+    "2682434": [
+      "atc:L01EC",
+      "label_biomarker:fusion",
+      "label_biomarker:mutation",
+      "civic_predictive:A"
+    ],
+    "2682954": [
+      "atc:L01FX"
+    ],
+    "2690647": [
+      "atc:L01XM",
+      "label_biomarker:mutation",
+      "civic_predictive:A"
+    ],
+    "2691150": [
+      "atc:L01EB",
+      "label_biomarker:mutation",
+      "civic_predictive:A"
+    ],
+    "2695422": [
+      "atc:L01EM",
+      "label_biomarker:mutation",
+      "civic_predictive:A"
+    ],
+    "2695869": [
+      "atc:L01FX",
+      "label_biomarker:expression"
+    ],
+    "2698198": [
+      "atc:L01FD",
+      "label_biomarker:expression"
+    ],
+    "2698325": [
+      "label_biomarker:fusion",
+      "label_biomarker:mutation"
+    ],
+    "2703033": [
+      "atc:L01FX",
+      "label_biomarker:expression",
+      "label_biomarker:mutation",
+      "civic_predictive:A"
+    ],
+    "2705378": [
+      "atc:L01EX"
+    ],
+    "2705551": [
+      "atc:L01EE"
+    ],
+    "2719416": [
+      "atc:L01FX"
+    ],
+    "2721604": [
+      "atc:L01EH",
+      "label_biomarker:mutation",
+      "civic_predictive:A"
+    ],
+    "2728187": [
+      "atc:L01EH",
+      "label_biomarker:mutation",
+      "civic_predictive:A"
+    ],
+    "2752682": [
+      "label_biomarker:mutation"
+    ],
+    "282388": [
+      "atc:L01EA",
+      "label_biomarker:expression",
+      "label_biomarker:fusion",
+      "label_biomarker:mutation",
+      "label_biomarker:other",
+      "civic_predictive:A",
+      "civic_predictive:B"
+    ],
+    "318341": [
+      "atc:L01FE",
+      "label_biomarker:mutation",
+      "label_biomarker:other",
+      "civic_predictive:A",
+      "civic_predictive:B"
+    ],
+    "328134": [
+      "atc:L01EB",
+      "label_biomarker:deletion",
+      "label_biomarker:mutation",
+      "civic_predictive:A",
+      "civic_predictive:B"
+    ],
+    "337525": [
+      "atc:L01EB",
+      "label_biomarker:deletion",
+      "label_biomarker:mutation",
+      "civic_predictive:A",
+      "civic_predictive:B"
+    ],
+    "35302": [
+      "atc:L01EG",
+      "label_biomarker:other"
+    ],
+    "357977": [
+      "atc:L01EX",
+      "civic_predictive:B"
+    ],
+    "358258": [
+      "atc:L01XG"
+    ],
+    "475342": [
+      "atc:L01EA",
+      "label_biomarker:fusion",
+      "label_biomarker:other",
+      "civic_predictive:A"
+    ],
+    "480167": [
+      "atc:L01EH",
+      "label_biomarker:expression",
+      "civic_predictive:B"
+    ],
+    "495881": [
+      "atc:L01EX",
+      "civic_predictive:B"
+    ],
+    "657797": [
+      "atc:L01EG"
+    ],
+    "662281": [
+      "atc:L01EA",
+      "label_biomarker:fusion",
+      "label_biomarker:other",
+      "civic_predictive:A"
+    ],
+    "68446": [
+      "label_biomarker:other"
+    ],
+    "712566": [
+      "atc:L01FA"
+    ],
+    "714438": [
+      "atc:L01EX",
+      "civic_predictive:B"
+    ],
+    "80726": [
+      "atc:L01FX"
+    ],
+    "877510": [
+      "atc:L01XH"
+    ],
+    "974779": [
+      "atc:L01FA"
+    ]
+  },
+  "civic_unresolved_therapies": [
+    "Adjuvant Chemotherapy",
+    "Anti-CTLA-4 Monoclonal Antibody",
+    "Anti-PD1 Monoclonal Antibody",
+    "Anvumetostat",
+    "BRAF Inhibitor",
+    "Camrelizumab",
+    "Carboplatin/Paclitaxel Regimen",
+    "Cediranib",
+    "Chemotherapy",
+    "Cytoreductive Surgery",
+    "Datopotamab Deruxtecan Regimen",
+    "Derazantinib",
+    "Divarasib",
+    "Dordaviprone",
+    "Dovitinib",
+    "Durvalumab/Tremelimumab Regimen",
+    "Endocrine Drug Therapy",
+    "Epidermal Growth Factor Receptor Tyrosine Kinase Inhibitor",
+    "Eprenetapopt",
+    "FOLFIRI Regimen",
+    "FOLFOX Regimen",
+    "Fexagratinib",
+    "Fisogatinib",
+    "Foretinib",
+    "Hyperthermic Intraperitoneal Chemotherapy",
+    "IGF1R Monoclonal Antibody",
+    "Immune Checkpoint Inhibitor",
+    "Immunotherapy",
+    "Ipilimumab/Nivolumab Regimen",
+    "Larotrectinib Regimen",
+    "Lestaurtinib",
+    "Letetresgene Autoleucel",
+    "Lucitanib",
+    "MTOR Inhibitor",
+    "Mitogen-Activated Protein Kinase Kinase Inhibitor",
+    "PCV Regimen",
+    "PD-L1 Inhibitor",
+    "PD1 Inhibitor",
+    "Patritumab",
+    "Platinum Compound",
+    "RG7112",
+    "Radiation Therapy",
+    "Refametinib",
+    "Regorafenib Anhydrous",
+    "Rindopepimut",
+    "Rociletinib",
+    "Sapanisertib",
+    "Sunvozertinib",
+    "Taxane Compound",
+    "Tipifarnib",
+    "VEGF/VEGFR Inhibitors",
+    "Valproic Acid",
+    "Veliparib",
+    "Zenocutuzumab-zbco"
+  ],
+  "class_names": {
+    "L01EA": "BCR-ABL tyrosine kinase inhibitors",
+    "L01EB": "Epidermal growth factor receptor (EGFR) tyrosine kinase inhibitors",
+    "L01EC": "B-Raf serine-threonine kinase (BRAF) inhibitors",
+    "L01ED": "Anaplastic lymphoma kinase (ALK) inhibitors",
+    "L01EE": "Mitogen-activated protein kinase (MEK) inhibitors",
+    "L01EF": "Cyclin-dependent kinase (CDK) inhibitors",
+    "L01EG": "Mammalian target of rapamycin (mTOR) kinase inhibitors",
+    "L01EH": "Human epidermal growth factor receptor 2 (HER2) tyrosine kinase inhibitors",
+    "L01EJ": "Janus-associated kinase (JAK) inhibitors",
+    "L01EK": "Vascular endothelial growth factor receptor (VEGFR) tyrosine kinase inhibitors",
+    "L01EL": "Bruton's tyrosine kinase (BTK) inhibitors",
+    "L01EM": "Phosphatidylinositol-3-kinase (Pi3K) inhibitors",
+    "L01EN": "Fibroblast growth factor receptor (FGFR) tyrosine kinase inhibitors",
+    "L01EP": "Cellular-mesenchymal-epithelial transition factor (c-MET) kinase inhibitors",
+    "L01EX": "Other protein kinase inhibitors",
+    "L01FA": "CD20 (Clusters of Differentiation 20) inhibitors",
+    "L01FB": "CD22 (Clusters of Differentiation 22) inhibitors",
+    "L01FC": "CD38 (Clusters of Differentiation 38) inhibitors",
+    "L01FD": "HER2 (Human Epidermal Growth Factor Receptor 2) inhibitors",
+    "L01FE": "EGFR (Epidermal Growth Factor Receptor) inhibitors",
+    "L01FG": "VEGF/VEGFR (Vascular Endothelial Growth Factor / -Receptor) inhibitors",
+    "L01FX": "Other monoclonal antibodies and antibody drug conjugates",
+    "L01FY": "Combinations of monoclonal antibodies and antibody drug conjugates",
+    "L01XG": "Proteasome inhibitors",
+    "L01XH": "Histone deacetylase (HDAC) inhibitors",
+    "L01XJ": "Hedgehog pathway inhibitors",
+    "L01XK": "Poly (ADP-ribose) polymerase (PARP) inhibitors",
+    "L01XM": "Isocitrate dehydrogenase (IDH) inhibitors"
+  },
+  "classes": {
+    "L01EA": [
+      "282388",
+      "475342",
+      "662281",
+      "1307619",
+      "1364347",
+      "2584304"
+    ],
+    "L01EB": [
+      "328134",
+      "337525",
+      "1430438",
+      "1721560",
+      "2058849",
+      "2570736",
+      "2691150"
+    ],
+    "L01EC": [
+      "1147220",
+      "1424911",
+      "2049106",
+      "2682434"
+    ],
+    "L01ED": [
+      "1148495",
+      "1535457",
+      "1727455",
+      "1921217",
+      "2103164"
+    ],
+    "L01EE": [
+      "1425099",
+      "1722365",
+      "2049122",
+      "2289380",
+      "2705551"
+    ],
+    "L01EF": [
+      "1601374",
+      "1873916",
+      "1946825"
+    ],
+    "L01EG": [
+      "35302",
+      "141704",
+      "657797"
+    ],
+    "L01EH": [
+      "480167",
+      "1940643",
+      "2361285",
+      "2721604",
+      "2728187"
+    ],
+    "L01EJ": [
+      "1193326",
+      "2197490",
+      "2595243",
+      "2665204"
+    ],
+    "L01EK": [
+      "1242999",
+      "2534233",
+      "2670179"
+    ],
+    "L01EL": [
+      "1442981",
+      "1986808",
+      "2262435",
+      "2629338"
+    ],
+    "L01EM": [
+      "1544460",
+      "1945077",
+      "2058509",
+      "2169285",
+      "2695422"
+    ],
+    "L01EN": [
+      "2123125",
+      "2359268",
+      "2550729",
+      "2628190"
+    ],
+    "L01EP": [
+      "2362165",
+      "2477103"
+    ],
+    "L01EX": [
+      "357977",
+      "495881",
+      "714438",
+      "1098413",
+      "1312397",
+      "1363268",
+      "1592737",
+      "1603296",
+      "1919083",
+      "2105628",
+      "2105806",
+      "2183102",
+      "2197862",
+      "2272107",
+      "2362165",
+      "2369389",
+      "2370147",
+      "2394936",
+      "2477103",
+      "2478439",
+      "2643048",
+      "2669967",
+      "2670644",
+      "2705378"
+    ],
+    "L01FA": [
+      "121191",
+      "712566",
+      "974779"
+    ],
+    "L01FB": [
+      "1942950",
+      "2099295"
+    ],
+    "L01FC": [
+      "1721947",
+      "2282018"
+    ],
+    "L01FD": [
+      "224905",
+      "1298944",
+      "2473851",
+      "2698198"
+    ],
+    "L01FE": [
+      "263034",
+      "318341",
+      "1723738"
+    ],
+    "L01FG": [
+      "253337",
+      "1535922"
+    ],
+    "L01FX": [
+      "80726",
+      "1094833",
+      "1147320",
+      "1294580",
+      "1597258",
+      "1726104",
+      "1855735",
+      "2054068",
+      "2174090",
+      "2387211",
+      "2387834",
+      "2474039",
+      "2540964",
+      "2549199",
+      "2619313",
+      "2619426",
+      "2621548",
+      "2625122",
+      "2637392",
+      "2639782",
+      "2644447",
+      "2644880",
+      "2682954",
+      "2695869",
+      "2703033",
+      "2719416"
+    ],
+    "L01FY": [],
+    "L01XG": [
+      "358258",
+      "1302966",
+      "1723735"
+    ],
+    "L01XH": [
+      "194337",
+      "877510",
+      "1543543",
+      "1603350"
+    ],
+    "L01XJ": [
+      "1242987",
+      "1659191",
+      "2105845"
+    ],
+    "L01XK": [
+      "1597582",
+      "1862579",
+      "1918231",
+      "2099704"
+    ],
+    "L01XM": [
+      "1940332",
+      "2049873",
+      "2623641",
+      "2690647"
+    ]
+  },
+  "ingredients": [
+    "10753",
+    "18330",
+    "35302",
+    "68446",
+    "80726",
+    "121191",
+    "141704",
+    "194337",
+    "224905",
+    "253337",
+    "263034",
+    "282388",
+    "318341",
+    "328134",
+    "337525",
+    "357977",
+    "358258",
+    "475342",
+    "480167",
+    "495881",
+    "657797",
+    "662281",
+    "712566",
+    "714438",
+    "877510",
+    "974779",
+    "1094833",
+    "1098413",
+    "1147220",
+    "1147320",
+    "1148495",
+    "1193326",
+    "1242987",
+    "1242999",
+    "1294580",
+    "1298944",
+    "1302966",
+    "1307619",
+    "1312397",
+    "1363268",
+    "1364347",
+    "1424911",
+    "1425099",
+    "1430438",
+    "1442981",
+    "1535457",
+    "1535922",
+    "1543543",
+    "1544460",
+    "1547545",
+    "1592737",
+    "1597258",
+    "1597582",
+    "1597876",
+    "1601374",
+    "1603296",
+    "1603350",
+    "1659191",
+    "1721560",
+    "1721947",
+    "1722365",
+    "1723735",
+    "1723738",
+    "1726104",
+    "1727455",
+    "1792776",
+    "1855735",
+    "1862579",
+    "1873916",
+    "1875534",
+    "1918231",
+    "1919083",
+    "1919503",
+    "1921217",
+    "1940332",
+    "1940643",
+    "1942950",
+    "1945077",
+    "1946825",
+    "1986808",
+    "2049106",
+    "2049122",
+    "2049873",
+    "2054068",
+    "2058509",
+    "2058826",
+    "2058849",
+    "2099295",
+    "2099704",
+    "2103164",
+    "2105628",
+    "2105806",
+    "2105845",
+    "2123125",
+    "2169285",
+    "2174090",
+    "2183102",
+    "2197490",
+    "2197862",
+    "2262435",
+    "2272107",
+    "2274378",
+    "2282018",
+    "2289380",
+    "2359268",
+    "2361285",
+    "2362165",
+    "2369389",
+    "2370147",
+    "2387211",
+    "2387834",
+    "2394936",
+    "2473851",
+    "2474039",
+    "2477103",
+    "2478439",
+    "2534233",
+    "2539967",
+    "2540964",
+    "2549199",
+    "2550714",
+    "2550729",
+    "2570736",
+    "2584304",
+    "2590743",
+    "2595243",
+    "2619313",
+    "2619426",
+    "2621548",
+    "2623641",
+    "2625122",
+    "2625882",
+    "2628190",
+    "2628469",
+    "2629338",
+    "2637392",
+    "2639782",
+    "2643048",
+    "2644447",
+    "2644880",
+    "2665204",
+    "2669406",
+    "2669967",
+    "2670179",
+    "2670644",
+    "2677426",
+    "2682434",
+    "2682954",
+    "2690647",
+    "2691150",
+    "2695422",
+    "2695869",
+    "2698198",
+    "2698325",
+    "2703033",
+    "2705378",
+    "2705551",
+    "2719416",
+    "2721604",
+    "2728187",
+    "2752682"
+  ],
+  "provenance": {
+    "civic": {
+      "retrieved_at": "2026-10-15T17:15:02.869496+00:00",
+      "rows": 4940,
+      "sha256": "a618939c33c7cc9cc530be5f0a51fc330b29ad46b3f9a5bebeddcd871375e086",
+      "url": "https://civicdb.org/downloads/01-Oct-2026/01-Oct-2026-ClinicalEvidenceSummaries.tsv"
+    },
+    "class_index": {
+      "build_date": "20261001",
+      "sha256": "612094ab19c88cd571edbe33d19f079772235ecc66abc813620a6f293d0c5b90",
+      "source": "RxClass ATC classMembers (WHO ATC)"
+    },
+    "label_table": {
+      "build_date": "20261001",
+      "sha256": "68ac81fe6f9f2a585dc884530f041cf4716579a5aafc8e1af5fa7a387f9c1fa0",
+      "source": "openFDA SPL labels parsed by src/evidence/tables.py"
+    }
+  },
+  "rule": {
+    "catch_all_prefixes": [
+      "L01XX"
+    ],
+    "civic_levels": [
+      "A",
+      "B"
+    ],
+    "civic_significance": "Sensitivity/Response",
+    "description": "ATC mechanism classes (L01E, L01F except L01FF, L01X inhibitors) UNION FDA-label biomarker indications UNION CIViC predictive A/B; cytotoxic/endocrine groups limited as described in src/eval_metrics.py",
+    "excluded_prefixes": [
+      "L01A",
+      "L01B",
+      "L01C",
+      "L01D",
+      "L01XA",
+      "L01XB",
+      "L02"
+    ],
+    "mechanism_atc_roots": [
+      "L01E",
+      "L01F",
+      "L01X"
+    ],
+    "mechanism_except": [
+      "L01FF"
+    ],
+    "mechanism_full_roots": [
+      "L01E",
+      "L01F"
+    ],
+    "mechanism_name_regex": "inhibitors?\\b"
+  }
+}

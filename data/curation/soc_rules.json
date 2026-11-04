@@ -1,0 +1,3745 @@
+{
+ "version": "rc7-3",
+ "groups": [
+  {
+   "id": "CRC",
+   "main_types": [
+    "Colorectal Cancer"
+   ]
+  },
+  {
+   "id": "NSCLC",
+   "main_types": [
+    "Non-Small Cell Lung Cancer"
+   ]
+  },
+  {
+   "id": "BREAST",
+   "main_types": [
+    "Breast Cancer"
+   ]
+  },
+  {
+   "id": "PROSTATE",
+   "main_types": [
+    "Prostate Cancer"
+   ],
+   "oncotree": [
+    "PRAD",
+    "PRADNOS",
+    "PROSTATE"
+   ]
+  },
+  {
+   "id": "MELANOMA",
+   "main_types": [
+    "Melanoma"
+   ],
+   "oncotree": [
+    "SKCM",
+    "MEL",
+    "ACRM",
+    "MUP"
+   ]
+  },
+  {
+   "id": "CCRCC",
+   "main_types": [
+    "Renal Clear Cell Carcinoma",
+    "Renal Cell Carcinoma"
+   ],
+   "oncotree": [
+    "CCRCC"
+   ]
+  },
+  {
+   "id": "PANCREAS",
+   "main_types": [
+    "Pancreatic Cancer"
+   ],
+   "oncotree": [
+    "PAAD",
+    "PAASC"
+   ]
+  },
+  {
+   "id": "OVARY",
+   "main_types": [
+    "Ovarian Epithelial Tumor",
+    "Ovarian Cancer"
+   ],
+   "oncotree": [
+    "SOC",
+    "HGSOC",
+    "HGSFT",
+    "OVT",
+    "OVARY",
+    "EOV"
+   ]
+  },
+  {
+   "id": "ENDOMETRIAL",
+   "main_types": [
+    "Endometrial Cancer"
+   ],
+   "oncotree": [
+    "UEC",
+    "UCCC",
+    "USC",
+    "UCEC",
+    "UMEC",
+    "UDDC",
+    "UCS"
+   ]
+  },
+  {
+   "id": "UROTHELIAL",
+   "main_types": [
+    "Bladder Cancer"
+   ],
+   "oncotree": [
+    "BLCA",
+    "UTUC",
+    "BLAD"
+   ]
+  },
+  {
+   "id": "GASTROESOPH",
+   "main_types": [
+    "Esophagogastric Cancer"
+   ],
+   "oncotree": [
+    "STAD",
+    "ESCA",
+    "EGC",
+    "GEJ",
+    "TSTAD",
+    "DSTAD",
+    "MSTAD",
+    "ISTAD",
+    "SSRCC",
+    "PSTAD"
+   ]
+  },
+  {
+   "id": "GBM",
+   "main_types": [
+    "Glioblastoma",
+    "Glioma"
+   ],
+   "oncotree": [
+    "GBM"
+   ]
+  },
+  {
+   "id": "HCC",
+   "main_types": [
+    "Hepatobiliary Cancer"
+   ],
+   "oncotree": [
+    "HCC"
+   ]
+  },
+  {
+   "id": "BILIARY",
+   "main_types": [
+    "Hepatobiliary Cancer"
+   ],
+   "oncotree": [
+    "IHCH",
+    "EHCH",
+    "CHOL",
+    "GBC",
+    "BTC"
+   ]
+  },
+  {
+   "id": "HNSCC",
+   "main_types": [
+    "Head and Neck Cancer"
+   ],
+   "oncotree": [
+    "HNSC",
+    "OHNCA",
+    "OPHSC",
+    "OCSC",
+    "LXSC",
+    "HPHSC"
+   ]
+  },
+  {
+   "id": "SCLC",
+   "main_types": [
+    "Small Cell Lung Cancer"
+   ],
+   "oncotree": [
+    "SCLC"
+   ]
+  },
+  {
+   "id": "THYROID",
+   "main_types": [
+    "Thyroid Cancer"
+   ],
+   "oncotree": [
+    "THPA",
+    "THFO",
+    "THPD",
+    "THHC",
+    "THAP"
+   ]
+  },
+  {
+   "id": "MESO",
+   "main_types": [
+    "Mesothelioma"
+   ],
+   "oncotree": [
+    "PLEMESO",
+    "PLBMESO",
+    "PLSMESO",
+    "MPE"
+   ]
+  },
+  {
+   "id": "GIST",
+   "main_types": [
+    "Gastrointestinal Stromal Tumor"
+   ],
+   "oncotree": [
+    "GIST"
+   ]
+  }
+ ],
+ "rules": [
+  {
+   "id": "CRC-1L-MSIH",
+   "group": "CRC",
+   "line": "1L",
+   "when": [
+    "msi:high"
+   ],
+   "setting": "metastatic disease",
+   "source": "NCCN Colon/Rectal Cancer 2025; KEYNOTE-177 (pembrolizumab); CheckMate 8HW (nivolumab + ipilimumab)",
+   "options": [
+    {
+     "drugs": [
+      "pembrolizumab"
+     ],
+     "label": "pembrolizumab"
+    },
+    {
+     "drugs": [
+      "ipilimumab",
+      "nivolumab"
+     ],
+     "label": "nivolumab + ipilimumab"
+    }
+   ]
+  },
+  {
+   "id": "CRC-1L-BRAF",
+   "group": "CRC",
+   "line": "1L",
+   "when": [
+    "~msi:high",
+    "alt:BRAF_V600E"
+   ],
+   "setting": "metastatic disease",
+   "source": "NCCN Colon/Rectal Cancer 2025; BREAKWATER (encorafenib + cetuximab + mFOLFOX6, FDA 2024)",
+   "suppress": [
+    {
+     "drugs": [
+      "bevacizumab"
+     ],
+     "reason": "CIViC 'BRAF V600E resists bevacizumab' contradicts guideline doublet + bevacizumab"
+    }
+   ],
+   "options": [
+    {
+     "drugs": [
+      "cetuximab",
+      "encorafenib",
+      "fluorouracil",
+      "leucovorin",
+      "oxaliplatin"
+     ],
+     "label": "encorafenib + cetuximab + FOLFOX"
+    },
+    {
+     "drugs": [
+      "fluorouracil",
+      "leucovorin",
+      "oxaliplatin"
+     ],
+     "label": "FOLFOX (with or without bevacizumab)"
+    },
+    {
+     "drugs": [
+      "capecitabine",
+      "oxaliplatin"
+     ],
+     "label": "CAPOX (with or without bevacizumab)"
+    },
+    {
+     "drugs": [
+      "fluorouracil",
+      "irinotecan",
+      "leucovorin"
+     ],
+     "label": "FOLFIRI (with or without bevacizumab)"
+    },
+    {
+     "drugs": [
+      "pembrolizumab"
+     ],
+     "label": "pembrolizumab",
+     "when": "msi:high",
+     "condition": "acceptable only if the tumor is MSI-high / mismatch-repair deficient; microsatellite status is not reported in the vignette"
+    }
+   ]
+  },
+  {
+   "id": "CRC-1L-RASMUT",
+   "group": "CRC",
+   "line": "1L",
+   "when": [
+    "~msi:high",
+    "~alt:BRAF_V600E",
+    "^alt:RAS_MUT"
+   ],
+   "setting": "metastatic disease",
+   "source": "NCCN Colon/Rectal Cancer 2025 (RAS-mutant or RAS status unknown: no anti-EGFR antibody)",
+   "options": [
+    {
+     "drugs": [
+      "fluorouracil",
+      "leucovorin",
+      "oxaliplatin"
+     ],
+     "label": "FOLFOX (with or without bevacizumab)"
+    },
+    {
+     "drugs": [
+      "capecitabine",
+      "oxaliplatin"
+     ],
+     "label": "CAPOX (with or without bevacizumab)"
+    },
+    {
+     "drugs": [
+      "fluorouracil",
+      "irinotecan",
+      "leucovorin"
+     ],
+     "label": "FOLFIRI (with or without bevacizumab)"
+    },
+    {
+     "drugs": [
+      "pembrolizumab"
+     ],
+     "label": "pembrolizumab",
+     "when": "msi:high",
+     "condition": "acceptable only if the tumor is MSI-high / mismatch-repair deficient; microsatellite status is not reported in the vignette"
+    }
+   ]
+  },
+  {
+   "id": "CRC-1L-RASWT",
+   "group": "CRC",
+   "line": "1L",
+   "when": [
+    "~msi:high",
+    "~alt:BRAF_V600E",
+    "!alt:RAS_MUT"
+   ],
+   "setting": "metastatic disease",
+   "source": "NCCN Colon/Rectal Cancer 2025 (RAS/BRAF wild-type; anti-EGFR first line for left-sided primaries only)",
+   "options": [
+    {
+     "drugs": [
+      "fluorouracil",
+      "leucovorin",
+      "oxaliplatin"
+     ],
+     "label": "FOLFOX (with or without bevacizumab)"
+    },
+    {
+     "drugs": [
+      "capecitabine",
+      "oxaliplatin"
+     ],
+     "label": "CAPOX (with or without bevacizumab)"
+    },
+    {
+     "drugs": [
+      "fluorouracil",
+      "irinotecan",
+      "leucovorin"
+     ],
+     "label": "FOLFIRI (with or without bevacizumab)"
+    },
+    {
+     "drugs": [
+      "pembrolizumab"
+     ],
+     "label": "pembrolizumab",
+     "when": "msi:high",
+     "condition": "acceptable only if the tumor is MSI-high / mismatch-repair deficient; microsatellite status is not reported in the vignette"
+    }
+   ]
+  },
+  {
+   "id": "CRC-2L-MSIH",
+   "group": "CRC",
+   "line": "2L",
+   "when": [
+    "msi:high"
+   ],
+   "setting": "metastatic disease",
+   "source": "NCCN Colon/Rectal Cancer 2025 (after first-line immunotherapy: chemotherapy doublet)",
+   "after": [
+    {
+     "drugs": [
+      "pembrolizumab"
+     ],
+     "label": "pembrolizumab"
+    },
+    {
+     "drugs": [
+      "ipilimumab",
+      "nivolumab"
+     ],
+     "label": "nivolumab + ipilimumab"
+    }
+   ],
+   "options": [
+    {
+     "drugs": [
+      "fluorouracil",
+      "leucovorin",
+      "oxaliplatin"
+     ],
+     "label": "FOLFOX (with or without bevacizumab)"
+    },
+    {
+     "drugs": [
+      "capecitabine",
+      "oxaliplatin"
+     ],
+     "label": "CAPOX (with or without bevacizumab)"
+    },
+    {
+     "drugs": [
+      "fluorouracil",
+      "irinotecan",
+      "leucovorin"
+     ],
+     "label": "FOLFIRI (with or without bevacizumab)"
+    }
+   ]
+  },
+  {
+   "id": "CRC-2L-BRAF",
+   "group": "CRC",
+   "line": "2L",
+   "when": [
+    "~msi:high",
+    "alt:BRAF_V600E"
+   ],
+   "setting": "metastatic disease",
+   "source": "NCCN Colon/Rectal Cancer 2025; BEACON CRC (encorafenib + cetuximab, FDA 2020)",
+   "suppress": [
+    {
+     "drugs": [
+      "bevacizumab"
+     ],
+     "reason": "CIViC 'BRAF V600E resists bevacizumab' contradicts guideline FOLFIRI + bevacizumab"
+    }
+   ],
+   "after": [
+    {
+     "drugs": [
+      "bevacizumab",
+      "fluorouracil",
+      "leucovorin",
+      "oxaliplatin"
+     ],
+     "label": "FOLFOX + bevacizumab"
+    },
+    {
+     "drugs": [
+      "bevacizumab",
+      "capecitabine",
+      "oxaliplatin"
+     ],
+     "label": "CAPOX + bevacizumab"
+    }
+   ],
+   "options": [
+    {
+     "drugs": [
+      "cetuximab",
+      "encorafenib"
+     ],
+     "label": "encorafenib + cetuximab"
+    },
+    {
+     "drugs": [
+      "encorafenib",
+      "panitumumab"
+     ],
+     "label": "encorafenib + panitumumab"
+    },
+    {
+     "drugs": [
+      "fluorouracil",
+      "irinotecan",
+      "leucovorin"
+     ],
+     "label": "FOLFIRI (with or without bevacizumab)"
+    },
+    {
+     "drugs": [
+      "pembrolizumab"
+     ],
+     "label": "pembrolizumab",
+     "when": "msi:high",
+     "condition": "acceptable only if the tumor is MSI-high / mismatch-repair deficient"
+    },
+    {
+     "drugs": [
+      "ipilimumab",
+      "nivolumab"
+     ],
+     "label": "nivolumab + ipilimumab",
+     "when": "msi:high",
+     "condition": "acceptable only if the tumor is MSI-high / mismatch-repair deficient"
+    },
+    {
+     "drugs": [
+      "nivolumab"
+     ],
+     "label": "nivolumab",
+     "when": "msi:high",
+     "condition": "acceptable only if the tumor is MSI-high / mismatch-repair deficient"
+    }
+   ]
+  },
+  {
+   "id": "CRC-2L-RASMUT",
+   "group": "CRC",
+   "line": "2L",
+   "when": [
+    "~msi:high",
+    "~alt:BRAF_V600E",
+    "^alt:RAS_MUT"
+   ],
+   "setting": "metastatic disease",
+   "source": "NCCN Colon/Rectal Cancer 2025; CodeBreaK 300 (sotorasib + panitumumab), KRYSTAL-1 (adagrasib + cetuximab)",
+   "after": [
+    {
+     "drugs": [
+      "bevacizumab",
+      "fluorouracil",
+      "leucovorin",
+      "oxaliplatin"
+     ],
+     "label": "FOLFOX + bevacizumab"
+    },
+    {
+     "drugs": [
+      "bevacizumab",
+      "capecitabine",
+      "oxaliplatin"
+     ],
+     "label": "CAPOX + bevacizumab"
+    }
+   ],
+   "options": [
+    {
+     "drugs": [
+      "fluorouracil",
+      "irinotecan",
+      "leucovorin"
+     ],
+     "label": "FOLFIRI (with or without bevacizumab, ramucirumab or ziv-aflibercept)"
+    },
+    {
+     "drugs": [
+      "irinotecan"
+     ],
+     "label": "irinotecan"
+    },
+    {
+     "drugs": [
+      "panitumumab",
+      "sotorasib"
+     ],
+     "label": "sotorasib + panitumumab",
+     "when": "alt:KRAS_G12C",
+     "condition": "acceptable only if the tumor carries KRAS G12C"
+    },
+    {
+     "drugs": [
+      "adagrasib",
+      "cetuximab"
+     ],
+     "label": "adagrasib + cetuximab",
+     "when": "alt:KRAS_G12C",
+     "condition": "acceptable only if the tumor carries KRAS G12C"
+    },
+    {
+     "drugs": [
+      "pembrolizumab"
+     ],
+     "label": "pembrolizumab",
+     "when": "msi:high",
+     "condition": "acceptable only if the tumor is MSI-high / mismatch-repair deficient"
+    },
+    {
+     "drugs": [
+      "ipilimumab",
+      "nivolumab"
+     ],
+     "label": "nivolumab + ipilimumab",
+     "when": "msi:high",
+     "condition": "acceptable only if the tumor is MSI-high / mismatch-repair deficient"
+    },
+    {
+     "drugs": [
+      "nivolumab"
+     ],
+     "label": "nivolumab",
+     "when": "msi:high",
+     "condition": "acceptable only if the tumor is MSI-high / mismatch-repair deficient"
+    }
+   ]
+  },
+  {
+   "id": "CRC-2L-RASWT",
+   "group": "CRC",
+   "line": "2L",
+   "when": [
+    "~msi:high",
+    "~alt:BRAF_V600E",
+    "!alt:RAS_MUT"
+   ],
+   "setting": "metastatic disease",
+   "source": "NCCN Colon/Rectal Cancer 2025; MOUNTAINEER (tucatinib + trastuzumab), DESTINY-CRC02 (trastuzumab deruxtecan)",
+   "after": [
+    {
+     "drugs": [
+      "bevacizumab",
+      "fluorouracil",
+      "leucovorin",
+      "oxaliplatin"
+     ],
+     "label": "FOLFOX + bevacizumab"
+    },
+    {
+     "drugs": [
+      "bevacizumab",
+      "capecitabine",
+      "oxaliplatin"
+     ],
+     "label": "CAPOX + bevacizumab"
+    }
+   ],
+   "options": [
+    {
+     "drugs": [
+      "fluorouracil",
+      "irinotecan",
+      "leucovorin"
+     ],
+     "label": "FOLFIRI (with or without bevacizumab, cetuximab or panitumumab)"
+    },
+    {
+     "drugs": [
+      "irinotecan"
+     ],
+     "label": "irinotecan (with or without cetuximab or panitumumab)"
+    },
+    {
+     "drugs": [
+      "cetuximab"
+     ],
+     "label": "cetuximab"
+    },
+    {
+     "drugs": [
+      "panitumumab"
+     ],
+     "label": "panitumumab"
+    },
+    {
+     "drugs": [
+      "trastuzumab",
+      "tucatinib"
+     ],
+     "label": "tucatinib + trastuzumab",
+     "when": "alt:ERBB2_AMP",
+     "condition": "acceptable only if the tumor is HER2-amplified"
+    },
+    {
+     "drugs": [
+      "fam-trastuzumab deruxtecan-nxki"
+     ],
+     "label": "trastuzumab deruxtecan",
+     "when": "alt:ERBB2_AMP",
+     "condition": "acceptable only if the tumor is HER2-positive"
+    },
+    {
+     "drugs": [
+      "pembrolizumab"
+     ],
+     "label": "pembrolizumab",
+     "when": "msi:high",
+     "condition": "acceptable only if the tumor is MSI-high / mismatch-repair deficient"
+    },
+    {
+     "drugs": [
+      "ipilimumab",
+      "nivolumab"
+     ],
+     "label": "nivolumab + ipilimumab",
+     "when": "msi:high",
+     "condition": "acceptable only if the tumor is MSI-high / mismatch-repair deficient"
+    },
+    {
+     "drugs": [
+      "nivolumab"
+     ],
+     "label": "nivolumab",
+     "when": "msi:high",
+     "condition": "acceptable only if the tumor is MSI-high / mismatch-repair deficient"
+    }
+   ]
+  },
+  {
+   "id": "NSCLC-1L-EGFR",
+   "group": "NSCLC",
+   "line": "1L",
+   "when": [
+    "alt:EGFR_SENSITIZING"
+   ],
+   "setting": "metastatic disease",
+   "source": "NCCN NSCLC 2025; FLAURA (osimertinib), FLAURA2 (osimertinib + chemotherapy), MARIPOSA (amivantamab + lazertinib)",
+   "options": [
+    {
+     "drugs": [
+      "osimertinib"
+     ],
+     "label": "osimertinib (with or without platinum-pemetrexed)"
+    },
+    {
+     "drugs": [
+      "amivantamab",
+      "lazertinib"
+     ],
+     "label": "amivantamab + lazertinib",
+     "when": "alt:EGFR_COMMON",
+     "condition": "acceptable only for an EGFR exon 19 deletion or L858R"
+    },
+    {
+     "drugs": [
+      "erlotinib"
+     ],
+     "label": "erlotinib"
+    },
+    {
+     "drugs": [
+      "gefitinib"
+     ],
+     "label": "gefitinib"
+    },
+    {
+     "drugs": [
+      "afatinib"
+     ],
+     "label": "afatinib"
+    },
+    {
+     "drugs": [
+      "dacomitinib"
+     ],
+     "label": "dacomitinib"
+    }
+   ]
+  },
+  {
+   "id": "NSCLC-1L-ALK",
+   "group": "NSCLC",
+   "line": "1L",
+   "when": [
+    "alt:ALK_FUSION",
+    "~alt:EGFR_SENSITIZING"
+   ],
+   "setting": "metastatic disease",
+   "source": "NCCN NSCLC 2025 (ALK rearrangement)",
+   "options": [
+    {
+     "drugs": [
+      "alectinib"
+     ],
+     "label": "alectinib"
+    },
+    {
+     "drugs": [
+      "lorlatinib"
+     ],
+     "label": "lorlatinib"
+    },
+    {
+     "drugs": [
+      "brigatinib"
+     ],
+     "label": "brigatinib"
+    },
+    {
+     "drugs": [
+      "ceritinib"
+     ],
+     "label": "ceritinib"
+    },
+    {
+     "drugs": [
+      "crizotinib"
+     ],
+     "label": "crizotinib"
+    },
+    {
+     "drugs": [
+      "ensartinib"
+     ],
+     "label": "ensartinib"
+    }
+   ]
+  },
+  {
+   "id": "NSCLC-1L-ROS1",
+   "group": "NSCLC",
+   "line": "1L",
+   "when": [
+    "alt:ROS1_FUSION",
+    "~alt:EGFR_SENSITIZING",
+    "~alt:ALK_FUSION"
+   ],
+   "setting": "metastatic disease",
+   "source": "NCCN NSCLC 2025 (ROS1 rearrangement)",
+   "options": [
+    {
+     "drugs": [
+      "crizotinib"
+     ],
+     "label": "crizotinib"
+    },
+    {
+     "drugs": [
+      "entrectinib"
+     ],
+     "label": "entrectinib"
+    },
+    {
+     "drugs": [
+      "repotrectinib"
+     ],
+     "label": "repotrectinib"
+    },
+    {
+     "drugs": [
+      "taletrectinib"
+     ],
+     "label": "taletrectinib"
+    }
+   ]
+  },
+  {
+   "id": "NSCLC-1L-RET",
+   "group": "NSCLC",
+   "line": "1L",
+   "when": [
+    "alt:RET_FUSION",
+    "~alt:EGFR_SENSITIZING",
+    "~alt:ALK_FUSION",
+    "~alt:ROS1_FUSION"
+   ],
+   "setting": "metastatic disease",
+   "source": "NCCN NSCLC 2025 (RET rearrangement)",
+   "options": [
+    {
+     "drugs": [
+      "selpercatinib"
+     ],
+     "label": "selpercatinib"
+    },
+    {
+     "drugs": [
+      "pralsetinib"
+     ],
+     "label": "pralsetinib"
+    }
+   ]
+  },
+  {
+   "id": "NSCLC-1L-BRAF",
+   "group": "NSCLC",
+   "line": "1L",
+   "when": [
+    "alt:BRAF_V600E",
+    "~alt:EGFR_SENSITIZING",
+    "~alt:ALK_FUSION",
+    "~alt:ROS1_FUSION",
+    "~alt:RET_FUSION"
+   ],
+   "setting": "metastatic disease",
+   "source": "NCCN NSCLC 2025 (BRAF V600E)",
+   "options": [
+    {
+     "drugs": [
+      "dabrafenib",
+      "trametinib"
+     ],
+     "label": "dabrafenib + trametinib"
+    },
+    {
+     "drugs": [
+      "binimetinib",
+      "encorafenib"
+     ],
+     "label": "encorafenib + binimetinib"
+    }
+   ]
+  },
+  {
+   "id": "NSCLC-1L-MET",
+   "group": "NSCLC",
+   "line": "1L",
+   "when": [
+    "alt:MET_EX14",
+    "~alt:EGFR_SENSITIZING",
+    "~alt:ALK_FUSION",
+    "~alt:ROS1_FUSION",
+    "~alt:RET_FUSION",
+    "~alt:BRAF_V600E"
+   ],
+   "setting": "metastatic disease",
+   "source": "NCCN NSCLC 2025 (MET exon 14 skipping)",
+   "options": [
+    {
+     "drugs": [
+      "capmatinib"
+     ],
+     "label": "capmatinib"
+    },
+    {
+     "drugs": [
+      "tepotinib"
+     ],
+     "label": "tepotinib"
+    },
+    {
+     "drugs": [
+      "crizotinib"
+     ],
+     "label": "crizotinib"
+    }
+   ]
+  },
+  {
+   "id": "NSCLC-1L-EGFR-EX20",
+   "group": "NSCLC",
+   "line": "1L",
+   "when": [
+    "alt:EGFR_EX20INS",
+    "~alt:EGFR_SENSITIZING",
+    "~alt:ALK_FUSION",
+    "~alt:ROS1_FUSION",
+    "~alt:RET_FUSION",
+    "~alt:BRAF_V600E",
+    "~alt:MET_EX14"
+   ],
+   "setting": "advanced or metastatic NSCLC with an EGFR exon 20 insertion, treatment-naive",
+   "source": "FDA amivantamab label (PAPILLON, 2024); NCCN NSCLC 2025 (amivantamab + carboplatin + pemetrexed preferred)",
+   "options": [
+    {
+     "drugs": [
+      "amivantamab",
+      "carboplatin",
+      "pemetrexed"
+     ],
+     "label": "amivantamab + carboplatin + pemetrexed"
+    },
+    {
+     "drugs": [
+      "carboplatin",
+      "pemetrexed"
+     ],
+     "label": "carboplatin + pemetrexed (with or without a PD-1 inhibitor)"
+    },
+    {
+     "drugs": [
+      "cisplatin",
+      "pemetrexed"
+     ],
+     "label": "cisplatin + pemetrexed"
+    }
+   ]
+  },
+  {
+   "id": "NSCLC-1L-NTRK",
+   "group": "NSCLC",
+   "line": "1L",
+   "when": [
+    "alt:NTRK_FUSION",
+    "~alt:EGFR_EX20INS",
+    "~alt:EGFR_SENSITIZING",
+    "~alt:ALK_FUSION",
+    "~alt:ROS1_FUSION",
+    "~alt:RET_FUSION",
+    "~alt:BRAF_V600E",
+    "~alt:MET_EX14"
+   ],
+   "setting": "advanced or metastatic NTRK fusion-positive NSCLC, treatment-naive",
+   "source": "FDA larotrectinib, entrectinib and repotrectinib labels (NTRK fusion-positive solid tumors); NCCN NSCLC 2025 (preferred)",
+   "options": [
+    {
+     "drugs": [
+      "larotrectinib"
+     ],
+     "label": "larotrectinib"
+    },
+    {
+     "drugs": [
+      "entrectinib"
+     ],
+     "label": "entrectinib"
+    },
+    {
+     "drugs": [
+      "repotrectinib"
+     ],
+     "label": "repotrectinib"
+    }
+   ]
+  },
+  {
+   "id": "NSCLC-1L-NODRIVER-NSQ",
+   "group": "NSCLC",
+   "line": "1L",
+   "when": [
+    "~alt:EGFR_SENSITIZING",
+    "~alt:ALK_FUSION",
+    "~alt:ROS1_FUSION",
+    "~alt:RET_FUSION",
+    "~alt:BRAF_V600E",
+    "~alt:MET_EX14",
+    "!oncotree:LUSC",
+    "~alt:EGFR_EX20INS",
+    "~alt:NTRK_FUSION"
+   ],
+   "setting": "metastatic disease; PD-L1 expression not reported",
+   "source": "NCCN NSCLC 2025 (no actionable driver, nonsquamous): KEYNOTE-189, IMpower150, CheckMate 9LA",
+   "options": [
+    {
+     "drugs": [
+      "carboplatin",
+      "pembrolizumab",
+      "pemetrexed"
+     ],
+     "label": "pembrolizumab + carboplatin (or cisplatin) + pemetrexed"
+    },
+    {
+     "drugs": [
+      "cisplatin",
+      "pembrolizumab",
+      "pemetrexed"
+     ],
+     "label": "pembrolizumab + cisplatin + pemetrexed"
+    },
+    {
+     "drugs": [
+      "atezolizumab",
+      "bevacizumab",
+      "carboplatin",
+      "paclitaxel"
+     ],
+     "label": "atezolizumab + bevacizumab + carboplatin + paclitaxel"
+    },
+    {
+     "drugs": [
+      "carboplatin",
+      "cemiplimab",
+      "pemetrexed"
+     ],
+     "label": "cemiplimab + carboplatin + pemetrexed"
+    },
+    {
+     "drugs": [
+      "carboplatin",
+      "ipilimumab",
+      "nivolumab",
+      "pemetrexed"
+     ],
+     "label": "nivolumab + ipilimumab + platinum doublet"
+    },
+    {
+     "drugs": [
+      "carboplatin",
+      "durvalumab",
+      "pemetrexed",
+      "tremelimumab"
+     ],
+     "label": "durvalumab + tremelimumab + platinum doublet"
+    },
+    {
+     "drugs": [
+      "pembrolizumab"
+     ],
+     "label": "pembrolizumab",
+     "when": "unreported:pdl1",
+     "condition": "acceptable as monotherapy only if PD-L1 TPS is at least 50%, which the vignette does not report"
+    },
+    {
+     "drugs": [
+      "atezolizumab"
+     ],
+     "label": "atezolizumab",
+     "when": "unreported:pdl1",
+     "condition": "acceptable as monotherapy only if PD-L1 TPS is at least 50%, which the vignette does not report"
+    },
+    {
+     "drugs": [
+      "cemiplimab"
+     ],
+     "label": "cemiplimab",
+     "when": "unreported:pdl1",
+     "condition": "acceptable as monotherapy only if PD-L1 TPS is at least 50%, which the vignette does not report"
+    },
+    {
+     "drugs": [
+      "ipilimumab",
+      "nivolumab"
+     ],
+     "label": "nivolumab + ipilimumab",
+     "when": "unreported:pdl1",
+     "condition": "acceptable without chemotherapy only if PD-L1 is at least 1% (CheckMate 227), which the vignette does not report"
+    },
+    {
+     "drugs": [
+      "atezolizumab",
+      "carboplatin",
+      "paclitaxel"
+     ],
+     "label": "atezolizumab + carboplatin + nab-paclitaxel"
+    },
+    {
+     "drugs": [
+      "cemiplimab",
+      "cisplatin",
+      "pemetrexed"
+     ],
+     "label": "cemiplimab + cisplatin + pemetrexed"
+    },
+    {
+     "drugs": [
+      "cisplatin",
+      "ipilimumab",
+      "nivolumab",
+      "pemetrexed"
+     ],
+     "label": "nivolumab + ipilimumab + cisplatin + pemetrexed"
+    },
+    {
+     "drugs": [
+      "cisplatin",
+      "durvalumab",
+      "pemetrexed",
+      "tremelimumab"
+     ],
+     "label": "durvalumab + tremelimumab + cisplatin + pemetrexed"
+    }
+   ]
+  },
+  {
+   "id": "NSCLC-1L-NODRIVER-SQ",
+   "group": "NSCLC",
+   "line": "1L",
+   "when": [
+    "oncotree:LUSC",
+    "~alt:EGFR_SENSITIZING",
+    "~alt:ALK_FUSION",
+    "~alt:ROS1_FUSION",
+    "~alt:RET_FUSION",
+    "~alt:BRAF_V600E",
+    "~alt:MET_EX14",
+    "~alt:EGFR_EX20INS",
+    "~alt:NTRK_FUSION"
+   ],
+   "setting": "metastatic disease; PD-L1 expression not reported",
+   "source": "NCCN NSCLC 2025 (squamous, no actionable driver): KEYNOTE-407, CheckMate 9LA, EMPOWER-Lung 3",
+   "options": [
+    {
+     "drugs": [
+      "carboplatin",
+      "paclitaxel",
+      "pembrolizumab"
+     ],
+     "label": "pembrolizumab + carboplatin + paclitaxel (or nab-paclitaxel)"
+    },
+    {
+     "drugs": [
+      "carboplatin",
+      "cemiplimab",
+      "paclitaxel"
+     ],
+     "label": "cemiplimab + carboplatin + paclitaxel"
+    },
+    {
+     "drugs": [
+      "carboplatin",
+      "ipilimumab",
+      "nivolumab",
+      "paclitaxel"
+     ],
+     "label": "nivolumab + ipilimumab + platinum doublet"
+    },
+    {
+     "drugs": [
+      "carboplatin",
+      "durvalumab",
+      "gemcitabine",
+      "tremelimumab"
+     ],
+     "label": "durvalumab + tremelimumab + platinum doublet"
+    },
+    {
+     "drugs": [
+      "pembrolizumab"
+     ],
+     "label": "pembrolizumab",
+     "when": "unreported:pdl1",
+     "condition": "acceptable as monotherapy only if PD-L1 TPS is at least 50%, which the vignette does not report"
+    },
+    {
+     "drugs": [
+      "atezolizumab"
+     ],
+     "label": "atezolizumab",
+     "when": "unreported:pdl1",
+     "condition": "acceptable as monotherapy only if PD-L1 TPS is at least 50%, which the vignette does not report"
+    },
+    {
+     "drugs": [
+      "cemiplimab"
+     ],
+     "label": "cemiplimab",
+     "when": "unreported:pdl1",
+     "condition": "acceptable as monotherapy only if PD-L1 TPS is at least 50%, which the vignette does not report"
+    },
+    {
+     "drugs": [
+      "ipilimumab",
+      "nivolumab"
+     ],
+     "label": "nivolumab + ipilimumab",
+     "when": "unreported:pdl1",
+     "condition": "acceptable without chemotherapy only if PD-L1 is at least 1% (CheckMate 227), which the vignette does not report"
+    },
+    {
+     "drugs": [
+      "cisplatin",
+      "durvalumab",
+      "gemcitabine",
+      "tremelimumab"
+     ],
+     "label": "durvalumab + tremelimumab + cisplatin + gemcitabine"
+    },
+    {
+     "drugs": [
+      "cemiplimab",
+      "cisplatin",
+      "paclitaxel"
+     ],
+     "label": "cemiplimab + cisplatin + paclitaxel"
+    }
+   ]
+  },
+  {
+   "id": "NSCLC-2L-EGFR",
+   "group": "NSCLC",
+   "line": "2L",
+   "when": [
+    "alt:EGFR_SENSITIZING"
+   ],
+   "setting": "metastatic disease",
+   "source": "NCCN NSCLC 2025 (progression on osimertinib): MARIPOSA-2 (amivantamab + carboplatin + pemetrexed), platinum-pemetrexed",
+   "after": [
+    {
+     "drugs": [
+      "osimertinib"
+     ],
+     "label": "osimertinib"
+    }
+   ],
+   "options": [
+    {
+     "drugs": [
+      "amivantamab",
+      "carboplatin",
+      "pemetrexed"
+     ],
+     "label": "amivantamab + carboplatin + pemetrexed"
+    },
+    {
+     "drugs": [
+      "carboplatin",
+      "pemetrexed"
+     ],
+     "label": "carboplatin (or cisplatin) + pemetrexed"
+    },
+    {
+     "drugs": [
+      "cisplatin",
+      "pemetrexed"
+     ],
+     "label": "cisplatin + pemetrexed"
+    },
+    {
+     "drugs": [
+      "fam-trastuzumab deruxtecan-nxki"
+     ],
+     "label": "trastuzumab deruxtecan",
+     "when": "alt:ERBB2_MUT",
+     "condition": "acceptable only if the tumor carries an activating HER2 (ERBB2) mutation"
+    }
+   ]
+  },
+  {
+   "id": "NSCLC-2L-ALK",
+   "group": "NSCLC",
+   "line": "2L",
+   "when": [
+    "alt:ALK_FUSION",
+    "~alt:EGFR_SENSITIZING"
+   ],
+   "setting": "metastatic disease",
+   "source": "NCCN NSCLC 2025 (progression on a second-generation ALK inhibitor)",
+   "after": [
+    {
+     "drugs": [
+      "alectinib"
+     ],
+     "label": "alectinib"
+    },
+    {
+     "drugs": [
+      "brigatinib"
+     ],
+     "label": "brigatinib"
+    }
+   ],
+   "options": [
+    {
+     "drugs": [
+      "lorlatinib"
+     ],
+     "label": "lorlatinib"
+    },
+    {
+     "drugs": [
+      "carboplatin",
+      "pemetrexed"
+     ],
+     "label": "carboplatin (or cisplatin) + pemetrexed"
+    },
+    {
+     "drugs": [
+      "cisplatin",
+      "pemetrexed"
+     ],
+     "label": "cisplatin + pemetrexed"
+    }
+   ]
+  },
+  {
+   "id": "NSCLC-2L-NODRIVER-NSQ",
+   "group": "NSCLC",
+   "line": "2L",
+   "when": [
+    "~alt:EGFR_SENSITIZING",
+    "~alt:ALK_FUSION",
+    "~alt:ROS1_FUSION",
+    "~alt:RET_FUSION",
+    "~alt:BRAF_V600E",
+    "~alt:MET_EX14",
+    "!oncotree:LUSC",
+    "~alt:EGFR_EX20INS",
+    "~alt:NTRK_FUSION"
+   ],
+   "setting": "metastatic disease",
+   "source": "NCCN NSCLC 2025 (after chemo-immunotherapy): docetaxel with or without ramucirumab; KRAS G12C sotorasib/adagrasib; HER2-mutant trastuzumab deruxtecan",
+   "after": [
+    {
+     "drugs": [
+      "carboplatin",
+      "pembrolizumab",
+      "pemetrexed"
+     ],
+     "label": "pembrolizumab + carboplatin + pemetrexed"
+    }
+   ],
+   "options": [
+    {
+     "drugs": [
+      "docetaxel"
+     ],
+     "label": "docetaxel (with or without ramucirumab)"
+    },
+    {
+     "drugs": [
+      "sotorasib"
+     ],
+     "label": "sotorasib",
+     "when": "alt:KRAS_G12C",
+     "condition": "acceptable only if the tumor carries KRAS G12C"
+    },
+    {
+     "drugs": [
+      "adagrasib"
+     ],
+     "label": "adagrasib",
+     "when": "alt:KRAS_G12C",
+     "condition": "acceptable only if the tumor carries KRAS G12C"
+    },
+    {
+     "drugs": [
+      "fam-trastuzumab deruxtecan-nxki"
+     ],
+     "label": "trastuzumab deruxtecan",
+     "when": "alt:ERBB2_MUT",
+     "condition": "acceptable only if the tumor carries an activating HER2 (ERBB2) mutation"
+    }
+   ]
+  },
+  {
+   "id": "NSCLC-2L-NODRIVER-SQ",
+   "group": "NSCLC",
+   "line": "2L",
+   "when": [
+    "oncotree:LUSC",
+    "~alt:EGFR_SENSITIZING",
+    "~alt:ALK_FUSION",
+    "~alt:ROS1_FUSION",
+    "~alt:RET_FUSION",
+    "~alt:BRAF_V600E",
+    "~alt:MET_EX14",
+    "~alt:EGFR_EX20INS",
+    "~alt:NTRK_FUSION"
+   ],
+   "setting": "metastatic disease",
+   "source": "NCCN NSCLC 2025 (after chemo-immunotherapy): docetaxel with or without ramucirumab",
+   "after": [
+    {
+     "drugs": [
+      "carboplatin",
+      "paclitaxel",
+      "pembrolizumab"
+     ],
+     "label": "pembrolizumab + carboplatin + paclitaxel"
+    }
+   ],
+   "options": [
+    {
+     "drugs": [
+      "docetaxel"
+     ],
+     "label": "docetaxel (with or without ramucirumab)"
+    }
+   ]
+  },
+  {
+   "id": "BREAST-1L-HRPOS-HER2NEG",
+   "group": "BREAST",
+   "line": "1L",
+   "when": [
+    "receptor:HR=positive",
+    "receptor:HER2=negative"
+   ],
+   "setting": "metastatic disease, no prior endocrine therapy for advanced disease",
+   "source": "NCCN Breast Cancer 2025; MONALEESA-2/7, PALOMA-2, MONARCH-3 (CDK4/6 inhibitor + aromatase inhibitor or fulvestrant; ovarian suppression if premenopausal); INAVO120 (PIK3CA)",
+   "options": [
+    {
+     "drugs": [
+      "letrozole",
+      "ribociclib"
+     ],
+     "label": "ribociclib + letrozole"
+    },
+    {
+     "drugs": [
+      "anastrozole",
+      "ribociclib"
+     ],
+     "label": "ribociclib + anastrozole"
+    },
+    {
+     "drugs": [
+      "exemestane",
+      "ribociclib"
+     ],
+     "label": "ribociclib + exemestane"
+    },
+    {
+     "drugs": [
+      "letrozole",
+      "palbociclib"
+     ],
+     "label": "palbociclib + letrozole"
+    },
+    {
+     "drugs": [
+      "anastrozole",
+      "palbociclib"
+     ],
+     "label": "palbociclib + anastrozole"
+    },
+    {
+     "drugs": [
+      "abemaciclib",
+      "letrozole"
+     ],
+     "label": "abemaciclib + letrozole"
+    },
+    {
+     "drugs": [
+      "abemaciclib",
+      "anastrozole"
+     ],
+     "label": "abemaciclib + anastrozole"
+    },
+    {
+     "drugs": [
+      "fulvestrant",
+      "ribociclib"
+     ],
+     "label": "ribociclib + fulvestrant"
+    },
+    {
+     "drugs": [
+      "fulvestrant",
+      "palbociclib"
+     ],
+     "label": "palbociclib + fulvestrant"
+    },
+    {
+     "drugs": [
+      "abemaciclib",
+      "fulvestrant"
+     ],
+     "label": "abemaciclib + fulvestrant"
+    },
+    {
+     "drugs": [
+      "fulvestrant",
+      "inavolisib",
+      "palbociclib"
+     ],
+     "label": "inavolisib + palbociclib + fulvestrant",
+     "when": [
+      "alt:PIK3CA_ACT",
+      "unreported:endocrine_resistance"
+     ],
+     "condition": "acceptable only for an activating PIK3CA mutation with endocrine-resistant disease (relapse on or within 12 months of adjuvant endocrine therapy), which the vignette does not report"
+    }
+   ]
+  },
+  {
+   "id": "BREAST-2L-HRPOS-HER2NEG",
+   "group": "BREAST",
+   "line": "2L",
+   "when": [
+    "receptor:HR=positive",
+    "receptor:HER2=negative"
+   ],
+   "setting": "metastatic disease",
+   "source": "NCCN Breast Cancer 2025 (progression on a CDK4/6 inhibitor + aromatase inhibitor): fulvestrant-based; CAPItello-291 (capivasertib), SOLAR-1 (alpelisib), EMERALD (elacestrant), BOLERO-2 (everolimus + exemestane); OlympiAD (germline BRCA)",
+   "after": [
+    {
+     "drugs": [
+      "letrozole",
+      "ribociclib"
+     ],
+     "label": "ribociclib + letrozole"
+    },
+    {
+     "drugs": [
+      "letrozole",
+      "palbociclib"
+     ],
+     "label": "palbociclib + letrozole"
+    },
+    {
+     "drugs": [
+      "abemaciclib",
+      "anastrozole"
+     ],
+     "label": "abemaciclib + anastrozole"
+    }
+   ],
+   "options": [
+    {
+     "drugs": [
+      "fulvestrant"
+     ],
+     "label": "fulvestrant (alone or with a targeted partner)"
+    },
+    {
+     "drugs": [
+      "everolimus",
+      "exemestane"
+     ],
+     "label": "everolimus + exemestane"
+    },
+    {
+     "drugs": [
+      "capivasertib",
+      "fulvestrant"
+     ],
+     "label": "capivasertib + fulvestrant",
+     "when": "alt:PI3K_AKT_PTEN",
+     "condition": "acceptable only if the tumor carries a PIK3CA, AKT1 or PTEN alteration"
+    },
+    {
+     "drugs": [
+      "elacestrant"
+     ],
+     "label": "elacestrant",
+     "when": "alt:ESR1_MUT",
+     "condition": "acceptable only if the tumor carries an ESR1 mutation"
+    },
+    {
+     "drugs": [
+      "alpelisib",
+      "fulvestrant"
+     ],
+     "label": "alpelisib + fulvestrant",
+     "when": "alt:PIK3CA_ACT",
+     "condition": "acceptable only if the tumor carries an activating PIK3CA mutation"
+    },
+    {
+     "drugs": [
+      "olaparib"
+     ],
+     "label": "olaparib",
+     "when": [
+      "^alt:BRCA_PATH",
+      "unreported:germline_brca"
+     ],
+     "condition": "acceptable only for a germline BRCA1/2 pathogenic variant; the vignette reports tumor sequencing only (germline variants are not in a tumor-normal call list), so germline status is not known"
+    },
+    {
+     "drugs": [
+      "talazoparib"
+     ],
+     "label": "talazoparib",
+     "when": [
+      "^alt:BRCA_PATH",
+      "unreported:germline_brca"
+     ],
+     "condition": "acceptable only for a germline BRCA1/2 pathogenic variant; the vignette reports tumor sequencing only (germline variants are not in a tumor-normal call list), so germline status is not known"
+    },
+    {
+     "drugs": [
+      "fam-trastuzumab deruxtecan-nxki"
+     ],
+     "label": "trastuzumab deruxtecan",
+     "when": "unreported:her2_ihc",
+     "condition": "acceptable only if HER2 is IHC 1+ or 2+/ISH-negative (HER2-low; or HER2-ultralow when HR-positive), which the vignette does not report"
+    },
+    {
+     "drugs": [
+      "capecitabine"
+     ],
+     "label": "capecitabine",
+     "when": "unreported:endocrine_refractory",
+     "condition": "acceptable as chemotherapy only for endocrine-refractory disease or visceral crisis, which the vignette does not establish"
+    },
+    {
+     "drugs": [
+      "paclitaxel"
+     ],
+     "label": "paclitaxel",
+     "when": "unreported:endocrine_refractory",
+     "condition": "acceptable as chemotherapy only for endocrine-refractory disease or visceral crisis, which the vignette does not establish"
+    },
+    {
+     "drugs": [
+      "tamoxifen"
+     ],
+     "label": "tamoxifen"
+    }
+   ]
+  },
+  {
+   "id": "BREAST-1L-HER2POS",
+   "group": "BREAST",
+   "line": "1L",
+   "when": [
+    "receptor:HER2=positive"
+   ],
+   "setting": "metastatic disease",
+   "source": "NCCN Breast Cancer 2025; CLEOPATRA (pertuzumab + trastuzumab + taxane)",
+   "options": [
+    {
+     "drugs": [
+      "docetaxel",
+      "pertuzumab",
+      "trastuzumab"
+     ],
+     "label": "pertuzumab + trastuzumab + docetaxel"
+    },
+    {
+     "drugs": [
+      "paclitaxel",
+      "pertuzumab",
+      "trastuzumab"
+     ],
+     "label": "pertuzumab + trastuzumab + paclitaxel"
+    }
+   ]
+  },
+  {
+   "id": "BREAST-2L-HER2POS",
+   "group": "BREAST",
+   "line": "2L",
+   "when": [
+    "receptor:HER2=positive"
+   ],
+   "setting": "metastatic disease",
+   "source": "NCCN Breast Cancer 2025; DESTINY-Breast03 (trastuzumab deruxtecan)",
+   "after": [
+    {
+     "drugs": [
+      "docetaxel",
+      "pertuzumab",
+      "trastuzumab"
+     ],
+     "label": "pertuzumab + trastuzumab + docetaxel"
+    },
+    {
+     "drugs": [
+      "paclitaxel",
+      "pertuzumab",
+      "trastuzumab"
+     ],
+     "label": "pertuzumab + trastuzumab + paclitaxel"
+    }
+   ],
+   "options": [
+    {
+     "drugs": [
+      "fam-trastuzumab deruxtecan-nxki"
+     ],
+     "label": "trastuzumab deruxtecan"
+    },
+    {
+     "drugs": [
+      "capecitabine",
+      "trastuzumab",
+      "tucatinib"
+     ],
+     "label": "tucatinib + trastuzumab + capecitabine"
+    },
+    {
+     "drugs": [
+      "ado-trastuzumab emtansine"
+     ],
+     "label": "trastuzumab emtansine"
+    }
+   ]
+  },
+  {
+   "id": "BREAST-1L-TNBC",
+   "group": "BREAST",
+   "line": "1L",
+   "when": [
+    "receptor:HR=negative",
+    "receptor:HER2=negative"
+   ],
+   "setting": "metastatic disease; PD-L1 expression not reported",
+   "source": "NCCN Breast Cancer 2025 (triple-negative): chemotherapy, pembrolizumab + chemotherapy if PD-L1 CPS >= 10 (KEYNOTE-355), PARP inhibitor for germline BRCA",
+   "options": [
+    {
+     "drugs": [
+      "paclitaxel"
+     ],
+     "label": "paclitaxel (or another single-agent / platinum chemotherapy)"
+    },
+    {
+     "drugs": [
+      "carboplatin",
+      "gemcitabine"
+     ],
+     "label": "gemcitabine + carboplatin"
+    },
+    {
+     "drugs": [
+      "carboplatin",
+      "paclitaxel"
+     ],
+     "label": "carboplatin + paclitaxel"
+    },
+    {
+     "drugs": [
+      "paclitaxel",
+      "pembrolizumab"
+     ],
+     "label": "pembrolizumab + paclitaxel",
+     "when": "unreported:pdl1",
+     "condition": "acceptable only if PD-L1 CPS is at least 10, which the vignette does not report"
+    },
+    {
+     "drugs": [
+      "olaparib"
+     ],
+     "label": "olaparib",
+     "when": [
+      "^alt:BRCA_PATH",
+      "unreported:germline_brca"
+     ],
+     "condition": "acceptable only for a germline BRCA1/2 pathogenic variant; the vignette reports tumor sequencing only (germline variants are not in a tumor-normal call list), so germline status is not known"
+    },
+    {
+     "drugs": [
+      "talazoparib"
+     ],
+     "label": "talazoparib",
+     "when": [
+      "^alt:BRCA_PATH",
+      "unreported:germline_brca"
+     ],
+     "condition": "acceptable only for a germline BRCA1/2 pathogenic variant; the vignette reports tumor sequencing only (germline variants are not in a tumor-normal call list), so germline status is not known"
+    },
+    {
+     "drugs": [
+      "docetaxel"
+     ],
+     "label": "docetaxel"
+    },
+    {
+     "drugs": [
+      "capecitabine"
+     ],
+     "label": "capecitabine"
+    },
+    {
+     "drugs": [
+      "doxorubicin"
+     ],
+     "label": "doxorubicin"
+    },
+    {
+     "drugs": [
+      "liposomal doxorubicin"
+     ],
+     "label": "liposomal doxorubicin"
+    },
+    {
+     "drugs": [
+      "eribulin"
+     ],
+     "label": "eribulin"
+    },
+    {
+     "drugs": [
+      "gemcitabine"
+     ],
+     "label": "gemcitabine"
+    },
+    {
+     "drugs": [
+      "vinorelbine"
+     ],
+     "label": "vinorelbine"
+    }
+   ]
+  },
+  {
+   "id": "BREAST-2L-TNBC",
+   "group": "BREAST",
+   "line": "2L",
+   "when": [
+    "receptor:HR=negative",
+    "receptor:HER2=negative"
+   ],
+   "setting": "metastatic disease",
+   "source": "NCCN Breast Cancer 2025; ASCENT (sacituzumab govitecan)",
+   "after": [
+    {
+     "drugs": [
+      "carboplatin",
+      "paclitaxel"
+     ],
+     "label": "carboplatin + paclitaxel"
+    },
+    {
+     "drugs": [
+      "carboplatin",
+      "gemcitabine"
+     ],
+     "label": "gemcitabine + carboplatin"
+    }
+   ],
+   "options": [
+    {
+     "drugs": [
+      "sacituzumab govitecan"
+     ],
+     "label": "sacituzumab govitecan"
+    },
+    {
+     "drugs": [
+      "eribulin"
+     ],
+     "label": "eribulin"
+    },
+    {
+     "drugs": [
+      "capecitabine"
+     ],
+     "label": "capecitabine"
+    },
+    {
+     "drugs": [
+      "fam-trastuzumab deruxtecan-nxki"
+     ],
+     "label": "trastuzumab deruxtecan",
+     "when": "unreported:her2_ihc",
+     "condition": "acceptable only if HER2 is IHC 1+ or 2+/ISH-negative (HER2-low; or HER2-ultralow when HR-positive), which the vignette does not report"
+    },
+    {
+     "drugs": [
+      "vinorelbine"
+     ],
+     "label": "vinorelbine"
+    },
+    {
+     "drugs": [
+      "doxorubicin"
+     ],
+     "label": "doxorubicin"
+    },
+    {
+     "drugs": [
+      "liposomal doxorubicin"
+     ],
+     "label": "liposomal doxorubicin"
+    },
+    {
+     "drugs": [
+      "paclitaxel"
+     ],
+     "label": "paclitaxel",
+     "when": "!prior:paclitaxel"
+    },
+    {
+     "drugs": [
+      "docetaxel"
+     ],
+     "label": "docetaxel"
+    },
+    {
+     "drugs": [
+      "gemcitabine"
+     ],
+     "label": "gemcitabine",
+     "when": "!prior:gemcitabine"
+    },
+    {
+     "drugs": [
+      "olaparib"
+     ],
+     "label": "olaparib",
+     "when": [
+      "^alt:BRCA_PATH",
+      "unreported:germline_brca"
+     ],
+     "condition": "acceptable only for a germline BRCA1/2 pathogenic variant; the vignette reports tumor sequencing only (germline variants are not in a tumor-normal call list), so germline status is not known"
+    },
+    {
+     "drugs": [
+      "talazoparib"
+     ],
+     "label": "talazoparib",
+     "when": [
+      "^alt:BRCA_PATH",
+      "unreported:germline_brca"
+     ],
+     "condition": "acceptable only for a germline BRCA1/2 pathogenic variant; the vignette reports tumor sequencing only (germline variants are not in a tumor-normal call list), so germline status is not known"
+    }
+   ]
+  },
+  {
+   "id": "PROSTATE-1L",
+   "group": "PROSTATE",
+   "line": "1L",
+   "when": [],
+   "setting": "metastatic castration-sensitive disease, starting androgen deprivation therapy",
+   "source": "NCCN Prostate Cancer 2025 (mCSPC: ADT plus abiraterone, apalutamide, enzalutamide, or darolutamide with or without docetaxel)",
+   "options": [
+    {
+     "drugs": [
+      "abiraterone"
+     ],
+     "label": "ADT + abiraterone (with prednisone)"
+    },
+    {
+     "drugs": [
+      "apalutamide"
+     ],
+     "label": "ADT + apalutamide"
+    },
+    {
+     "drugs": [
+      "enzalutamide"
+     ],
+     "label": "ADT + enzalutamide"
+    },
+    {
+     "drugs": [
+      "darolutamide"
+     ],
+     "label": "ADT + darolutamide (with or without docetaxel)"
+    },
+    {
+     "drugs": [
+      "docetaxel"
+     ],
+     "label": "ADT + docetaxel (with abiraterone or darolutamide)"
+    }
+   ]
+  },
+  {
+   "id": "PROSTATE-2L",
+   "group": "PROSTATE",
+   "line": "2L",
+   "when": [],
+   "setting": "metastatic castration-resistant disease on continued androgen deprivation therapy",
+   "source": "NCCN Prostate Cancer 2025 (mCRPC after an androgen-receptor pathway inhibitor, taxane-naive): docetaxel; lutetium Lu 177 vipivotide tetraxetan if PSMA-positive (PSMAfore); PARP inhibitor for HRR alterations (PROfound, TRITON3); pembrolizumab for MSI-H",
+   "after": [
+    {
+     "drugs": [
+      "abiraterone"
+     ],
+     "label": "abiraterone"
+    },
+    {
+     "drugs": [
+      "enzalutamide"
+     ],
+     "label": "enzalutamide"
+    },
+    {
+     "drugs": [
+      "apalutamide"
+     ],
+     "label": "apalutamide"
+    }
+   ],
+   "options": [
+    {
+     "drugs": [
+      "docetaxel"
+     ],
+     "label": "docetaxel"
+    },
+    {
+     "drugs": [
+      "lutetium Lu 177 vipivotide tetraxetan"
+     ],
+     "label": "lutetium Lu 177 vipivotide tetraxetan",
+     "when": "unreported:psma",
+     "condition": "acceptable only if PSMA PET is positive, which the vignette does not report"
+    },
+    {
+     "drugs": [
+      "olaparib"
+     ],
+     "label": "olaparib",
+     "when": "alt:HRR_PATH",
+     "condition": "acceptable only if the tumor carries a pathogenic homologous-recombination-repair gene alteration"
+    },
+    {
+     "drugs": [
+      "pembrolizumab"
+     ],
+     "label": "pembrolizumab",
+     "when": "msi:high",
+     "condition": "acceptable only if the tumor is MSI-high / mismatch-repair deficient"
+    },
+    {
+     "drugs": [
+      "radium Ra 223 dichloride"
+     ],
+     "label": "radium-223",
+     "when": "unreported:bone_only",
+     "condition": "acceptable only for symptomatic bone metastases without visceral metastases, which the vignette does not report"
+    }
+   ]
+  },
+  {
+   "id": "MELANOMA-1L-BRAF",
+   "group": "MELANOMA",
+   "line": "1L",
+   "when": [
+    "alt:BRAF_V600"
+   ],
+   "setting": "unresectable or metastatic disease",
+   "source": "NCCN Melanoma: Cutaneous 2025 (BRAF V600: anti-PD-1 based immunotherapy preferred, BRAF/MEK inhibitor alternative)",
+   "options": [
+    {
+     "drugs": [
+      "ipilimumab",
+      "nivolumab"
+     ],
+     "label": "nivolumab + ipilimumab"
+    },
+    {
+     "drugs": [
+      "nivolumab",
+      "relatlimab"
+     ],
+     "label": "nivolumab + relatlimab"
+    },
+    {
+     "drugs": [
+      "nivolumab"
+     ],
+     "label": "nivolumab"
+    },
+    {
+     "drugs": [
+      "pembrolizumab"
+     ],
+     "label": "pembrolizumab"
+    },
+    {
+     "drugs": [
+      "dabrafenib",
+      "trametinib"
+     ],
+     "label": "dabrafenib + trametinib"
+    },
+    {
+     "drugs": [
+      "binimetinib",
+      "encorafenib"
+     ],
+     "label": "encorafenib + binimetinib"
+    },
+    {
+     "drugs": [
+      "cobimetinib",
+      "vemurafenib"
+     ],
+     "label": "vemurafenib + cobimetinib"
+    }
+   ]
+  },
+  {
+   "id": "MELANOMA-1L-WT",
+   "group": "MELANOMA",
+   "line": "1L",
+   "when": [
+    "~alt:BRAF_V600"
+   ],
+   "setting": "unresectable or metastatic disease",
+   "source": "NCCN Melanoma: Cutaneous 2025",
+   "options": [
+    {
+     "drugs": [
+      "ipilimumab",
+      "nivolumab"
+     ],
+     "label": "nivolumab + ipilimumab"
+    },
+    {
+     "drugs": [
+      "nivolumab",
+      "relatlimab"
+     ],
+     "label": "nivolumab + relatlimab"
+    },
+    {
+     "drugs": [
+      "nivolumab"
+     ],
+     "label": "nivolumab"
+    },
+    {
+     "drugs": [
+      "pembrolizumab"
+     ],
+     "label": "pembrolizumab"
+    }
+   ]
+  },
+  {
+   "id": "MELANOMA-2L-BRAF",
+   "group": "MELANOMA",
+   "line": "2L",
+   "when": [
+    "alt:BRAF_V600"
+   ],
+   "setting": "unresectable or metastatic disease",
+   "source": "NCCN Melanoma: Cutaneous 2025 (after anti-PD-1: BRAF/MEK inhibitor)",
+   "after": [
+    {
+     "drugs": [
+      "ipilimumab",
+      "nivolumab"
+     ],
+     "label": "nivolumab + ipilimumab"
+    },
+    {
+     "drugs": [
+      "pembrolizumab"
+     ],
+     "label": "pembrolizumab"
+    }
+   ],
+   "options": [
+    {
+     "drugs": [
+      "dabrafenib",
+      "trametinib"
+     ],
+     "label": "dabrafenib + trametinib"
+    },
+    {
+     "drugs": [
+      "binimetinib",
+      "encorafenib"
+     ],
+     "label": "encorafenib + binimetinib"
+    },
+    {
+     "drugs": [
+      "cobimetinib",
+      "vemurafenib"
+     ],
+     "label": "vemurafenib + cobimetinib"
+    }
+   ]
+  },
+  {
+   "id": "MELANOMA-2L-WT",
+   "group": "MELANOMA",
+   "line": "2L",
+   "when": [
+    "~alt:BRAF_V600"
+   ],
+   "setting": "unresectable or metastatic disease",
+   "source": "NCCN Melanoma: Cutaneous 2025 (after anti-PD-1: lifileucel, ipilimumab-containing, clinical trial)",
+   "after": [
+    {
+     "drugs": [
+      "pembrolizumab"
+     ],
+     "label": "pembrolizumab"
+    },
+    {
+     "drugs": [
+      "nivolumab"
+     ],
+     "label": "nivolumab"
+    }
+   ],
+   "options": [
+    {
+     "drugs": [
+      "ipilimumab",
+      "nivolumab"
+     ],
+     "label": "nivolumab + ipilimumab"
+    },
+    {
+     "drugs": [
+      "lifileucel"
+     ],
+     "label": "lifileucel"
+    },
+    {
+     "drugs": [
+      "ipilimumab"
+     ],
+     "label": "ipilimumab"
+    }
+   ]
+  },
+  {
+   "id": "CCRCC-1L",
+   "group": "CCRCC",
+   "line": "1L",
+   "when": [],
+   "setting": "advanced (unresectable or metastatic) disease",
+   "source": "NCCN Kidney Cancer 2025 (clear cell, first line): IO + VEGFR TKI or nivolumab + ipilimumab",
+   "options": [
+    {
+     "drugs": [
+      "axitinib",
+      "pembrolizumab"
+     ],
+     "label": "pembrolizumab + axitinib"
+    },
+    {
+     "drugs": [
+      "lenvatinib",
+      "pembrolizumab"
+     ],
+     "label": "pembrolizumab + lenvatinib"
+    },
+    {
+     "drugs": [
+      "cabozantinib",
+      "nivolumab"
+     ],
+     "label": "nivolumab + cabozantinib"
+    },
+    {
+     "drugs": [
+      "ipilimumab",
+      "nivolumab"
+     ],
+     "label": "nivolumab + ipilimumab",
+     "when": "unreported:imdc_risk",
+     "condition": "acceptable only for IMDC intermediate- or poor-risk disease (CheckMate 214), which the vignette does not report"
+    },
+    {
+     "drugs": [
+      "avelumab",
+      "axitinib"
+     ],
+     "label": "avelumab + axitinib"
+    },
+    {
+     "drugs": [
+      "cabozantinib"
+     ],
+     "label": "cabozantinib",
+     "when": "unreported:imdc_risk",
+     "condition": "acceptable as monotherapy only for IMDC intermediate- or poor-risk disease (CABOSUN), which the vignette does not report"
+    }
+   ]
+  },
+  {
+   "id": "CCRCC-2L",
+   "group": "CCRCC",
+   "line": "2L",
+   "when": [],
+   "setting": "advanced (unresectable or metastatic) disease",
+   "source": "NCCN Kidney Cancer 2025 (subsequent therapy after IO-based first line): cabozantinib, lenvatinib + everolimus, axitinib, belzutifan, tivozanib",
+   "after": [
+    {
+     "drugs": [
+      "axitinib",
+      "pembrolizumab"
+     ],
+     "label": "pembrolizumab + axitinib"
+    },
+    {
+     "drugs": [
+      "ipilimumab",
+      "nivolumab"
+     ],
+     "label": "nivolumab + ipilimumab"
+    }
+   ],
+   "options": [
+    {
+     "drugs": [
+      "cabozantinib"
+     ],
+     "label": "cabozantinib"
+    },
+    {
+     "drugs": [
+      "everolimus",
+      "lenvatinib"
+     ],
+     "label": "lenvatinib + everolimus"
+    },
+    {
+     "drugs": [
+      "belzutifan"
+     ],
+     "label": "belzutifan",
+     "when": "prior:axitinib"
+    },
+    {
+     "drugs": [
+      "axitinib"
+     ],
+     "label": "axitinib",
+     "when": "!prior:axitinib",
+     "condition": null
+    },
+    {
+     "drugs": [
+      "sunitinib"
+     ],
+     "label": "sunitinib",
+     "when": "!prior:axitinib"
+    },
+    {
+     "drugs": [
+      "pazopanib"
+     ],
+     "label": "pazopanib",
+     "when": "!prior:axitinib"
+    }
+   ]
+  },
+  {
+   "id": "PANCREAS-1L",
+   "group": "PANCREAS",
+   "line": "1L",
+   "when": [],
+   "setting": "metastatic disease",
+   "source": "NCCN Pancreatic Adenocarcinoma 2025 (good performance status): FOLFIRINOX, NALIRIFOX, gemcitabine + nab-paclitaxel",
+   "options": [
+    {
+     "drugs": [
+      "fluorouracil",
+      "irinotecan",
+      "leucovorin",
+      "oxaliplatin"
+     ],
+     "label": "FOLFIRINOX"
+    },
+    {
+     "drugs": [
+      "fluorouracil",
+      "irinotecan liposome",
+      "leucovorin",
+      "oxaliplatin"
+     ],
+     "label": "NALIRIFOX"
+    },
+    {
+     "drugs": [
+      "gemcitabine",
+      "paclitaxel"
+     ],
+     "label": "gemcitabine + nab-paclitaxel"
+    },
+    {
+     "drugs": [
+      "pembrolizumab"
+     ],
+     "label": "pembrolizumab",
+     "when": "msi:high",
+     "condition": "acceptable only if the tumor is MSI-high / mismatch-repair deficient"
+    },
+    {
+     "drugs": [
+      "cisplatin",
+      "gemcitabine"
+     ],
+     "label": "gemcitabine + cisplatin",
+     "when": [
+      "^alt:BRCA_PALB2",
+      "unreported:germline_brca"
+     ],
+     "condition": "acceptable only for a germline BRCA1/2 or PALB2 pathogenic variant; the vignette reports tumor sequencing only (germline variants are not in a tumor-normal call list), so germline status is not known"
+    },
+    {
+     "drugs": [
+      "gemcitabine"
+     ],
+     "label": "gemcitabine (single agent)"
+    }
+   ]
+  },
+  {
+   "id": "PANCREAS-2L",
+   "group": "PANCREAS",
+   "line": "2L",
+   "when": [],
+   "setting": "metastatic disease",
+   "source": "NCCN Pancreatic Adenocarcinoma 2025 (second line by prior regimen): NAPOLI-1 (liposomal irinotecan + 5-FU/LV) after gemcitabine; gemcitabine-based after FOLFIRINOX",
+   "after": [
+    {
+     "drugs": [
+      "gemcitabine",
+      "paclitaxel"
+     ],
+     "label": "gemcitabine + nab-paclitaxel"
+    }
+   ],
+   "options": [
+    {
+     "drugs": [
+      "fluorouracil",
+      "irinotecan liposome",
+      "leucovorin"
+     ],
+     "label": "liposomal irinotecan + fluorouracil + leucovorin"
+    },
+    {
+     "drugs": [
+      "fluorouracil",
+      "leucovorin",
+      "oxaliplatin"
+     ],
+     "label": "FOLFOX"
+    },
+    {
+     "drugs": [
+      "fluorouracil",
+      "irinotecan",
+      "leucovorin"
+     ],
+     "label": "FOLFIRI"
+    }
+   ]
+  },
+  {
+   "id": "OVARY-1L",
+   "group": "OVARY",
+   "line": "1L",
+   "when": [],
+   "setting": "advanced (stage III-IV) disease after primary cytoreductive surgery",
+   "source": "NCCN Ovarian Cancer 2025 (first line): carboplatin + paclitaxel with or without bevacizumab; PARP maintenance afterwards",
+   "options": [
+    {
+     "drugs": [
+      "carboplatin",
+      "paclitaxel"
+     ],
+     "label": "carboplatin + paclitaxel (with or without bevacizumab)"
+    },
+    {
+     "drugs": [
+      "carboplatin",
+      "docetaxel"
+     ],
+     "label": "carboplatin + docetaxel"
+    }
+   ]
+  },
+  {
+   "id": "OVARY-2L-PLATSENS",
+   "group": "OVARY",
+   "line": "2L",
+   "when": [],
+   "setting": "platinum-sensitive recurrence (more than 6 months after completing platinum therapy)",
+   "source": "NCCN Ovarian Cancer 2025 (platinum-sensitive recurrence): platinum doublet rechallenge with or without bevacizumab",
+   "after": [
+    {
+     "drugs": [
+      "carboplatin",
+      "paclitaxel"
+     ],
+     "label": "carboplatin + paclitaxel"
+    }
+   ],
+   "options": [
+    {
+     "drugs": [
+      "carboplatin",
+      "gemcitabine"
+     ],
+     "label": "carboplatin + gemcitabine (with or without bevacizumab)"
+    },
+    {
+     "drugs": [
+      "carboplatin",
+      "liposomal doxorubicin"
+     ],
+     "label": "carboplatin + pegylated liposomal doxorubicin"
+    },
+    {
+     "drugs": [
+      "carboplatin",
+      "paclitaxel"
+     ],
+     "label": "carboplatin + paclitaxel"
+    },
+    {
+     "drugs": [
+      "carboplatin",
+      "docetaxel"
+     ],
+     "label": "carboplatin + docetaxel"
+    },
+    {
+     "drugs": [
+      "cisplatin",
+      "gemcitabine"
+     ],
+     "label": "cisplatin + gemcitabine"
+    }
+   ]
+  },
+  {
+   "id": "ENDOMETRIAL-1L",
+   "group": "ENDOMETRIAL",
+   "line": "1L",
+   "when": [],
+   "setting": "advanced or recurrent disease",
+   "source": "NCCN Uterine Neoplasms 2025: carboplatin + paclitaxel with dostarlimab (RUBY), pembrolizumab (NRG-GY018) or durvalumab (DUO-E); trastuzumab for HER2-positive serous",
+   "options": [
+    {
+     "drugs": [
+      "carboplatin",
+      "dostarlimab",
+      "paclitaxel"
+     ],
+     "label": "dostarlimab + carboplatin + paclitaxel"
+    },
+    {
+     "drugs": [
+      "carboplatin",
+      "paclitaxel",
+      "pembrolizumab"
+     ],
+     "label": "pembrolizumab + carboplatin + paclitaxel"
+    },
+    {
+     "drugs": [
+      "carboplatin",
+      "durvalumab",
+      "paclitaxel"
+     ],
+     "label": "durvalumab + carboplatin + paclitaxel",
+     "when": "msi:high",
+     "condition": "acceptable only if the tumor is mismatch-repair deficient (durvalumab label: dMMR)"
+    },
+    {
+     "drugs": [
+      "carboplatin",
+      "paclitaxel"
+     ],
+     "label": "carboplatin + paclitaxel"
+    }
+   ]
+  },
+  {
+   "id": "ENDOMETRIAL-2L",
+   "group": "ENDOMETRIAL",
+   "line": "2L",
+   "when": [
+    "~msi:high"
+   ],
+   "setting": "advanced or recurrent disease",
+   "source": "NCCN Uterine Neoplasms 2025; KEYNOTE-775 (lenvatinib + pembrolizumab, pMMR)",
+   "after": [
+    {
+     "drugs": [
+      "carboplatin",
+      "paclitaxel"
+     ],
+     "label": "carboplatin + paclitaxel"
+    }
+   ],
+   "options": [
+    {
+     "drugs": [
+      "lenvatinib",
+      "pembrolizumab"
+     ],
+     "label": "pembrolizumab + lenvatinib"
+    },
+    {
+     "drugs": [
+      "pembrolizumab"
+     ],
+     "label": "pembrolizumab",
+     "when": "msi:high",
+     "condition": "acceptable only if the tumor is MSI-high / mismatch-repair deficient"
+    },
+    {
+     "drugs": [
+      "dostarlimab"
+     ],
+     "label": "dostarlimab",
+     "when": "msi:high",
+     "condition": "acceptable only if the tumor is MSI-high / mismatch-repair deficient"
+    },
+    {
+     "drugs": [
+      "doxorubicin"
+     ],
+     "label": "doxorubicin"
+    },
+    {
+     "drugs": [
+      "paclitaxel"
+     ],
+     "label": "paclitaxel"
+    }
+   ]
+  },
+  {
+   "id": "ENDOMETRIAL-2L-MSIH",
+   "group": "ENDOMETRIAL",
+   "line": "2L",
+   "when": [
+    "msi:high"
+   ],
+   "setting": "advanced or recurrent disease",
+   "source": "NCCN Uterine Neoplasms 2025 (dMMR/MSI-H after platinum)",
+   "after": [
+    {
+     "drugs": [
+      "carboplatin",
+      "paclitaxel"
+     ],
+     "label": "carboplatin + paclitaxel"
+    }
+   ],
+   "options": [
+    {
+     "drugs": [
+      "pembrolizumab"
+     ],
+     "label": "pembrolizumab"
+    },
+    {
+     "drugs": [
+      "dostarlimab"
+     ],
+     "label": "dostarlimab"
+    },
+    {
+     "drugs": [
+      "lenvatinib",
+      "pembrolizumab"
+     ],
+     "label": "pembrolizumab + lenvatinib"
+    }
+   ]
+  },
+  {
+   "id": "UROTHELIAL-1L",
+   "group": "UROTHELIAL",
+   "line": "1L",
+   "when": [],
+   "setting": "locally advanced or metastatic disease",
+   "source": "NCCN Bladder Cancer 2025; EV-302 (enfortumab vedotin + pembrolizumab); CheckMate 901 (nivolumab + gemcitabine-cisplatin)",
+   "options": [
+    {
+     "drugs": [
+      "enfortumab vedotin",
+      "pembrolizumab"
+     ],
+     "label": "enfortumab vedotin + pembrolizumab"
+    },
+    {
+     "drugs": [
+      "cisplatin",
+      "gemcitabine",
+      "nivolumab"
+     ],
+     "label": "nivolumab + gemcitabine + cisplatin"
+    },
+    {
+     "drugs": [
+      "cisplatin",
+      "gemcitabine"
+     ],
+     "label": "gemcitabine + cisplatin (avelumab maintenance)"
+    },
+    {
+     "drugs": [
+      "carboplatin",
+      "gemcitabine"
+     ],
+     "label": "gemcitabine + carboplatin (cisplatin-ineligible; avelumab maintenance)"
+    },
+    {
+     "drugs": [
+      "pembrolizumab"
+     ],
+     "label": "pembrolizumab",
+     "when": "unreported:platinum_ineligible",
+     "condition": "acceptable as monotherapy only if the patient is ineligible for any platinum chemotherapy, which the vignette does not establish"
+    }
+   ]
+  },
+  {
+   "id": "UROTHELIAL-2L",
+   "group": "UROTHELIAL",
+   "line": "2L",
+   "when": [],
+   "setting": "locally advanced or metastatic disease",
+   "source": "NCCN Bladder Cancer 2025 (after platinum + nivolumab): enfortumab vedotin; erdafitinib for FGFR3 alterations",
+   "after": [
+    {
+     "drugs": [
+      "cisplatin",
+      "gemcitabine",
+      "nivolumab"
+     ],
+     "label": "nivolumab + gemcitabine + cisplatin"
+    }
+   ],
+   "options": [
+    {
+     "drugs": [
+      "enfortumab vedotin"
+     ],
+     "label": "enfortumab vedotin"
+    },
+    {
+     "drugs": [
+      "erdafitinib"
+     ],
+     "label": "erdafitinib",
+     "when": "alt:FGFR3_ALT",
+     "condition": "acceptable only if the tumor carries a susceptible FGFR3 alteration"
+    },
+    {
+     "drugs": [
+      "fam-trastuzumab deruxtecan-nxki"
+     ],
+     "label": "trastuzumab deruxtecan",
+     "when": [
+      "alt:ERBB2_AMP",
+      "unreported:her2_ihc"
+     ],
+     "condition": "acceptable only for HER2 IHC 3+ solid tumors (tumor-agnostic label); ERBB2 amplification is reported but IHC is not"
+    }
+   ]
+  },
+  {
+   "id": "GASTROESOPH-1L-HER2NEG",
+   "group": "GASTROESOPH",
+   "line": "1L",
+   "when": [
+    "~alt:ERBB2_AMP"
+   ],
+   "setting": "unresectable or metastatic adenocarcinoma; PD-L1 and HER2 IHC not reported",
+   "source": "NCCN Gastric / Esophageal Cancers 2025: fluoropyrimidine + oxaliplatin with or without nivolumab (CheckMate 649) or pembrolizumab (KEYNOTE-859)",
+   "options": [
+    {
+     "drugs": [
+      "fluorouracil",
+      "leucovorin",
+      "oxaliplatin"
+     ],
+     "label": "FOLFOX (with or without nivolumab or pembrolizumab)"
+    },
+    {
+     "drugs": [
+      "capecitabine",
+      "oxaliplatin"
+     ],
+     "label": "CAPOX (with or without nivolumab or pembrolizumab)"
+    },
+    {
+     "drugs": [
+      "cisplatin",
+      "fluorouracil"
+     ],
+     "label": "cisplatin + fluorouracil (with or without nivolumab or pembrolizumab)"
+    },
+    {
+     "drugs": [
+      "capecitabine",
+      "cisplatin"
+     ],
+     "label": "cisplatin + capecitabine (with or without pembrolizumab)"
+    }
+   ]
+  },
+  {
+   "id": "GASTROESOPH-1L-HER2POS",
+   "group": "GASTROESOPH",
+   "line": "1L",
+   "when": [
+    "alt:ERBB2_AMP"
+   ],
+   "setting": "unresectable or metastatic adenocarcinoma",
+   "source": "NCCN Gastric / Esophageal Cancers 2025; ToGA, KEYNOTE-811 (trastuzumab + pembrolizumab + chemotherapy)",
+   "options": [
+    {
+     "drugs": [
+      "fluorouracil",
+      "leucovorin",
+      "oxaliplatin",
+      "trastuzumab"
+     ],
+     "label": "trastuzumab + FOLFOX (with or without pembrolizumab)"
+    },
+    {
+     "drugs": [
+      "capecitabine",
+      "oxaliplatin",
+      "trastuzumab"
+     ],
+     "label": "trastuzumab + CAPOX (with or without pembrolizumab)"
+    },
+    {
+     "drugs": [
+      "cisplatin",
+      "fluorouracil",
+      "trastuzumab"
+     ],
+     "label": "trastuzumab + cisplatin + fluorouracil"
+    },
+    {
+     "drugs": [
+      "capecitabine",
+      "cisplatin",
+      "trastuzumab"
+     ],
+     "label": "trastuzumab + cisplatin + capecitabine"
+    }
+   ]
+  },
+  {
+   "id": "GASTROESOPH-2L",
+   "group": "GASTROESOPH",
+   "line": "2L",
+   "when": [
+    "~alt:ERBB2_AMP"
+   ],
+   "setting": "unresectable or metastatic adenocarcinoma",
+   "source": "NCCN Gastric / Esophageal Cancers 2025; RAINBOW (ramucirumab + paclitaxel)",
+   "after": [
+    {
+     "drugs": [
+      "fluorouracil",
+      "leucovorin",
+      "nivolumab",
+      "oxaliplatin"
+     ],
+     "label": "nivolumab + FOLFOX"
+    }
+   ],
+   "options": [
+    {
+     "drugs": [
+      "paclitaxel",
+      "ramucirumab"
+     ],
+     "label": "ramucirumab + paclitaxel"
+    },
+    {
+     "drugs": [
+      "ramucirumab"
+     ],
+     "label": "ramucirumab"
+    },
+    {
+     "drugs": [
+      "docetaxel"
+     ],
+     "label": "docetaxel"
+    },
+    {
+     "drugs": [
+      "irinotecan"
+     ],
+     "label": "irinotecan"
+    },
+    {
+     "drugs": [
+      "paclitaxel"
+     ],
+     "label": "paclitaxel"
+    }
+   ]
+  },
+  {
+   "id": "GBM-1L",
+   "group": "GBM",
+   "line": "1L",
+   "when": [],
+   "setting": "newly diagnosed disease after maximal safe resection",
+   "source": "NCCN Central Nervous System Cancers 2025; EORTC/NCIC (radiotherapy with concurrent and adjuvant temozolomide)",
+   "options": [
+    {
+     "drugs": [
+      "temozolomide"
+     ],
+     "label": "radiotherapy with concurrent and adjuvant temozolomide"
+    }
+   ]
+  },
+  {
+   "id": "GBM-2L",
+   "group": "GBM",
+   "line": "2L",
+   "when": [],
+   "setting": "recurrent disease after chemoradiation",
+   "source": "NCCN Central Nervous System Cancers 2025 (recurrent glioblastoma): bevacizumab, lomustine, temozolomide rechallenge, regorafenib; dabrafenib + trametinib for BRAF V600E",
+   "after": [
+    {
+     "drugs": [
+      "temozolomide"
+     ],
+     "label": "radiotherapy with temozolomide"
+    }
+   ],
+   "options": [
+    {
+     "drugs": [
+      "bevacizumab"
+     ],
+     "label": "bevacizumab (with or without lomustine)"
+    },
+    {
+     "drugs": [
+      "lomustine"
+     ],
+     "label": "lomustine"
+    },
+    {
+     "drugs": [
+      "temozolomide"
+     ],
+     "label": "temozolomide rechallenge"
+    },
+    {
+     "drugs": [
+      "regorafenib"
+     ],
+     "label": "regorafenib"
+    },
+    {
+     "drugs": [
+      "dabrafenib",
+      "trametinib"
+     ],
+     "label": "dabrafenib + trametinib",
+     "when": "alt:BRAF_V600E",
+     "condition": "acceptable only for BRAF V600E"
+    }
+   ]
+  },
+  {
+   "id": "HCC-1L",
+   "group": "HCC",
+   "line": "1L",
+   "when": [],
+   "setting": "unresectable disease, Child-Pugh class A",
+   "source": "NCCN Hepatocellular Carcinoma 2025; IMbrave150, HIMALAYA, CheckMate 9DW",
+   "options": [
+    {
+     "drugs": [
+      "atezolizumab",
+      "bevacizumab"
+     ],
+     "label": "atezolizumab + bevacizumab"
+    },
+    {
+     "drugs": [
+      "durvalumab",
+      "tremelimumab"
+     ],
+     "label": "durvalumab + tremelimumab"
+    },
+    {
+     "drugs": [
+      "ipilimumab",
+      "nivolumab"
+     ],
+     "label": "nivolumab + ipilimumab"
+    },
+    {
+     "drugs": [
+      "durvalumab"
+     ],
+     "label": "durvalumab"
+    },
+    {
+     "drugs": [
+      "lenvatinib"
+     ],
+     "label": "lenvatinib"
+    },
+    {
+     "drugs": [
+      "sorafenib"
+     ],
+     "label": "sorafenib"
+    }
+   ]
+  },
+  {
+   "id": "HCC-2L",
+   "group": "HCC",
+   "line": "2L",
+   "when": [],
+   "setting": "unresectable disease, Child-Pugh class A",
+   "source": "NCCN Hepatocellular Carcinoma 2025 (after atezolizumab + bevacizumab): TKI",
+   "after": [
+    {
+     "drugs": [
+      "atezolizumab",
+      "bevacizumab"
+     ],
+     "label": "atezolizumab + bevacizumab"
+    }
+   ],
+   "options": [
+    {
+     "drugs": [
+      "lenvatinib"
+     ],
+     "label": "lenvatinib"
+    },
+    {
+     "drugs": [
+      "sorafenib"
+     ],
+     "label": "sorafenib"
+    },
+    {
+     "drugs": [
+      "cabozantinib"
+     ],
+     "label": "cabozantinib"
+    },
+    {
+     "drugs": [
+      "regorafenib"
+     ],
+     "label": "regorafenib"
+    },
+    {
+     "drugs": [
+      "ramucirumab"
+     ],
+     "label": "ramucirumab",
+     "when": "unreported:afp",
+     "condition": "acceptable only if AFP is at least 400 ng/mL (REACH-2), which the vignette does not report"
+    }
+   ]
+  },
+  {
+   "id": "BILIARY-1L",
+   "group": "BILIARY",
+   "line": "1L",
+   "when": [],
+   "setting": "unresectable or metastatic disease",
+   "source": "NCCN Biliary Tract Cancers 2025; TOPAZ-1 (durvalumab + gemcitabine-cisplatin), KEYNOTE-966 (pembrolizumab + gemcitabine-cisplatin)",
+   "options": [
+    {
+     "drugs": [
+      "cisplatin",
+      "durvalumab",
+      "gemcitabine"
+     ],
+     "label": "durvalumab + gemcitabine + cisplatin"
+    },
+    {
+     "drugs": [
+      "cisplatin",
+      "gemcitabine",
+      "pembrolizumab"
+     ],
+     "label": "pembrolizumab + gemcitabine + cisplatin"
+    },
+    {
+     "drugs": [
+      "cisplatin",
+      "gemcitabine"
+     ],
+     "label": "gemcitabine + cisplatin"
+    }
+   ]
+  },
+  {
+   "id": "BILIARY-2L",
+   "group": "BILIARY",
+   "line": "2L",
+   "when": [],
+   "setting": "unresectable or metastatic disease",
+   "source": "NCCN Biliary Tract Cancers 2025 (second line): ivosidenib (IDH1), FGFR2 inhibitors, FOLFOX (ABC-06)",
+   "after": [
+    {
+     "drugs": [
+      "cisplatin",
+      "durvalumab",
+      "gemcitabine"
+     ],
+     "label": "durvalumab + gemcitabine + cisplatin"
+    }
+   ],
+   "options": [
+    {
+     "drugs": [
+      "fluorouracil",
+      "leucovorin",
+      "oxaliplatin"
+     ],
+     "label": "FOLFOX"
+    },
+    {
+     "drugs": [
+      "ivosidenib"
+     ],
+     "label": "ivosidenib",
+     "when": "alt:IDH1_R132",
+     "condition": "acceptable only for an IDH1 R132 mutation"
+    },
+    {
+     "drugs": [
+      "pemigatinib"
+     ],
+     "label": "pemigatinib",
+     "when": "alt:FGFR2_FUSION",
+     "condition": "acceptable only for an FGFR2 fusion"
+    },
+    {
+     "drugs": [
+      "futibatinib"
+     ],
+     "label": "futibatinib",
+     "when": "alt:FGFR2_FUSION",
+     "condition": "acceptable only for an FGFR2 fusion"
+    },
+    {
+     "drugs": [
+      "dabrafenib",
+      "trametinib"
+     ],
+     "label": "dabrafenib + trametinib",
+     "when": "alt:BRAF_V600E",
+     "condition": "acceptable only for BRAF V600E"
+    },
+    {
+     "drugs": [
+      "zanidatamab"
+     ],
+     "label": "zanidatamab",
+     "when": [
+      "alt:ERBB2_AMP",
+      "unreported:her2_ihc"
+     ],
+     "condition": "acceptable only for HER2 IHC 3+ disease (zanidatamab label); ERBB2 amplification is reported but IHC is not"
+    },
+    {
+     "drugs": [
+      "fluorouracil",
+      "irinotecan liposome",
+      "leucovorin"
+     ],
+     "label": "liposomal irinotecan + fluorouracil + leucovorin"
+    }
+   ]
+  },
+  {
+   "id": "HNSCC-1L",
+   "group": "HNSCC",
+   "line": "1L",
+   "when": [],
+   "setting": "recurrent or metastatic disease not amenable to local therapy; PD-L1 CPS not reported",
+   "source": "NCCN Head and Neck Cancers 2025; KEYNOTE-048 (pembrolizumab with platinum + fluorouracil, or alone for CPS >= 1)",
+   "options": [
+    {
+     "drugs": [
+      "carboplatin",
+      "fluorouracil",
+      "pembrolizumab"
+     ],
+     "label": "pembrolizumab + carboplatin + fluorouracil"
+    },
+    {
+     "drugs": [
+      "cisplatin",
+      "fluorouracil",
+      "pembrolizumab"
+     ],
+     "label": "pembrolizumab + cisplatin + fluorouracil"
+    },
+    {
+     "drugs": [
+      "pembrolizumab"
+     ],
+     "label": "pembrolizumab",
+     "when": "unreported:pdl1",
+     "condition": "acceptable as monotherapy only if PD-L1 CPS is at least 1, which the vignette does not report"
+    },
+    {
+     "drugs": [
+      "carboplatin",
+      "cetuximab",
+      "fluorouracil"
+     ],
+     "label": "cetuximab + carboplatin + fluorouracil (EXTREME)"
+    },
+    {
+     "drugs": [
+      "cetuximab",
+      "cisplatin",
+      "fluorouracil"
+     ],
+     "label": "cetuximab + cisplatin + fluorouracil (EXTREME)"
+    },
+    {
+     "drugs": [
+      "carboplatin",
+      "paclitaxel",
+      "pembrolizumab"
+     ],
+     "label": "pembrolizumab + carboplatin + paclitaxel"
+    },
+    {
+     "drugs": [
+      "carboplatin",
+      "docetaxel",
+      "pembrolizumab"
+     ],
+     "label": "pembrolizumab + carboplatin + docetaxel"
+    }
+   ]
+  },
+  {
+   "id": "HNSCC-2L",
+   "group": "HNSCC",
+   "line": "2L",
+   "when": [],
+   "setting": "recurrent or metastatic disease not amenable to local therapy",
+   "source": "NCCN Head and Neck Cancers 2025 (after platinum + pembrolizumab): cetuximab-based, taxane",
+   "after": [
+    {
+     "drugs": [
+      "carboplatin",
+      "fluorouracil",
+      "pembrolizumab"
+     ],
+     "label": "pembrolizumab + platinum + fluorouracil"
+    }
+   ],
+   "options": [
+    {
+     "drugs": [
+      "cetuximab"
+     ],
+     "label": "cetuximab (alone or with a taxane)"
+    },
+    {
+     "drugs": [
+      "docetaxel"
+     ],
+     "label": "docetaxel"
+    },
+    {
+     "drugs": [
+      "paclitaxel"
+     ],
+     "label": "paclitaxel"
+    },
+    {
+     "drugs": [
+      "methotrexate"
+     ],
+     "label": "methotrexate"
+    }
+   ]
+  },
+  {
+   "id": "SCLC-1L",
+   "group": "SCLC",
+   "line": "1L",
+   "when": [],
+   "setting": "extensive-stage disease",
+   "source": "NCCN Small Cell Lung Cancer 2025; IMpower133 (atezolizumab), CASPIAN (durvalumab)",
+   "options": [
+    {
+     "drugs": [
+      "atezolizumab",
+      "carboplatin",
+      "etoposide"
+     ],
+     "label": "atezolizumab + carboplatin + etoposide"
+    },
+    {
+     "drugs": [
+      "carboplatin",
+      "durvalumab",
+      "etoposide"
+     ],
+     "label": "durvalumab + carboplatin (or cisplatin) + etoposide"
+    },
+    {
+     "drugs": [
+      "cisplatin",
+      "durvalumab",
+      "etoposide"
+     ],
+     "label": "durvalumab + cisplatin + etoposide"
+    }
+   ]
+  },
+  {
+   "id": "SCLC-2L",
+   "group": "SCLC",
+   "line": "2L",
+   "when": [],
+   "setting": "extensive-stage disease",
+   "source": "NCCN Small Cell Lung Cancer 2025 (relapse): tarlatamab (DeLLphi-304), lurbinectedin, topotecan",
+   "after": [
+    {
+     "drugs": [
+      "atezolizumab",
+      "carboplatin",
+      "etoposide"
+     ],
+     "label": "atezolizumab + carboplatin + etoposide"
+    }
+   ],
+   "options": [
+    {
+     "drugs": [
+      "tarlatamab"
+     ],
+     "label": "tarlatamab"
+    },
+    {
+     "drugs": [
+      "lurbinectedin"
+     ],
+     "label": "lurbinectedin"
+    },
+    {
+     "drugs": [
+      "topotecan"
+     ],
+     "label": "topotecan"
+    },
+    {
+     "drugs": [
+      "carboplatin",
+      "etoposide"
+     ],
+     "label": "carboplatin + etoposide rechallenge",
+     "when": "unreported:platinum_free_interval",
+     "condition": "acceptable only for platinum-sensitive relapse (at least 3-6 months after first-line platinum), which the vignette does not report"
+    },
+    {
+     "drugs": [
+      "cisplatin",
+      "etoposide"
+     ],
+     "label": "cisplatin + etoposide rechallenge",
+     "when": "unreported:platinum_free_interval",
+     "condition": "acceptable only for platinum-sensitive relapse (at least 3-6 months after first-line platinum), which the vignette does not report"
+    }
+   ]
+  },
+  {
+   "id": "THYROID-1L-DTC",
+   "group": "THYROID",
+   "line": "1L",
+   "when": [
+    "~oncotree:THAP"
+   ],
+   "setting": "radioactive iodine-refractory, progressive metastatic disease",
+   "source": "NCCN Thyroid Carcinoma 2025 (RAI-refractory differentiated): lenvatinib (SELECT), sorafenib (DECISION); RET fusion selpercatinib; NTRK larotrectinib",
+   "options": [
+    {
+     "drugs": [
+      "lenvatinib"
+     ],
+     "label": "lenvatinib"
+    },
+    {
+     "drugs": [
+      "sorafenib"
+     ],
+     "label": "sorafenib"
+    },
+    {
+     "drugs": [
+      "selpercatinib"
+     ],
+     "label": "selpercatinib",
+     "when": "alt:RET_FUSION",
+     "condition": "acceptable only for a RET fusion"
+    },
+    {
+     "drugs": [
+      "larotrectinib"
+     ],
+     "label": "larotrectinib",
+     "when": "alt:NTRK_FUSION",
+     "condition": "acceptable only for an NTRK fusion"
+    },
+    {
+     "drugs": [
+      "entrectinib"
+     ],
+     "label": "entrectinib",
+     "when": "alt:NTRK_FUSION",
+     "condition": "acceptable only for an NTRK fusion"
+    }
+   ]
+  },
+  {
+   "id": "THYROID-1L-ATC-BRAF",
+   "group": "THYROID",
+   "line": "1L",
+   "when": [
+    "oncotree:THAP",
+    "alt:BRAF_V600E"
+   ],
+   "setting": "unresectable or metastatic anaplastic carcinoma",
+   "source": "NCCN Thyroid Carcinoma 2025 (anaplastic, BRAF V600E): dabrafenib + trametinib",
+   "options": [
+    {
+     "drugs": [
+      "dabrafenib",
+      "trametinib"
+     ],
+     "label": "dabrafenib + trametinib"
+    }
+   ]
+  },
+  {
+   "id": "MESO-1L",
+   "group": "MESO",
+   "line": "1L",
+   "when": [],
+   "setting": "unresectable disease",
+   "source": "NCCN Mesothelioma: Pleural 2025; CheckMate 743 (nivolumab + ipilimumab), KEYNOTE-483 (pembrolizumab + platinum-pemetrexed), MAPS",
+   "options": [
+    {
+     "drugs": [
+      "ipilimumab",
+      "nivolumab"
+     ],
+     "label": "nivolumab + ipilimumab"
+    },
+    {
+     "drugs": [
+      "cisplatin",
+      "pembrolizumab",
+      "pemetrexed"
+     ],
+     "label": "pembrolizumab + cisplatin (or carboplatin) + pemetrexed"
+    },
+    {
+     "drugs": [
+      "carboplatin",
+      "pembrolizumab",
+      "pemetrexed"
+     ],
+     "label": "pembrolizumab + carboplatin + pemetrexed"
+    },
+    {
+     "drugs": [
+      "cisplatin",
+      "pemetrexed"
+     ],
+     "label": "cisplatin + pemetrexed (with or without bevacizumab)"
+    },
+    {
+     "drugs": [
+      "carboplatin",
+      "pemetrexed"
+     ],
+     "label": "carboplatin + pemetrexed (with or without bevacizumab)"
+    }
+   ]
+  },
+  {
+   "id": "GIST-1L",
+   "group": "GIST",
+   "line": "1L",
+   "when": [
+    "~alt:PDGFRA_D842V",
+    "^alt:GIST_IMATINIB"
+   ],
+   "setting": "unresectable or metastatic disease",
+   "source": "NCCN Gastrointestinal Stromal Tumors 2025 (first line imatinib; avapritinib for PDGFRA D842V)",
+   "options": [
+    {
+     "drugs": [
+      "imatinib"
+     ],
+     "label": "imatinib"
+    }
+   ]
+  },
+  {
+   "id": "GIST-1L-D842V",
+   "group": "GIST",
+   "line": "1L",
+   "when": [
+    "alt:PDGFRA_D842V"
+   ],
+   "setting": "unresectable or metastatic disease",
+   "source": "NCCN Gastrointestinal Stromal Tumors 2025 (PDGFRA exon 18 D842V)",
+   "options": [
+    {
+     "drugs": [
+      "avapritinib"
+     ],
+     "label": "avapritinib"
+    }
+   ]
+  },
+  {
+   "id": "GIST-2L",
+   "group": "GIST",
+   "line": "2L",
+   "when": [
+    "~alt:PDGFRA_D842V",
+    "^alt:GIST_IMATINIB"
+   ],
+   "setting": "unresectable or metastatic disease",
+   "source": "NCCN Gastrointestinal Stromal Tumors 2025 (after imatinib: sunitinib)",
+   "after": [
+    {
+     "drugs": [
+      "imatinib"
+     ],
+     "label": "imatinib"
+    }
+   ],
+   "options": [
+    {
+     "drugs": [
+      "sunitinib"
+     ],
+     "label": "sunitinib"
+    }
+   ]
+  },
+  {
+   "id": "ENDOMETRIAL-2L-POSTIO",
+   "group": "ENDOMETRIAL",
+   "line": "2L",
+   "when": [],
+   "setting": "advanced or recurrent endometrial carcinoma progressing after first-line platinum chemotherapy with a PD-1 inhibitor",
+   "source": "NCCN Uterine Neoplasms 2025 (subsequent-line systemic therapy); KEYNOTE-775 enrolled patients without prior PD-1 therapy",
+   "after": [
+    {
+     "drugs": [
+      "carboplatin",
+      "paclitaxel",
+      "pembrolizumab"
+     ],
+     "label": "pembrolizumab + carboplatin + paclitaxel"
+    },
+    {
+     "drugs": [
+      "carboplatin",
+      "dostarlimab",
+      "paclitaxel"
+     ],
+     "label": "dostarlimab + carboplatin + paclitaxel"
+    }
+   ],
+   "options": [
+    {
+     "drugs": [
+      "doxorubicin"
+     ],
+     "label": "doxorubicin"
+    },
+    {
+     "drugs": [
+      "paclitaxel"
+     ],
+     "label": "paclitaxel"
+    },
+    {
+     "drugs": [
+      "lenvatinib",
+      "pembrolizumab"
+     ],
+     "label": "pembrolizumab + lenvatinib",
+     "when": "unreported:io_rechallenge",
+     "condition": "evidence after progression on a first-line PD-1 combination is limited (KEYNOTE-775 excluded prior PD-1 therapy)"
+    },
+    {
+     "drugs": [
+      "carboplatin",
+      "paclitaxel"
+     ],
+     "label": "carboplatin + paclitaxel rechallenge",
+     "when": "unreported:platinum_free_interval",
+     "condition": "platinum rechallenge only if recurrence is at least 6 months after platinum, which the vignette does not report"
+    },
+    {
+     "drugs": [
+      "everolimus",
+      "letrozole"
+     ],
+     "label": "everolimus + letrozole",
+     "when": "unreported:low_grade_endometrioid",
+     "condition": "hormonal therapy only for low-grade endometrioid histology, which the vignette does not report"
+    },
+    {
+     "drugs": [
+      "megestrol"
+     ],
+     "label": "megestrol",
+     "when": "unreported:low_grade_endometrioid",
+     "condition": "hormonal therapy only for low-grade endometrioid histology, which the vignette does not report"
+    }
+   ]
+  },
+  {
+   "id": "UROTHELIAL-2L-POSTEV",
+   "group": "UROTHELIAL",
+   "line": "2L",
+   "when": [],
+   "setting": "locally advanced or metastatic urothelial carcinoma progressing after first-line enfortumab vedotin + pembrolizumab",
+   "source": "NCCN Bladder Cancer 2025 (subsequent-line therapy after EV + pembrolizumab: platinum-based chemotherapy; erdafitinib for FGFR3 alterations)",
+   "after": [
+    {
+     "drugs": [
+      "enfortumab vedotin",
+      "pembrolizumab"
+     ],
+     "label": "enfortumab vedotin + pembrolizumab"
+    }
+   ],
+   "options": [
+    {
+     "drugs": [
+      "cisplatin",
+      "gemcitabine"
+     ],
+     "label": "gemcitabine + cisplatin"
+    },
+    {
+     "drugs": [
+      "carboplatin",
+      "gemcitabine"
+     ],
+     "label": "gemcitabine + carboplatin"
+    },
+    {
+     "drugs": [
+      "erdafitinib"
+     ],
+     "label": "erdafitinib",
+     "when": "alt:FGFR3_ALT",
+     "condition": "acceptable only if the tumor carries a susceptible FGFR3 alteration"
+    },
+    {
+     "drugs": [
+      "fam-trastuzumab deruxtecan-nxki"
+     ],
+     "label": "trastuzumab deruxtecan",
+     "when": [
+      "alt:ERBB2_AMP",
+      "unreported:her2_ihc"
+     ],
+     "condition": "acceptable only for HER2 IHC 3+ solid tumors (tumor-agnostic label); ERBB2 amplification is reported but IHC is not"
+    }
+   ]
+  }
+ ]
+}
