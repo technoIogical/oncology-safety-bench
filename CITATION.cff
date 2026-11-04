@@ -8,6 +8,8 @@ authors:
     email: "rodin2009@gmail.com"
     affiliation: "Independent Researcher"
 repository-code: "https://github.com/technoIogical/oncology-safety-bench"
+url: "https://zenodo.org/records/23870759"
+doi: "10.5281/zenodo.23870759"
 date-released: "2026-11-01"
 version: "1.0.0"
 license: Apache-2.0
